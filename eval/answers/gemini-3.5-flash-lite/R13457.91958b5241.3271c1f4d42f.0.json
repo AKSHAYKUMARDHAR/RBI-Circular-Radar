@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13457",
+ "sha256": "3271c1f4d42f544e041a0acf52864ba18ebc2208baaa2cd85aa55b994bcc20bc",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1679,
+  "output_tokens": 297
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Sixth Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Commercial banks must note that sub-paragraph 21(i)(b) of the Prudential Norms on Capital Adequacy Directions, 2025 has been deleted.",
+  "action_quote": "Sub-paragraph 21(i)(b) shall be deleted.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-05-18",
+   "quote": "These Amendment Directions shall come into effect from the date of issue.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025"
+ }
+}

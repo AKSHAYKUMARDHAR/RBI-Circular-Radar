@@ -98,3 +98,38 @@ fresh held-out set.
 
 **Development run 3**, prompt version `91958b5241` ([log](results/dev_lite_run3.log)): union unchanged at 0 missed,
 100% precision, 71 / 0 / 4 dates. Frozen for release run 2.
+
+## Second held-out set (20 notifications, a fresh seeded draw from the 316 not drawn before; 51 applicable pairs, 60 date facts)
+
+Drawn and labelled after the configuration was frozen (a637b12); `radar/` unchanged since. Run once.
+
+**Release run 2** ([log](results/holdout2_run1.log)). **Failed the gate: 1 applicable pair missed (gate: 0).**
+
+| Version | Missed pairs | Precision | Dates correct / wrong / withheld | Kind | Action |
+| --- | --- | --- | --- | --- | --- |
+| Rules only | 2 | 100% | 56 / 4 / 0 | 75% | 68% |
+| Model only | 0 | 100% | 52 / 8 / 0 | 80% | 89% |
+| Model + checks | 1 | 100% | 49 / 0 / 11 | 80% | 89% |
+| **Rules + model (union)** | **1** | **100%** | **51 / 1 / 8** | **80%** | **89%** |
+
+Gate: missed 1 (needed 0) ✗, precision 100% ✓, wrong dates 1.7% (≤ 2%) ✓, correct dates 85.0% (≥ 85%) ✓, just.
+
+- **The miss, R13368**, is addressed to "Lead Banks Concerned" (the lead bank named is Union Bank of India). The
+  model answered `commercial_banks` with that quote. **The entity check dropped it** because "Lead Banks" isn't on
+  its word list, and the rules don't know the phrase either. The same failure as R13727 in release run 1: the
+  check written to stop the model claiming an entity type the text doesn't name threw away a correct answer.
+- **The wrong date, R13716**, came from the rules: a master circular's background text says a government scheme
+  was "effective from April 1, 2013", and the rules took that as the circular's effective date. The model's own
+  answer quoted only the letterhead date and was withheld.
+- The model alone missed nothing and added nothing here, but got 8 of 60 dates wrong; the checks turned all 8
+  into "check the document".
+
+## What the two release runs show
+
+Across both held-out sets (55 notifications, 110 applicable pairs) the union missed 3 pairs. Two of the three were
+**correct model answers discarded by my own entity check** (R13727, R13368); one was a real miss on a catch-all
+"other" party (R13449). The date checks did their job: the model alone got 11 of 165 dates wrong, the union 1.
+
+The lesson for a recall-first product: a check may *downgrade* a claim, but it shouldn't *delete* an entity type.
+An entity type the model names with a quote that is on the page, but whose words the check doesn't recognise,
+should be shown as "may apply: check", not dropped. Missing a rule costs more than reading one extra notice.

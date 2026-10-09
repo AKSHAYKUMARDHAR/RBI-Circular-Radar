@@ -1,0 +1,87 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13676",
+ "sha256": "122f068ed7bc1748000b14182db2c5d0bb800bdf187b448edc5687765b61079d",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "usage": {
+  "input_tokens": 4304,
+  "output_tokens": 1050
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "payments_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "local_area_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "nbfcs",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "arcs",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "aifis",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   }
+  ],
+  "kind": "other",
+  "action_required": "yes",
+  "action": "Ensure compliance with UAPA sanctions by checking accounts against the updated UNSC lists and forwarding any de-listing requests to the MHA.",
+  "action_quote": "In view of the above, regulated entities are advised to take appropriate action in terms of Chapter IX of the aforementioned Directions",
+  "action_page": 3,
+  "effective_date": {
+   "date": "2026-08-18",
+   "quote": "August 18, 2026",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

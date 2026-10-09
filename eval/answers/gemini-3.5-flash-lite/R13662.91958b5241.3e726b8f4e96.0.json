@@ -1,0 +1,101 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13662",
+ "sha256": "3e726b8f4e967bc621be32e6f9c7c24702a12cda6bc1a9d46a205578c6890402",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2213,
+  "output_tokens": 963
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "The Chairman/ Managing Director/ Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "The Chairman/ Managing Director/ Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "payments_banks",
+    "quote": "The Chairman/ Managing Director/ Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "The Chairman/ Managing Director/ Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "local_area_banks",
+    "quote": "The Chairman/ Managing Director/ Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "The Chairman/ Managing Director/ Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "The Chairman/ Managing Director/ Chief Executive Officer All Banks",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Banks must train cash handlers on counterfeit detection, equip border branches with sorting machines, submit compliance reports, and institute a monitoring mechanism.",
+  "action_quote": "banks are advised to undertake the following specific measures - i. Training and Awareness Programme",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "July 31, 2026",
+   "page": 1
+  },
+  "comply_by": [
+   {
+    "date": "2026-09-15",
+    "quote": "latest by September 15, 2026.",
+    "page": 2,
+    "what": "Impart training to staff posted in bank branches located in border areas."
+   },
+   {
+    "date": "2026-09-15",
+    "quote": "Details of the plan of action along with progress shall be submitted by September 15, 2026",
+    "page": 2,
+    "what": "Submit details of the plan of action along with progress to the Department of Currency Management."
+   },
+   {
+    "date": "2026-09-22",
+    "quote": "to the concerned Issue Office of R eserve Bank by November 7 , 2026, and September 22, 2026, respectively.",
+    "page": 2,
+    "what": "Submit Action Taken Report on training of staff in border area branches through FNV Cell."
+   },
+   {
+    "date": "2026-10-31",
+    "quote": "It shall be ensured that all the cash handling staff of the bank are imparted training positively by October 31, 2026.",
+    "page": 1,
+    "what": "Conduct awareness and refresher programs for all cash handling staff on genuine banknotes and FICN detection."
+   },
+   {
+    "date": "2026-11-07",
+    "quote": "to the concerned Issue Office of R eserve Bank by November 7 , 2026, and September 22, 2026, respectively.",
+    "page": 2,
+    "what": "Submit Action Taken Report on overall staff training compliance through FNV Cell."
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Master Direction on Counterfeit Notes – Detection, Reporting and Monitoring"
+ }
+}

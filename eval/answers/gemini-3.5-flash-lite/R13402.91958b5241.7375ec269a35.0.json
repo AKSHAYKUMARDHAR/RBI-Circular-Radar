@@ -1,0 +1,66 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13402",
+ "sha256": "7375ec269a359aebd6f0fe408e1fa96359f922434264dac32699a2a7068ff625",
+ "pages_shown": [
+  1,
+  2,
+  3
+ ],
+ "usage": {
+  "input_tokens": 2687,
+  "output_tokens": 712
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "To All Authorised Dealer Category-I Banks",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Authorised Dealer Category-I banks must report global INR OTC foreign exchange derivative contracts of related parties to CCIL's trade repository.",
+  "action_quote": "On a review, it has been decided that an AD Cat-I bank shall report all OTC foreign exchange derivative contracts involving the Indian Rupee (INR) undertaken globally by its related parties to the TR of CCIL.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-04-27",
+   "quote": "These directions are issued under the powers vested in the Reserve Bank of India",
+   "page": 4
+  },
+  "comply_by": [
+   {
+    "date": "2027-07-01",
+    "quote": "with effect from July 1, 2027, all foreign exchange derivative contracts involving INR undertaken by its parent , including the branches of the parent, are reported by it;",
+    "page": 2,
+    "what": "Report all INR foreign exchange derivative contracts undertaken by the parent and its branches."
+   },
+   {
+    "date": "2027-07-01",
+    "quote": "with effect from July 1, 2027, transactions reported by it constitute at least 70 per cent of the notional value of all foreign exchange derivative contracts involving INR undertaken by its related parties other than the parent;",
+    "page": 2,
+    "what": "Ensure reported transactions constitute at least 70 per cent of the notional value for related parties other than the parent."
+   },
+   {
+    "date": "2028-01-01",
+    "quote": "with effect from January 1, 2028, transactions reported by it constitute at least 80 per cent of the notional value of all foreign exchange derivative contracts involving INR undertaken by its related parties other than the parent; and",
+    "page": 2,
+    "what": "Ensure reported transactions constitute at least 80 per cent of the notional value for related parties other than the parent."
+   },
+   {
+    "date": "2028-07-01",
+    "quote": "with effect from July 1, 2028, all foreign exchange derivative contracts involving INR undertaken by its related parties other than the parent are reported by it;",
+    "page": 2,
+    "what": "Report all INR foreign exchange derivative contracts undertaken by related parties other than the parent."
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 0
+  },
+  "amends": "Master Direction - Risk Management and Inter -Bank Dealings"
+ }
+}

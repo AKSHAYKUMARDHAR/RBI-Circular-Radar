@@ -1,0 +1,49 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13445",
+ "sha256": "438e439d5f6c39c6c7b23a24aab74156061e8899c8fa7c99e2e60fd473523b95",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "usage": {
+  "input_tokens": 3085,
+  "output_tokens": 383
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "All Authorised Persons, Madam / Sir, Issuance of Foreign Exchange Management (Authorised Persons) Regulations, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Authorised persons must comply with the new regulations, discontinue entering into fresh franchisee arrangements, and gradually phase out existing ones.",
+  "action_quote": "All authorised persons shall comply with aforementioned regulations as applicable to them.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-05-06",
+   "quote": "these regulations as applicable to them. 2. Upon issuance of the aforementioned regulations, instructions , as per Annex I, contained in Master Directions – Money Changing Activities and Master Direction – Other Remittance Facilities are being amended.",
+   "page": 1
+  },
+  "comply_by": [
+   {
+    "date": "2028-05-06",
+    "quote": "existing franchisee arrangements shall be discontinued gradually, in any case within two years from May 06, 2026.",
+    "page": 3,
+    "what": "Discontinue existing franchisee arrangements"
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Master Direction – Money Changing Activities and Master Direction – Other Remittance Facilities"
+ }
+}

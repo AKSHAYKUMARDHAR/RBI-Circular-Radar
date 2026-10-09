@@ -1,0 +1,52 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13492",
+ "sha256": "f3c78c94a7560e610975a6ba7bb6e9d59c39e0364e67c58467e0a1822c677ce0",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "usage": {
+  "input_tokens": 7201,
+  "output_tokens": 314
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "aifis",
+    "quote": "instructions on advertising, marketing and sale of financial products / services to all the All India Financial Institutions (hereinafter referred to collectively as “AIFIs” and individually as an “AIFI”)",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "AIFIs must establish comprehensive policies, codes of conduct, and controls for advertising, marketing, and preventing mis-selling and dark patterns.",
+  "action_quote": "An AIFI shall put in place a comprehensive policy for advertising, marketing and sale of its own as well as third-party financial products / services",
+  "action_page": 3,
+  "effective_date": {
+   "date": "2027-01-01",
+   "quote": "These Directions shall come into effect from January 1, 2027.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Directions, 2025"
+ }
+}

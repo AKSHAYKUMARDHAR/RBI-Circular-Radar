@@ -1,0 +1,51 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13595",
+ "sha256": "14e22f10e90e5db3b1ddbfce0cdaf5ebce26b75805bdc4a5e9f4811bd845d8bf",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "usage": {
+  "input_tokens": 5882,
+  "output_tokens": 310
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "aifis",
+    "quote": "These Directions shall be applicable to All India Financial Institutions namely Export-Import Bank of India (‘EXIM Bank’), National Bank for Agriculture and Rural Development (‘NABARD’), Small Industries Development Bank of India (‘SIDBI’), National Housing Bank (NHB), and National Bank for Financing Infrastructure and Development (‘NaBFID’)",
+    "page": 2
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "AIFIs must maintain data architecture, ensure accuracy, and submit specified periodic and ad-hoc supervisory returns via CIMS within prescribed timelines.",
+  "action_quote": "The AIFI shall submit all the returns through online mode in the formats and in the manner as communicated to them, unless specified otherwise.",
+  "action_page": 6,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into effect immediately upon issuance.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 0
+  },
+  "amends": "none"
+ }
+}

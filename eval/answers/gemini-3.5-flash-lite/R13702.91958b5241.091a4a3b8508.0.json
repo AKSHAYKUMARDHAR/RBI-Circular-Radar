@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13702",
+ "sha256": "091a4a3b85080953b80de2fc85e24e045b94922ec7128a6fe1b7e59b20e65db7",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2068,
+  "output_tokens": 285
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "Regional rural banks are permitted to alternatively obtain certified copies for Foreign Portfolio Investors from specified overseas authorities, but no new mandatory action is imposed.",
+  "action_quote": "it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs).",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-09-18",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "not_stated",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Directions, 2025"
+ }
+}

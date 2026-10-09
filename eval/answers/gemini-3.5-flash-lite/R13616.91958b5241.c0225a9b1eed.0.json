@@ -1,0 +1,56 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13616",
+ "sha256": "c0225a9b1eed70d2900dd81eaeab7ec5be5e9574e64e84edbb7a33f434b593f9",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  9,
+  11,
+  13,
+  19,
+  20,
+  21,
+  22,
+  24,
+  27,
+  28,
+  29,
+  30,
+  32,
+  39
+ ],
+ "usage": {
+  "input_tokens": 8311,
+  "output_tokens": 284
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "These Directions shall be applicable to Urban Co-operative Banks, hereinafter collectively referred to as 'UCBs' and individually as 'UCB'.",
+    "page": 4
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Urban co-operative banks must implement cybersecurity, technology risk, resilience, and assurance controls based on their assigned category level.",
+  "action_quote": "The UCB shall undertake a self-assessment of the level in which it fits into, based on the above-mentioned criteria, and ensure compliance with the applicable controls.",
+  "action_page": 11,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 4
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

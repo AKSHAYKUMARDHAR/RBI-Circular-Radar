@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13368",
+ "sha256": "7eaeb9659bb5cad6320e465d9a556c5027ae7b18b5851e97b3bcfa8d0c6261a9",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1971,
+  "output_tokens": 246
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "The Chairman / Managing Director & Chief Executive Officer Lead Banks Concerned",
+    "page": 1
+   }
+  ],
+  "kind": "rates_operational",
+  "action_required": "yes",
+  "action": "Take note of the assigned lead bank responsibilities and working codes for the newly created districts in Andhra Pradesh.",
+  "action_quote": "Accordingly, it has been decided to designate the Lead Bank of the new districts as below:",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-04-10",
+   "quote": "April 10, 2026",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}
