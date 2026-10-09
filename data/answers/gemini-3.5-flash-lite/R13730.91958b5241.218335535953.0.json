@@ -1,0 +1,56 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13730",
+ "sha256": "21833553595375b69e5cea025401d638071ae7df902b456bfd6243ea41aa6fbb",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  9,
+  10,
+  13,
+  15,
+  20,
+  26,
+  28,
+  32,
+  33,
+  35,
+  37,
+  38,
+  40
+ ],
+ "usage": {
+  "input_tokens": 9847,
+  "output_tokens": 336
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "These Amendment Directions shall be applicable to commercial banks with an international presence or with book value of derivative outstanding of ₹ 25,000 crore and above as on the reporting date, on a consolidated group wide basis.",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Calculate counterparty credit risk capital requirements using the Standardised Approach for Counterparty Credit Risk (SA-CCR) as per the updated methodology.",
+  "action_quote": "A bank shall calculate counterparty credit exposure using the following methods: (1) For exposure arising from OTC derivatives, exchange-traded derivatives, and long settlement transactions, standardised approach for measuring counterparty credit risk exposures (SA-CCR)",
+  "action_page": 9,
+  "effective_date": {
+   "date": "2027-04-01",
+   "quote": "These Amendment Directions shall come into effect from April 1, 2027.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13716",
+ "sha256": "b8a13c2a7651eb84e68d733ff50125f02bb8a9e15d4cec6102f4661a628ac658",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "usage": {
+  "input_tokens": 4712,
+  "output_tokens": 292
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "All Scheduled Commercial Banks (including Small Finance Banks)",
+    "page": 1
+   },
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "All Scheduled Commercial Banks (including Small Finance Banks)",
+    "page": 1
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Banks must comply with the guidelines on credit facilities to Scheduled Castes and Scheduled Tribes, including planning, lending procedures, and monitoring.",
+  "action_quote": "Banks should take the measures indicated below to step up their advances to SCs/STs.",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "October 01, 2026",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

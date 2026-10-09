@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13704",
+ "sha256": "20a3978ecb671c4c0f7ab6f22a10d8ae7828f554728c636a99d0f4b6ec508022",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2078,
+  "output_tokens": 285
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "Reserve Bank of India ( Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "Rural co-operative banks may optionally obtain certified KYC documents for FPIs from specified foreign authorities, but no mandatory action is required.",
+  "action_quote": "the bank may alternatively obtain the original certified copy, certified by any one of the following",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-09-18",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Directions, 2025"
+ }
+}

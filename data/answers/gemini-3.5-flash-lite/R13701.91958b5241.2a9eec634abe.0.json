@@ -1,0 +1,45 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13701",
+ "sha256": "2a9eec634abee839b5b8c8a7c8902ec1adc0e0e4bb8e451e804ab327113cc977",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2070,
+  "output_tokens": 319
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "local_area_banks",
+    "quote": "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+    "page": 1
+   },
+   {
+    "entity_type": "other",
+    "quote": "and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy",
+    "page": 2
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Local area banks may now optionally accept alternatively certified documents for Foreign Portfolio Investors.",
+  "action_quote": "it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs).",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-09-18",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025"
+ }
+}

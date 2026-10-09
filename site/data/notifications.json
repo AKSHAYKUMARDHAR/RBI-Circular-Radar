@@ -1,0 +1,2345 @@
+{
+ "notifications": [
+  {
+   "id": 13736,
+   "rbi_no": "RBI/2026-27/290",
+   "date": "2026-10-09",
+   "title": "Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT290D61DF2C36E9C4E04BF3619D3D462C893.PDF",
+   "pages": 1,
+   "sha256": "f8c37256c59f18a93ba7772c63cccfae8b1a61e3d854e003ee8bb5ff6d683bf7",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Scheduled banks must maintain a minimum daily CRR of 99 percent of the required CRR.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "it has been decided to increase the minimum daily maintenance of the CRR from 90 per cent of the requirement to 99 per cent"
+   },
+   "applies_to": [
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "All Scheduled Banks",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "All Scheduled Banks",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "All Scheduled Banks",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "All Scheduled Banks",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "All Scheduled Banks",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    },
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "All Scheduled Banks",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-16",
+    "status": "verified",
+    "page": 1,
+    "quote": "effective from the fortnight beginning October 16, 2026.",
+    "source": "model"
+   },
+   "comply_by": [
+    {
+     "value": "2026-10-16",
+     "status": "check",
+     "page": 1,
+     "quote": "effective from the fortnight beginning October 16, 2026.",
+     "what": "Maintain minimum daily CRR of 99 percent of the required CRR"
+    }
+   ],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Cash Reserve Ratio maintenance requirements under Section 42(1) of the Reserve Bank of India Act, 1934",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:56:33Z"
+  },
+  {
+   "id": 13735,
+   "rbi_no": "RBI/2026-27/289",
+   "date": "2026-10-07",
+   "title": "Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT289FD5C6CE733C944BCA3C1590AAE0C4B78.PDF",
+   "pages": 2,
+   "sha256": "425c6b37a3513445d10ef928ee6cd4a372d73a3397016ec8ae6c89b0fd6b5904",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Apply a 2 per cent risk weight to trade exposures to QCCPs for clearing member AIFIs under specified conditions.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "a risk weight of 2 per cent shall be applied to the AIFI’s trade exposure to the QCCP in respect of OTC derivatives transactions, exchange traded derivatives transactions,"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+     "source": "model",
+     "type": "aifis",
+     "label": "All-India financial institutions"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-07",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (All India Financial Institutions (AIFIs) - Prudential Norms on Capital Adequacy) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:02:40Z"
+  },
+  {
+   "id": 13734,
+   "rbi_no": "RBI/2026-27/288",
+   "date": "2026-10-07",
+   "title": "Reserve Bank of India (Payments Banks – Prudential Norms on Capital Adequacy) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13734&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT288675CF1D589A0489A814C572C2C3C58EA.PDF",
+   "pages": 2,
+   "sha256": "6bf5220727bcd9bc350a67a1b7c26129d844129f7f26944335c4324b68859da5",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Apply a 2 per cent risk weight to trade exposures to QCCPs for clearing member payments banks under specified conditions.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Where a bank acts as a clearing member of a QCCP for its own purposes, a risk weight of 2 per cent shall be applied to the bank’s trade exposure to the QCCP"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Payments Banks – Prudential Norms on Capital Adequacy) Third Amendment Directions, 2026",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-07",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Payments Banks - Prudential Norms on Capital Adequacy) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:02:33Z"
+  },
+  {
+   "id": 13733,
+   "rbi_no": "RBI/2026-27/287",
+   "date": "2026-10-07",
+   "title": "Reserve Bank of India (Small Finance Banks – Prudential Norms on Capital Adequacy) Sixth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13733&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2878E15A34193CE4896B33D99E242813E2E.PDF",
+   "pages": 2,
+   "sha256": "d4216462f00f35850e342ff92a22af85c3729c202a009bb34949da58efe01d37",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Small finance banks must apply the revised 2 per cent risk weight to trade exposures to QCCPs for clearing member activities.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "a risk weight of 2 per cent shall be applied to the bank’s trade exposure to the QCCP in respect of OTC derivatives transactions"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Small Finance Banks – Prudential Norms on Capital Adequacy) Sixth Amendment Directions, 2026",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-07",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Small Finance Banks - Prudential Norms on Capital Adequacy) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:02:25Z"
+  },
+  {
+   "id": 13732,
+   "rbi_no": "RBI/2026-27/286",
+   "date": "2026-10-07",
+   "title": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Twelfth Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13732&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2868A1091DB85D94644B6D9959F166A25F4.PDF",
+   "pages": 2,
+   "sha256": "083cdead5051ca01d5ec68a854c0ff6e83c4e4736ba5043aa8a7acc6c6a773b3",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Commercial banks must update risk weight calculations for QCCP trade exposures and adjust CVA loss calculations for default exposure determinations.",
+   "action_evidence": {
+    "page": 2,
+    "quote": "Accordingly, a bank shall use the amount recognised in its financial statements in accordance with its applicable accounting and valuation policies."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Twelfth Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-07",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:02:18Z"
+  },
+  {
+   "id": 13731,
+   "rbi_no": "RBI/2026-27/285",
+   "date": "2026-10-07",
+   "title": "Reserve Bank of India (Commercial Banks – Miscellaneous) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13731&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT285F1B1B8F939D2474485000725A49F259B.PDF",
+   "pages": 1,
+   "sha256": "87b0fb39e499be336d38d3b2b47dd9adbcd380a55aa255fe23e7a7c77dc4c155",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Commercial banks must note the deletion of Sub-section D of Chapter IV regarding deferment of option premium.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Sub-section D of Chapter IV (Paragraph 38) shall be deleted."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks – Miscellaneous) Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2027-04-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from April 1, 2027",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Commercial Banks - Miscellaneous) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:02:10Z"
+  },
+  {
+   "id": 13730,
+   "rbi_no": "RBI/2026-27/284",
+   "date": "2026-10-07",
+   "title": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13730&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT284AC54C453B1964A66A31FB16A60EC6880.PDF",
+   "pages": 83,
+   "sha256": "21833553595375b69e5cea025401d638071ae7df902b456bfd6243ea41aa6fbb",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Calculate counterparty credit risk capital requirements using the Standardised Approach for Counterparty Credit Risk (SA-CCR) as per the updated methodology.",
+   "action_evidence": {
+    "page": 9,
+    "quote": "A bank shall calculate counterparty credit exposure using the following methods: (1) For exposure arising from OTC derivatives, exchange-traded derivatives, and long settlement transactions, standardised approach for measuring counterparty credit risk exposures (SA-CCR)"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2027-04-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from April 1, 2027",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:02:03Z"
+  },
+  {
+   "id": 13729,
+   "rbi_no": "RBI/DOR/2026-27/474",
+   "date": "2026-10-07",
+   "title": "Reserve Bank of India (Commercial Banks – Credit Valuation Adjustment Framework) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13729&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/474MD4DC544D5A93B4A8CA3ECBF1AD165EA13.PDF",
+   "pages": 29,
+   "sha256": "ee6c4616f878e7b59ec18cca3faea43eec979663b52b7638f324e0de51bd722d",
+   "kind": "new_direction",
+   "action_required": "yes",
+   "action": "Commercial banks must calculate CVA risk capital requirements and make required Pillar 3 disclosures under the new framework.",
+   "action_evidence": {
+    "page": 5,
+    "quote": "A bank shall calculate the capital requirements for Credit Valuation Adjustment (CVA) risk on a standalone basis for all covered transactions in both banking book and trading book."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks – Credit Valuation Adjustment Framework) Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2027-04-01",
+    "status": "verified",
+    "page": 2,
+    "quote": "shall come into effect from April 1, 2027",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:01:51Z"
+  },
+  {
+   "id": 13728,
+   "rbi_no": "RBI/2026-27/283",
+   "date": "2026-10-07",
+   "title": "Penal Interest on shortfall in CRR and SLR requirements - Change in Bank Rate",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13728&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT28307C186A1A5F84D47870911D72F069023.PDF",
+   "pages": 1,
+   "sha256": "6251cba1082b158bc8b608069d71842102a1ac5dbabb9ff50b0eda312fce572f",
+   "kind": "rates_operational",
+   "action_required": "yes",
+   "action": "Note the revised Bank Rate of 5.75 percent and updated penal interest rates linked to it for CRR and SLR shortfalls.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "the Bank Rate is revised upwards by 25 basis points from 5.50 per cent to 5.75 per cent with immediate effect."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All banks",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All banks",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All banks",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All banks",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All banks",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All banks",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All banks",
+     "source": "rules",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-07",
+    "status": "verified",
+    "page": 1,
+    "quote": "75 per cent with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "DoR.RET.REC.341/12.01.001/2025-26",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:01:45Z"
+  },
+  {
+   "id": 13727,
+   "rbi_no": "RBI/2026-27/282",
+   "date": "2026-10-07",
+   "title": "Liquidity Adjustment Facility - Change in rates",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13727&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI282BE83CF8F7E464D97B1AA95699F9D721A.PDF",
+   "pages": 1,
+   "sha256": "cb72f81e540aa73e770c0dcc26b78a53081591bcf61793258fec0e3e41873953",
+   "kind": "rates_operational",
+   "action_required": "yes",
+   "action": "Note the increased policy repo rate, SDF rate, and MSF rate under the LAF scheme with immediate effect.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "it has been decided by the Monetary Policy Committee (MPC) to increase the policy repo rate under the Liquidity Adjustment Facility (LAF) by 25 basis points from 5.25 per cent to 5.50 per cent with immediate effect."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Liquidity Adjustment Facility (LAF) participants",
+     "source": "both",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-07",
+    "status": "verified",
+    "page": 1,
+    "quote": "50 per cent with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:01:36Z"
+  },
+  {
+   "id": 13726,
+   "rbi_no": "RBI/2026-27/281",
+   "date": "2026-10-07",
+   "title": "Standing Liquidity Facility for Primary Dealers",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13726&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT28158529C66B538494B850E025B99189148.PDF",
+   "pages": 1,
+   "sha256": "c03fb02e2c7abe2638360098bf078cc36a3463e3afe47d6d80bdfda127f8078c",
+   "kind": "rates_operational",
+   "action_required": "yes",
+   "action": "Primary dealers must note the increased repo rate of 5.50 percent applicable to the Standing Liquidity Facility with immediate effect.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "the Standing Liquidity Facility provided to Primary Dealers (PDs) (collateralised liquidity s upport) from the Reserve Bank would be available at the revised repo rate of 5.50 per cent with immediate effect."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Primary Dealers, Standing Liquidity Facility for Primary Dealers",
+     "source": "model",
+     "type": "primary_dealers",
+     "label": "Primary dealers"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-07",
+    "status": "verified",
+    "page": 1,
+    "quote": "50 per cent with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:01:29Z"
+  },
+  {
+   "id": 13725,
+   "rbi_no": "RBI/2026-27/280",
+   "date": "2026-10-01",
+   "title": "Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13725&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2800AE75657FD144B8ABC111ECF504BCC06.PDF",
+   "pages": 2,
+   "sha256": "38200e5772e439cdbbe6850525cbea6e944e61ef38681f7d44de15972150cdb6",
+   "kind": "rates_operational",
+   "action_required": "yes",
+   "action": "Submit the monthly NRD-CSR (R012) return on the CIMS Sankalan portal using system-to-system integration, file upload, or web form on or before the 10th of every month.",
+   "action_evidence": {
+    "page": 2,
+    "quote": "The NRD-CSR report may be submitted on or before 10th of the month following the month to which the NRD data pertains."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "To All Authorised Dealers",
+     "source": "both",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "October 01, 2026",
+    "note": "model read 2026-10-01 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "A.P. (DIR Series) Circular No. 19 dated August 07, 2013",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:01:22Z"
+  },
+  {
+   "id": 13724,
+   "rbi_no": "RBI/2026-27/279",
+   "date": "2026-10-01",
+   "title": "Online submission of Form A2: Removal of limits on amount of remittance",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13724&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2796737482352AE4E488C0ECB304A05CDE1.PDF",
+   "pages": 1,
+   "sha256": "c9aced88076509127300621e4e516d32270118810b9d3181eb7fbee90ee74c06",
+   "kind": "rates_operational",
+   "action_required": "yes",
+   "action": "Authorised Dealers may now frame internal guidelines with approval from their Board, Board Committee, or Management Committee.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Authorised Dealers shall frame appropriate internal guidelines with the approval of their Board or any Board Committee / Management Committee to which powers have been delegated by the Board"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "To All Authorised Dealers in Foreign Exchange",
+     "source": "both",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "October 01, 2026",
+    "note": "model read 2026-10-01 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "A.P. (DIR Series) Circular No. 12 dated July 03, 2024",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:01:14Z"
+  },
+  {
+   "id": 13723,
+   "rbi_no": "RBI/DCM/2026-27/473",
+   "date": "2026-10-02",
+   "title": "Master Direction on Note Sorting Machines",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13723&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/473MDD1229693F0604B6D996B1DF75C81E466.PDF",
+   "pages": 10,
+   "sha256": "66f2b0e43929335cb73f5b2c7bb638bede21de007163dcaf2554871d8d2723bc",
+   "kind": "new_direction",
+   "action_required": "yes",
+   "action": "Banks must test note sorting machines quarterly for accuracy, maintain records, phase out discontinued models by June 30, 2027, and procure only BIS certified machines.",
+   "action_evidence": {
+    "page": 8,
+    "quote": "Banks shall ensure that the Note Sorting machines are tested for accuracy and consistency on a quarterly basis and recalibrated, if required."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-02",
+    "status": "verified",
+    "page": 1,
+    "quote": "The previous circulars issued on the subject (Annexed) stand withdrawn from the date of issuance of this Master Direction.",
+    "source": "model"
+   },
+   "comply_by": [
+    {
+     "value": "2027-06-30",
+     "status": "verified",
+     "page": 8,
+     "quote": "NSM models deployed at banks which have been discontinued from production, shall be phased out on or before June 30, 2027.",
+     "what": "Phase out discontinued NSM models",
+     "source": "both"
+    }
+   ],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:01:07Z"
+  },
+  {
+   "id": 13722,
+   "rbi_no": "RBI/2026-27/278",
+   "date": "2026-10-01",
+   "title": "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13722&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT278A39F641BB3C5485194734D495C3B914E.PDF",
+   "pages": 5,
+   "sha256": "615fbce0c0e7c0f2ef160fab053ec0a68ddd2cde2bbd13c2ccefdb16b8332699",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Qualifying mutual funds, insurance companies, and pension funds can seek one-time approval for subsequent major shareholdings up to 10 percent and must report holding changes within three working days.",
+   "action_evidence": {
+    "page": 4,
+    "quote": "qualifying persons, as defined at paragraph 6A of the directions, can seek one- time approval, either individually or collectively, from the Reserve Bank for subsequent acquisitions of major shareholding up to 10 per cent of the paid-up share capital or voting rights of a banking company"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "grant one-time approval for subsequent acquisitions of major shareholding in the same banking company by mutual funds, insurance companies and pension funds",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Local Area Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:00:59Z"
+  },
+  {
+   "id": 13721,
+   "rbi_no": "RBI/2026-27/277",
+   "date": "2026-10-01",
+   "title": "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13721&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT277F3970CD9E76046B0870FB310FEAC22D9.PDF",
+   "pages": 5,
+   "sha256": "533f864ae2c0d8aac2dd2583a39512df4fddb514c0e82b2f8933a0d6f177e20c",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Qualifying mutual funds, insurance companies, and pension funds may apply for one-time approval for subsequent major shareholdings and must report shareholding changes within three working days.",
+   "action_evidence": {
+    "page": 4,
+    "quote": "qualifying persons, as defined at paragraph 6A of the directions, can seek one- time approval, either individually or collectively, from the Reserve Bank for subsequent acquisitions of major shareholding up to 10 per cent"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India ( Payments Banks – Acquisition and Holding of Shares or Voting Rights ) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:00:52Z"
+  },
+  {
+   "id": 13720,
+   "rbi_no": "RBI/2026-27/276",
+   "date": "2026-10-01",
+   "title": "Reserve Bank of India (Small Finance Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13720&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT276B283340355CB4606A0E114A0985D9349.PDF",
+   "pages": 5,
+   "sha256": "19cc63b83b623fc4c230eba152ef67f483e513b8e03f454259eee0aa3ee2f6d9",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Qualifying mutual funds, insurance companies, and pension funds seeking one-time approval for subsequent major shareholdings up to 10% must apply via PRAVAAH and report holding changes within three working days.",
+   "action_evidence": {
+    "page": 4,
+    "quote": "qualifying persons are required to make an application, through PRAVAAH, to the Reserve Bank along with the declaration in Form A ."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Small Finance Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Small Finance Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:00:44Z"
+  },
+  {
+   "id": 13719,
+   "rbi_no": "RBI/2026-27/275",
+   "date": "2026-10-01",
+   "title": "Reserve Bank of India (Commercial Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13719&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT27591A82040B28E448E9C6F66A9C2855D70.PDF",
+   "pages": 5,
+   "sha256": "e84980f5b7f0f35bd974fbbde1b6f1a18b481136799737011ba4556ee632ff37",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Commercial banks must furnish comments on one-time approval applications and monitor qualifying persons holding one-time approval for major shareholdings.",
+   "action_evidence": {
+    "page": 3,
+    "quote": "The concerned banking company shall furnish its comments to the Reserve Bank in Form A1 in the same manner as specified in paragraph 10 above."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Commercial Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:00:37Z"
+  },
+  {
+   "id": 13718,
+   "rbi_no": "RBI/2026-27/274",
+   "date": "2026-10-01",
+   "title": "Consolidation/ Review of instructions issued on currency management matters – Withdrawal of Circulars/ Guidelines",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13718&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI27401102026AA16BFEFF59341BF97FD2930B1A4A63C.PDF",
+   "pages": 23,
+   "sha256": "0cf07359c2e1bd0cb9ad63e445c7024ebc28eeb5b3f3dcb1f804cb00d5bac4fb",
+   "kind": "withdrawal",
+   "action_required": "no",
+   "action": "No action is required as this notification merely withdraws obsolete or consolidated circulars on currency management.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "the instructions listed in the Annex, comprising those which have been consolidated into Master Directions, as well as those which have become obsolete or redundant, stands withdrawn."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "RBI/2026-27/274 DCM (IFCD).No.S2096/06.08.002/2026-27 October 01, 2026",
+    "note": "model read 2026-10-01 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:00:30Z"
+  },
+  {
+   "id": 13717,
+   "rbi_no": "RBI/2026-27/273",
+   "date": "2026-10-01",
+   "title": "Cassette - Swaps in ATMs",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13717&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI27301102026D31353CD354443869BCAD069E0BF15CC.PDF",
+   "pages": 1,
+   "sha256": "15f4cdf2950f1a25e8f80a4b2b979046ed5cfc0a42cd9cecc5a51fd22fdbb401",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Banks may delegate the monitoring of cassette swap implementation progress to a Committee of Executives.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "monitoring the progress of implementation of cassette swap may be delegated by the Board to a Committee of Executives"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks-Governance) Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director/ Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director/ Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director/ Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director/ Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director/ Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director/ Chief Executive Officer All Banks",
+     "source": "both",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "substituted w.e.f. October 1, 2026",
+    "source": "model"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "DCM (Plg.) No.S 1117/10.25.007/2021- 22 dated March 31, 2022",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:00:22Z"
+  },
+  {
+   "id": 13716,
+   "rbi_no": "RBI/2026-27/272",
+   "date": "2026-10-01",
+   "title": "Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13716&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/272MC011020266691348260DF4CF99ACE017F146409F1.PDF",
+   "pages": 8,
+   "sha256": "b8a13c2a7651eb84e68d733ff50125f02bb8a9e15d4cec6102f4661a628ac658",
+   "kind": "new_direction",
+   "action_required": "yes",
+   "action": "Banks must comply with the guidelines on credit facilities to Scheduled Castes and Scheduled Tribes, including planning, lending procedures, and monitoring.",
+   "action_evidence": {
+    "page": 2,
+    "quote": "Banks should take the measures indicated below to step up their advances to SCs/STs."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman/ Managing Director / Chief Executive Officer All Scheduled Commercial Banks (including Small Finance Banks)",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman/ Managing Director / Chief Executive Officer All Scheduled Commercial Banks (including Small Finance Banks)",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "October 01, 2026",
+    "note": "model read 2026-10-01 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:00:14Z"
+  },
+  {
+   "id": 13715,
+   "rbi_no": "RBI/2026-27/271",
+   "date": "2026-09-29",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Daesh) & Al-Qaida Sanctions List: Amendment of 1 Entry",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13715&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI2713C3AD0FCF88D4E0682D80BD7FC932BF9.PDF",
+   "pages": 3,
+   "sha256": "a72b0c02b83457166d4f8691a13a22c2e9930b61c29a00bb94022bd8e7142887",
+   "kind": "other",
+   "action_required": "yes",
+   "action": "Ensure compliance with UNSC sanctions updates by checking accounts against the amended ISIL and Al-Qaida Sanctions List.",
+   "action_evidence": {
+    "page": 3,
+    "quote": "Regulated entities are advised to take note of the aforementioned UNSC communications and ensure meticulous compliance."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "nbfcs",
+     "label": "NBFCs (including HFCs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "arcs",
+     "label": "Asset reconstruction companies"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "aifis",
+     "label": "All-India financial institutions"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "September 29, 2026",
+    "note": "model read 2026-09-29 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 0,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T14:00:08Z"
+  },
+  {
+   "id": 13714,
+   "rbi_no": null,
+   "date": "2026-09-22",
+   "title": "Foreign Exchange Management (Export and Import of Goods and Services) (Amendment) Regulations, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13714&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA23R2509202677C08DEDE2694B528FF6025930BF49F9.PDF",
+   "pages": 1,
+   "sha256": "d6b5a89147df89d8c6dc9d514ecd0eaae1b8db5d21cb9dde5ec6462bb964717a",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Authorised dealers must handle specified legacy export and import transactions, and observe reduced realization periods for exports.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Authorised Dealers shall handle transactions related to the export and import of goods and services, as well as merchanting trade"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Authorised Dealers shall handle transactions related to the export and import of goods and services",
+     "source": "model",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Provided that the exporters in the Caution List, as on September 30, 2026",
+     "source": "model",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force from October 01, 2026",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:59:59Z"
+  },
+  {
+   "id": 13713,
+   "rbi_no": null,
+   "date": "2026-09-24",
+   "title": "Designation of terrorist organisation under clause (a) of sub-section (1) of section 35 of the Unlawful Activities (Prevention) Act, 1967 and listed in the First Schedule of the Act",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13713&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI27024092026B5163644F687458B97DB7E5AF0FF4FDD.PDF",
+   "pages": 2,
+   "sha256": "93c944624b4c6ec1589c782c37c4dce064f4a5a16bffaf52f08cb00661b380d5",
+   "kind": "other",
+   "action_required": "yes",
+   "action": "Ensure compliance with UAPA orders regarding the newly designated terrorist organisation and report matching accounts.",
+   "action_evidence": {
+    "page": 2,
+    "quote": "Regulated Entities (REs) are advised to take note of the aforementioned Gazette notification issued by MHA for necessary compliance."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "nbfcs",
+     "label": "NBFCs (including HFCs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "arcs",
+     "label": "Asset reconstruction companies"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "model",
+     "type": "aifis",
+     "label": "All-India financial institutions"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "September 24, 2026",
+    "note": "model read 2026-09-24 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:59:54Z"
+  },
+  {
+   "id": 13712,
+   "rbi_no": null,
+   "date": "2026-09-23",
+   "title": "Exim Bank’s GOI-supported Line of Credit (LOC) for ₹ 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13712&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT269D2CF6DE13687460D8CFB6E8AD0CDEF4E.PDF",
+   "pages": 2,
+   "sha256": "88c8f50c9f51ed0751cc89cc2cc2fae548ac3a564a0c4ae49dcab381f3a166d9",
+   "kind": "other",
+   "action_required": "yes",
+   "action": "Authorised dealer banks must inform their exporter constituents about the Exim Bank Line of Credit and follow remittance and declaration rules.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "AD Category – I banks may bring the contents of this circular to the notice of their exporter constituents and advise them to obtain complete details"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "A.P. (DIR Series) Circular No. 22",
+     "source": "both",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "AD Category – I banks may bring the contents of this circular to the notice of their exporter constituents",
+     "source": "model",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-08-27",
+    "status": "verified",
+    "page": 1,
+    "quote": "The Agreement under the LoC is effective from August 27, 2026.",
+    "source": "model"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:59:44Z"
+  },
+  {
+   "id": 13711,
+   "rbi_no": "RBI/2026-27/268",
+   "date": "2026-09-22",
+   "title": "Reserve Bank of India (All India Financial Institutions - Classification, Valuation, and Operation of Investment Portfolio) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13711&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT26840D3650D40D2475CB0378668FD8B8EC1.PDF",
+   "pages": 2,
+   "sha256": "4de478a2e8db526f552b830bbd35e7b74dc40801b13791915229bc466864dbaf",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Valuate quoted and unquoted units of InvITs and REITs in your investment portfolio according to the new methodology specified.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "In order to ensure clarity and uniform practices in the valuation of units of Infrastructure Investment Trust (InvIT) and Real Estate Investment Trusts (REIT), there is a need to amend the extant instructions."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India ( All India Financial Institutions - Classification, Valuation, and Operation of Investment Portfolio) Amendment Directions, 2026",
+     "source": "both",
+     "type": "aifis",
+     "label": "All-India financial institutions"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-22",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (All India Financial Institutions - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:59:37Z"
+  },
+  {
+   "id": 13710,
+   "rbi_no": "RBI/2026-27/267",
+   "date": "2026-09-22",
+   "title": "Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13710&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT267F885FEF645D54E6DAC327AE684434E56.PDF",
+   "pages": 2,
+   "sha256": "fbbc46dd7874b3eaa2e0768b64ea4b101b8ffdcb3529356ca34c4a1ea192a4a8",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Payments banks must adopt the revised valuation methodology for quoted and unquoted units and instruments of InvITs and REITs.",
+   "action_evidence": null,
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India ( Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-22",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 0,
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:59:29Z"
+  },
+  {
+   "id": 13709,
+   "rbi_no": "RBI/2026-27/266",
+   "date": "2026-09-22",
+   "title": "Reserve Bank of India (Small Finance Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13709&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2663B9D47D9B0A147A5A2F0574A11554B97.PDF",
+   "pages": 2,
+   "sha256": "85c91dbcda4ec7835960ad7d01adb0bb8a1b8bbeb14149145d55b1164a8d4ee8",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Small finance banks must adopt the revised valuation methodology for quoted and unquoted units of InvITs and REITs as specified.",
+   "action_evidence": null,
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India ( Small Finance Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-22",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Small Finance Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:59:22Z"
+  },
+  {
+   "id": 13708,
+   "rbi_no": "RBI/2026-27/265",
+   "date": "2026-09-22",
+   "title": "Reserve Bank of India (Local Area Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13708&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT265E0CD6C792E7548DD945E004BEA0C948C.PDF",
+   "pages": 2,
+   "sha256": "aa33f74c17ed9350dc9b1825500786771403ab92a84f42dfa4881c76ce2fdacc",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Valuation of units and instruments of InvITs and REITs must follow the newly inserted paragraphs 83A and 83B.",
+   "action_evidence": null,
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Local Area Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-22",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Local Area Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:59:14Z"
+  },
+  {
+   "id": 13707,
+   "rbi_no": "RBI/2026-27/264",
+   "date": "2026-09-22",
+   "title": "Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Third Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13707&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT26408EF9CCC46424A929E01BF357BC7936C.PDF",
+   "pages": 2,
+   "sha256": "758ca34d7249caff66868a26240c424710dae948452512c57f0f5ea628499a19",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Commercial banks must value quoted and unquoted units of InvITs and REITs in accordance with the newly inserted valuation instructions.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "(i) Paragraph 84A shall be inserted as under: - “84A. Units of Infrastructure Investment Trusts (InvITs)"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Third Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-22",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from the date of issue",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "not_stated",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:59:06Z"
+  },
+  {
+   "id": 13706,
+   "rbi_no": "RBI/2026-27/263",
+   "date": "2026-09-22",
+   "title": "Novation of OTC Derivative Contracts",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13706&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT263695FF625A09A48248840B53359D48063.PDF",
+   "pages": 2,
+   "sha256": "8bcf2513679542d4f5636fb7a217a9a3493502732c3c2968f34d278f3ecd847c",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Ensure compliance with the finalized instructions on novation of OTC derivative contracts incorporated into the respective Master Directions.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "the instructions related to the OTC derivative contracts have been finalised."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "To All Eligible Market Participants",
+     "source": "both",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 2,
+    "quote": "The instructions shall be applicable to any novation undertaken on or after the date of issue of this circular.",
+    "note": "model read 2026-09-22 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Master Direction – Risk Management and Inter -Bank Dealings dated July 05, 2016",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:58:59Z"
+  },
+  {
+   "id": 13705,
+   "rbi_no": "RBI/DOR/2026-27/472",
+   "date": "2026-09-21",
+   "title": "Reserve Bank of India (Commercial Banks - Minimum Capital Requirements for Market Risk) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13705&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/472MDACBA450D67234F52BA2983DA6AED9DFC.PDF",
+   "pages": 49,
+   "sha256": "913cec2048cdc8debb5ac42e6bc805da36e2f3d227dd0c0d3abc75ac1416501a",
+   "kind": "new_direction",
+   "action_required": "yes",
+   "action": "Commercial banks must calculate and maintain minimum capital requirements for market risk in accordance with these directions starting April 1, 2027.",
+   "action_evidence": {
+    "page": 3,
+    "quote": "These Directions shall come into effect from April 1, 2027."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks - Minimum Capital Requirements for Market Risk) Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2027-04-01",
+    "status": "verified",
+    "page": 3,
+    "quote": "shall come into effect from April 1, 2027",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:58:52Z"
+  },
+  {
+   "id": 13704,
+   "rbi_no": "RBI/2026-27/262",
+   "date": "2026-09-18",
+   "title": "Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13704&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2621136F543AAF54E3C83DC6E3100941596.PDF",
+   "pages": 2,
+   "sha256": "20a3978ecb671c4c0f7ab6f22a10d8ae7828f554728c636a99d0f4b6ec508022",
+   "kind": "amendment",
+   "action_required": "no",
+   "action": "Rural co-operative banks may optionally obtain certified KYC documents for FPIs from specified foreign authorities, but no mandatory action is required.",
+   "action_evidence": {
+    "page": 2,
+    "quote": "the bank may alternatively obtain the original certified copy, certified by any one of the following"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India ( Rural Co -operative Banks – Know Your Customer) Amendment Directions, 2026",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-18",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Rural Co-operative Banks – Know Your Customer) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:58:44Z"
+  },
+  {
+   "id": 13703,
+   "rbi_no": "RBI/2026-27/261",
+   "date": "2026-09-18",
+   "title": "Reserve Bank of India (Urban Co-operative Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13703&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT26189BF34E0B0D049A89BA39ADB1EB863A1.PDF",
+   "pages": 2,
+   "sha256": "d0211d510643cd98febdda52aa2a98c46ef6d2fb111e9a752631d5d11c05bafc",
+   "kind": "amendment",
+   "action_required": "no",
+   "action": "Urban co-operative banks may optionally obtain alternatively certified KYC documents for Foreign Portfolio Investors as permitted.",
+   "action_evidence": {
+    "page": 2,
+    "quote": "the bank may alternatively obtain the original certified copy, certified by any one of the following:"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India ( Urban Co -operative Banks – Know Your Customer) Amendment Directions, 2026",
+     "source": "both",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-18",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Urban Co-operative Bank – Know Your Customer) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:58:36Z"
+  },
+  {
+   "id": 13702,
+   "rbi_no": "RBI/2026-27/260",
+   "date": "2026-09-18",
+   "title": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13702&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2604569F184BDB641ED92EA1B7B04FE91A9.PDF",
+   "pages": 2,
+   "sha256": "091a4a3b85080953b80de2fc85e24e045b94922ec7128a6fe1b7e59b20e65db7",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Apply the extended KYC document verification facility for Foreign Portfolio Investors.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs)."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-18",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:58:29Z"
+  },
+  {
+   "id": 13701,
+   "rbi_no": "RBI/2026-27/259",
+   "date": "2026-09-18",
+   "title": "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13701&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT259D9547EEA18C0474490DBC9CADDF191B4.PDF",
+   "pages": 2,
+   "sha256": "2a9eec634abee839b5b8c8a7c8902ec1adc0e0e4bb8e451e804ab327113cc977",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Local area banks may now optionally accept alternatively certified documents for Foreign Portfolio Investors.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "it has been decided to extend the above facility in case of Foreign Portfolio Investors (FPIs)."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 2,
+     "quote": "and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy",
+     "source": "model",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-18",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:58:21Z"
+  },
+  {
+   "id": 13700,
+   "rbi_no": "RBI/2026-27/258",
+   "date": "2026-09-18",
+   "title": "Reserve Bank of India (Small Finance Banks – Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13700&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2588DAD76B149414739967E7D273D94EADF.PDF",
+   "pages": 2,
+   "sha256": "b2f2812b5aaefd8dabc96382183ed8a01680cda5c320c0b6e1ccd84b7023517c",
+   "kind": "amendment",
+   "action_required": "no",
+   "action": "No action is required as these directions merely permit small finance banks to optionally accept certified documents for Foreign Portfolio Investors.",
+   "action_evidence": {
+    "page": 2,
+    "quote": "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India ( Small Finance Banks– Know Your Customer) Amendment Directions, 2026",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-09-18",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T13:58:14Z"
+  }
+ ],
+ "generated_at": "2026-10-09T14:02:40Z",
+ "entity_types": [
+  {
+   "type": "commercial_banks",
+   "label": "Commercial banks"
+  },
+  {
+   "type": "small_finance_banks",
+   "label": "Small finance banks"
+  },
+  {
+   "type": "payments_banks",
+   "label": "Payments banks"
+  },
+  {
+   "type": "regional_rural_banks",
+   "label": "Regional rural banks"
+  },
+  {
+   "type": "local_area_banks",
+   "label": "Local area banks"
+  },
+  {
+   "type": "urban_coop_banks",
+   "label": "Urban co-operative banks"
+  },
+  {
+   "type": "rural_coop_banks",
+   "label": "Rural co-operative banks (StCBs, DCCBs)"
+  },
+  {
+   "type": "aifis",
+   "label": "All-India financial institutions"
+  },
+  {
+   "type": "nbfcs",
+   "label": "NBFCs (including HFCs)"
+  },
+  {
+   "type": "arcs",
+   "label": "Asset reconstruction companies"
+  },
+  {
+   "type": "cics",
+   "label": "Credit information companies"
+  },
+  {
+   "type": "payment_operators",
+   "label": "Other payment system operators (card networks, ATM operators, BBPOUs, TReDS)"
+  },
+  {
+   "type": "payment_aggregators",
+   "label": "Payment aggregators"
+  },
+  {
+   "type": "ppi_issuers",
+   "label": "PPI issuers (wallets, prepaid cards)"
+  },
+  {
+   "type": "authorised_dealers",
+   "label": "Authorised dealers and money changers"
+  },
+  {
+   "type": "primary_dealers",
+   "label": "Primary dealers"
+  },
+  {
+   "type": "other",
+   "label": "Others addressed (market participants, agencies, the public)"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13722",
+ "sha256": "615fbce0c0e7c0f2ef160fab053ec0a68ddd2cde2bbd13c2ccefdb16b8332699",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "usage": {
+  "input_tokens": 3406,
+  "output_tokens": 398
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "local_area_banks",
+    "quote": "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+    "page": 1
+   },
+   {
+    "entity_type": "other",
+    "quote": "grant one-time approval for subsequent acquisitions of major shareholding in the same banking company by mutual funds, insurance companies and pension funds",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Qualifying mutual funds, insurance companies, and pension funds can seek one-time approval for subsequent major shareholdings up to 10 percent and must report holding changes within three working days.",
+  "action_quote": "qualifying persons, as defined at paragraph 6A of the directions, can seek one- time approval, either individually or collectively, from the Reserve Bank for subsequent acquisitions of major shareholding up to 10 per cent of the paid-up share capital or voting rights of a banking company",
+  "action_page": 4,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Local Area Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025"
+ }
+}

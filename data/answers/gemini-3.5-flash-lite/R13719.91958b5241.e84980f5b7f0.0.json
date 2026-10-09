@@ -1,0 +1,43 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13719",
+ "sha256": "e84980f5b7f0f35bd974fbbde1b6f1a18b481136799737011ba4556ee632ff37",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "usage": {
+  "input_tokens": 3455,
+  "output_tokens": 296
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Reserve Bank of India (Commercial Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Commercial banks must furnish comments on one-time approval applications and monitor qualifying persons holding one-time approval for major shareholdings.",
+  "action_quote": "The concerned banking company shall furnish its comments to the Reserve Bank in Form A1 in the same manner as specified in paragraph 10 above.",
+  "action_page": 3,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025"
+ }
+}

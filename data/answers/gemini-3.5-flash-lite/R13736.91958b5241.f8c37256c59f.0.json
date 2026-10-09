@@ -1,0 +1,71 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13736",
+ "sha256": "f8c37256c59f18a93ba7772c63cccfae8b1a61e3d854e003ee8bb5ff6d683bf7",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1703,
+  "output_tokens": 540
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "All Scheduled Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "All Scheduled Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "payments_banks",
+    "quote": "All Scheduled Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "All Scheduled Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "All Scheduled Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "All Scheduled Banks",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Scheduled banks must maintain a minimum daily CRR of 99 percent of the required CRR.",
+  "action_quote": "it has been decided to increase the minimum daily maintenance of the CRR from 90 per cent of the requirement to 99 per cent",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-16",
+   "quote": "effective from the fortnight beginning October 16, 2026.",
+   "page": 1
+  },
+  "comply_by": [
+   {
+    "date": "2026-10-16",
+    "quote": "effective from the fortnight beginning October 16, 2026.",
+    "page": 1,
+    "what": "Maintain minimum daily CRR of 99 percent of the required CRR"
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Cash Reserve Ratio maintenance requirements under Section 42(1) of the Reserve Bank of India Act, 1934"
+ }
+}

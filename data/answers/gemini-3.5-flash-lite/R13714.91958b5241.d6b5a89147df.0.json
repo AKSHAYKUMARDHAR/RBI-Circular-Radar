@@ -1,0 +1,44 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13714",
+ "sha256": "d6b5a89147df89d8c6dc9d514ecd0eaae1b8db5d21cb9dde5ec6462bb964717a",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 2059,
+  "output_tokens": 330
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "Authorised Dealers shall handle transactions related to the export and import of goods and services",
+    "page": 1
+   },
+   {
+    "entity_type": "other",
+    "quote": "Provided that the exporters in the Caution List, as on September 30, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Authorised dealers must handle specified legacy export and import transactions, and observe reduced realization periods for exports.",
+  "action_quote": "Authorised Dealers shall handle transactions related to the export and import of goods and services, as well as merchanting trade",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "They shall come into force from October 01, 2026.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026"
+ }
+}

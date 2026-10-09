@@ -1,0 +1,45 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13712",
+ "sha256": "88c8f50c9f51ed0751cc89cc2cc2fae548ac3a564a0c4ae49dcab381f3a166d9",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2194,
+  "output_tokens": 311
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "All Category – I Authorised Dealer Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "other",
+    "quote": "AD Category – I banks may bring the contents of this circular to the notice of their exporter constituents",
+    "page": 1
+   }
+  ],
+  "kind": "other",
+  "action_required": "yes",
+  "action": "Authorised dealer banks must inform their exporter constituents about the Exim Bank Line of Credit and follow remittance and declaration rules.",
+  "action_quote": "AD Category – I banks may bring the contents of this circular to the notice of their exporter constituents and advise them to obtain complete details",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-08-27",
+   "quote": "The Agreement under the LoC is effective from August 27, 2026.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

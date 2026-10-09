@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RBI Circular Radar</title>
+<meta name="description" content="Which new RBI notifications apply to your entity type, what to do, and by when, each with RBI's own words and page.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>RBI Circular Radar</h1>
+    <p class="lede">Which new Reserve Bank of India notifications apply to you, what to do, and by when. Every claim
+      comes with RBI's own words and the page they're on.</p>
+    <p class="meta" id="meta">Loading…</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel" aria-labelledby="profile-h">
+    <div class="panel-head">
+      <h2 id="profile-h">Your entity types</h2>
+      <button type="button" class="link" id="clear">Clear</button>
+    </div>
+    <p class="hint">Tick what you are. With nothing ticked, every notification is shown.</p>
+    <div id="profile" class="groups"></div>
+  </section>
+
+  <section class="controls" aria-label="Filters">
+    <label class="toggle"><input type="checkbox" id="action-only"> Action required only</label>
+    <label>Period
+      <select id="period">
+        <option value="30">Last 30 days</option>
+        <option value="90" selected>Last 90 days</option>
+        <option value="all">Everything read</option>
+      </select>
+    </label>
+    <input type="search" id="q" placeholder="Search titles" aria-label="Search titles">
+    <button type="button" id="csv">Export CSV</button>
+  </section>
+
+  <p class="count" id="count" aria-live="polite"></p>
+  <div id="list"></div>
+
+  <section class="panel about" id="accuracy" aria-labelledby="acc-h">
+    <h2 id="acc-h">How far to trust it</h2>
+    <p>Code checks every claim. An entity type or date is shown as fact only when its quote is on the cited page of
+      RBI's PDF and actually supports it. Anything else is marked <span class="badge check">check</span>, so you read
+      that part yourself.</p>
+    <p>It was tested on 55 RBI notifications it had never seen, in two release runs, against answer keys written by
+      hand before any prompt existed. The bar was strict: <strong>no applicable notification missed</strong>.</p>
+    <ul>
+      <li><strong>Release run 1</strong> (35 notifications): missed 2 of 59 notification and entity-type pairs, 95% precision,
+        0 of 105 dates wrong. <strong>Failed.</strong></li>
+      <li><strong>Release run 2</strong> (20 new notifications): missed 1 of 51 pairs, 100% precision, 1 of 60 dates
+        wrong. <strong>Failed.</strong></li>
+    </ul>
+    <p>Two of the three misses were right answers from the model that my own check threw away. This page now shows
+      those as <span class="badge check">may apply: check</span> instead of hiding them. Re-scored on the same answers,
+      that leaves 1 miss in 110 pairs. That figure was measured after the fact, so it isn't a pass.
+      <a href="https://github.com/AKSHAYKUMARDHAR/RBI-Circular-Radar/blob/main/eval/RUNS.md">Every run, with its errors</a>.</p>
+    <p class="small">Not legal advice. Always read the notification itself before you act. Source: rbi.org.in, read daily.
+      Built by <a href="https://akshaykumardhar.github.io/">Akshay Kumar Dhar</a> ·
+      <a href="https://github.com/AKSHAYKUMARDHAR/RBI-Circular-Radar">Code and data</a>.</p>
+  </section>
+</main>
+
+<template id="card">
+  <article class="card">
+    <div class="card-top">
+      <time class="date"></time>
+      <span class="badge kind"></span>
+      <span class="badge act"></span>
+      <span class="badge you" hidden></span>
+    </div>
+    <h3><a class="title" target="_blank" rel="noopener"></a></h3>
+    <p class="rbino"></p>
+    <div class="action"></div>
+    <div class="applies"><span class="lbl">Applies to</span><span class="chips"></span></div>
+    <dl class="dates"></dl>
+    <p class="src"></p>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

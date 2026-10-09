@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13724",
+ "sha256": "c9aced88076509127300621e4e516d32270118810b9d3181eb7fbee90ee74c06",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1822,
+  "output_tokens": 296
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "To All Authorised Dealers in Foreign Exchange Madam / Sir Online submission of Form A2: Removal of limits on amount of remittance",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Authorised Dealers may now frame internal guidelines with approval from their Board, Board Committee, or Management Committee.",
+  "action_quote": "Authorised Dealers shall frame appropriate internal guidelines with the approval of their Board or any Board Committee / Management Committee to which powers have been delegated by the Board",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "October 01, 2026",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "A.P. (DIR Series) Circular No. 12 dated July 03, 2024"
+ }
+}

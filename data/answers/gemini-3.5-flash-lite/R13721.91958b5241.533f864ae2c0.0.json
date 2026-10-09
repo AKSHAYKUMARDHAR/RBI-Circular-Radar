@@ -1,0 +1,43 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13721",
+ "sha256": "533f864ae2c0d8aac2dd2583a39512df4fddb514c0e82b2f8933a0d6f177e20c",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "usage": {
+  "input_tokens": 3401,
+  "output_tokens": 321
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "payments_banks",
+    "quote": "Reserve Bank of India (Payments Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Qualifying mutual funds, insurance companies, and pension funds may apply for one-time approval for subsequent major shareholdings and must report shareholding changes within three working days.",
+  "action_quote": "qualifying persons, as defined at paragraph 6A of the directions, can seek one- time approval, either individually or collectively, from the Reserve Bank for subsequent acquisitions of major shareholding up to 10 per cent",
+  "action_page": 4,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India ( Payments Banks – Acquisition and Holding of Shares or Voting Rights ) Directions, 2025"
+ }
+}

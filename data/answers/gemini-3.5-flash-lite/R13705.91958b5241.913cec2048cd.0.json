@@ -1,0 +1,56 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13705",
+ "sha256": "913cec2048cdc8debb5ac42e6bc805da36e2f3d227dd0c0d3abc75ac1416501a",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  5,
+  8,
+  19,
+  21,
+  22,
+  24,
+  25,
+  27,
+  28,
+  29,
+  33,
+  34,
+  40,
+  41,
+  45
+ ],
+ "usage": {
+  "input_tokens": 9542,
+  "output_tokens": 270
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "These Directions shall apply to all Commercial Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank').",
+    "page": 3
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Commercial banks must calculate and maintain minimum capital requirements for market risk in accordance with these directions starting April 1, 2027.",
+  "action_quote": "These Directions shall come into effect from April 1, 2027.",
+  "action_page": 3,
+  "effective_date": {
+   "date": "2027-04-01",
+   "quote": "These Directions shall come into effect from April 1, 2027.",
+   "page": 3
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

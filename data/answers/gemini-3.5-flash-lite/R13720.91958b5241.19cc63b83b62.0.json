@@ -1,0 +1,43 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13720",
+ "sha256": "19cc63b83b623fc4c230eba152ef67f483e513b8e03f454259eee0aa3ee2f6d9",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "usage": {
+  "input_tokens": 3405,
+  "output_tokens": 318
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "Reserve Bank of India (Small Finance Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Qualifying mutual funds, insurance companies, and pension funds seeking one-time approval for subsequent major shareholdings up to 10% must apply via PRAVAAH and report holding changes within three working days.",
+  "action_quote": "qualifying persons are required to make an application, through PRAVAAH, to the Reserve Bank along with the declaration in Form A .",
+  "action_page": 4,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Small Finance Banks – Acquisition and Holding of Shares or Voting Rights) Directions, 2025"
+ }
+}

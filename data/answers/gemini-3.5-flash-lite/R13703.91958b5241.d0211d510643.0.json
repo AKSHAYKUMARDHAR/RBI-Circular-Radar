@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13703",
+ "sha256": "d0211d510643cd98febdda52aa2a98c46ef6d2fb111e9a752631d5d11c05bafc",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2083,
+  "output_tokens": 277
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "Reserve Bank of India (Urban Co -operative Banks – Know Your Customer) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "Urban co-operative banks may optionally obtain alternatively certified KYC documents for Foreign Portfolio Investors as permitted.",
+  "action_quote": "the bank may alternatively obtain the original certified copy, certified by any one of the following:",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-09-18",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Urban Co-operative Bank – Know Your Customer) Directions, 2025"
+ }
+}

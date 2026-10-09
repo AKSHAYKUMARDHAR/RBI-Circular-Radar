@@ -1,0 +1,54 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13729",
+ "sha256": "ee6c4616f878e7b59ec18cca3faea43eec979663b52b7638f324e0de51bd722d",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  20,
+  21,
+  23,
+  24,
+  27
+ ],
+ "usage": {
+  "input_tokens": 8038,
+  "output_tokens": 278
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank').",
+    "page": 2
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Commercial banks must calculate CVA risk capital requirements and make required Pillar 3 disclosures under the new framework.",
+  "action_quote": "A bank shall calculate the capital requirements for Credit Valuation Adjustment (CVA) risk on a standalone basis for all covered transactions in both banking book and trading book.",
+  "action_page": 5,
+  "effective_date": {
+   "date": "2027-04-01",
+   "quote": "These Directions shall come into effect from April 1, 2027.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

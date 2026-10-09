@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13700",
+ "sha256": "b2f2812b5aaefd8dabc96382183ed8a01680cda5c320c0b6e1ccd84b7023517c",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2073,
+  "output_tokens": 322
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "Reserve Bank of India ( Small Finance Banks– Know Your Customer) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "No action is required as these directions merely permit small finance banks to optionally accept certified documents for Foreign Portfolio Investors.",
+  "action_quote": "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-09-18",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Small Finance Banks – Know Your Customer) Directions, 2025"
+ }
+}

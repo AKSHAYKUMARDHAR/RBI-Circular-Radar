@@ -1,0 +1,85 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13723",
+ "sha256": "66f2b0e43929335cb73f5b2c7bb638bede21de007163dcaf2554871d8d2723bc",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "usage": {
+  "input_tokens": 4826,
+  "output_tokens": 711
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines",
+    "page": 1
+   },
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines",
+    "page": 1
+   },
+   {
+    "entity_type": "payments_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines",
+    "page": 1
+   },
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines",
+    "page": 1
+   },
+   {
+    "entity_type": "local_area_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines",
+    "page": 1
+   },
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines",
+    "page": 1
+   },
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir, Master Direction on Note Sorting Machines",
+    "page": 1
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Banks must test note sorting machines quarterly for accuracy, maintain records, phase out discontinued models by June 30, 2027, and procure only BIS certified machines.",
+  "action_quote": "Banks shall ensure that the Note Sorting machines are tested for accuracy and consistency on a quarterly basis and recalibrated, if required.",
+  "action_page": 8,
+  "effective_date": {
+   "date": "2026-10-02",
+   "quote": "The previous circulars issued on the subject (Annexed) stand withdrawn from the date of issuance of this Master Direction.",
+   "page": 1
+  },
+  "comply_by": [
+   {
+    "date": "2027-06-30",
+    "quote": "NSM models deployed at banks which have been discontinued from production, shall be phased out on or before June 30, 2027.",
+    "page": 8,
+    "what": "Phase out discontinued NSM models"
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

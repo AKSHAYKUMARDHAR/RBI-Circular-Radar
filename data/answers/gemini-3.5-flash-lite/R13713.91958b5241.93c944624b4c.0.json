@@ -1,0 +1,85 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13713",
+ "sha256": "93c944624b4c6ec1589c782c37c4dce064f4a5a16bffaf52f08cb00661b380d5",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2062,
+  "output_tokens": 1043
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "payments_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "local_area_banks",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "nbfcs",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "arcs",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   },
+   {
+    "entity_type": "aifis",
+    "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+    "page": 1
+   }
+  ],
+  "kind": "other",
+  "action_required": "yes",
+  "action": "Ensure compliance with UAPA orders regarding the newly designated terrorist organisation and report matching accounts.",
+  "action_quote": "Regulated Entities (REs) are advised to take note of the aforementioned Gazette notification issued by MHA for necessary compliance.",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-09-24",
+   "quote": "September 24, 2026",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}
