@@ -1,6 +1,106 @@
 {
  "notifications": [
   {
+   "id": 13738,
+   "rbi_no": "RBI/2026-27/292",
+   "date": "2026-10-10",
+   "title": "Risk Management and Inter-Bank Dealings - Foreign Exchange Risk Reserve",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13738&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/292NT63009643AFA847A48C9A73F31E26175F.PDF",
+   "pages": 2,
+   "sha256": "5f88bee1507a95343bb60e99f4c9cffe184d544ecb47142881a4cf6aee96e69a",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Maintain a daily Foreign Exchange Risk Reserve (FERR) of 20 per cent with the Reserve Bank for eligible foreign exchange derivative contracts and report details daily via CIMS.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Authorised Dealers shall be required to maintain a Foreign Exchange Risk Reserve (FERR) for foreign exchange derivative contract s involving INR undertaken with users"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "To, All Authorised Dealers",
+     "source": "both",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-10",
+    "status": "verified",
+    "page": 2,
+    "quote": "shall come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Master Direction - Risk Management and Inter-Bank Dealings",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T23:29:35Z"
+  },
+  {
+   "id": 13737,
+   "rbi_no": "RBI/2026-27/291",
+   "date": "2026-10-10",
+   "title": "Risk Management and Inter-Bank Dealings",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13737&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/291NT8DE5483CA3F84609A0CA56720CD64103.PDF",
+   "pages": 2,
+   "sha256": "1029ed9533e332aae082e7a29c24e1ab74f9f78714fe82bd655f36a150e485e1",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Ensure compliance with revised threshold limits for derivative positions, halt rebooking of cancelled contracts, and obtain undertakings for hedging exposures.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "An Authorised Dealer shall not permit users to rebook any foreign exchange derivative contract involving the INR"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "To, All Authorised Dealers",
+     "source": "both",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-10",
+    "status": "verified",
+    "page": 2,
+    "quote": "These Directions shall be come into force with immediate effect",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Master Direction - Risk Management and Inter-Bank Dealings",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-09T23:29:28Z"
+  },
+  {
    "id": 13736,
    "rbi_no": "RBI/2026-27/290",
    "date": "2026-10-09",
@@ -2271,7 +2371,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-10-09T14:06:01Z",
+ "generated_at": "2026-10-09T23:29:35Z",
  "entity_types": [
   {
    "type": "commercial_banks",

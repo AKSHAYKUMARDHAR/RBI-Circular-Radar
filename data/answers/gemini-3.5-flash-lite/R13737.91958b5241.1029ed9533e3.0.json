@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13737",
+ "sha256": "1029ed9533e332aae082e7a29c24e1ab74f9f78714fe82bd655f36a150e485e1",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2214,
+  "output_tokens": 255
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "To, All Authorised Dealers",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Ensure compliance with revised threshold limits for derivative positions, halt rebooking of cancelled contracts, and obtain undertakings for hedging exposures.",
+  "action_quote": "An Authorised Dealer shall not permit users to rebook any foreign exchange derivative contract involving the INR",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-10",
+   "quote": "These Directions shall be come into force with immediate effect.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Master Direction - Risk Management and Inter-Bank Dealings"
+ }
+}
