@@ -1,0 +1,70 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13476",
+ "sha256": "901f3e5484542d6bdd6b7d01eb0e280c8fc3b3a559fde4484d1e5588249aa93f",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1881,
+  "output_tokens": 556
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir",
+    "page": 1
+   },
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir",
+    "page": 1
+   },
+   {
+    "entity_type": "payments_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir",
+    "page": 1
+   },
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir",
+    "page": 1
+   },
+   {
+    "entity_type": "local_area_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir",
+    "page": 1
+   },
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir",
+    "page": 1
+   },
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir",
+    "page": 1
+   }
+  ],
+  "kind": "other",
+  "action_required": "no",
+  "action": "No action is required as this notification merely consolidates previously issued instructions regarding the withdrawal of ₹2000 banknotes.",
+  "action_quote": "This consolidates the instructions issued earlier on the subject, as detailed hereunder",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-06-09",
+   "quote": "June 09, 2026 The Chairman / Managing Director / Chief Executive Officer All Banks Madam / Dear Sir",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

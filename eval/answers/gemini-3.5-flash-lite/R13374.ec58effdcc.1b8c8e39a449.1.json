@@ -1,0 +1,52 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13374",
+ "sha256": "1b8c8e39a4498d83025a7d0183d4cc5e045ce237d0745b8978e677646bcfdf9c",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "usage": {
+  "input_tokens": 2974,
+  "output_tokens": 381
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "payment_operators",
+    "quote": "The provisions of these Directions shall be applicable to all Payment System Providers and Payment System Participants",
+    "page": 1
+   },
+   {
+    "entity_type": "payment_aggregators",
+    "quote": "The provisions of these Directions shall be applicable to all Payment System Providers and Payment System Participants",
+    "page": 1
+   },
+   {
+    "entity_type": "ppi_issuers",
+    "quote": "The provisions of these Directions shall be applicable to all Payment System Providers and Payment System Participants",
+    "page": 1
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Comply with the consolidated e-mandate framework for recurring transactions, including registration, pre-and post-transaction notifications, AFA rules, and dispute redressal systems.",
+  "action_quote": "The provisions of these Directions shall be applicable to all Payment System Providers and Payment System Participants in respect of processing of recurring transactions, domestic or cross-border, using cards / PPI / UPI.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-04-21",
+   "quote": "These Directions shall be effective immediately.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

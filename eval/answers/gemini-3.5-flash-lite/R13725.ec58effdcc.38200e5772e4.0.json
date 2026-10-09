@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13725",
+ "sha256": "38200e5772e439cdbbe6850525cbea6e944e61ef38681f7d44de15972150cdb6",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2309,
+  "output_tokens": 301
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "To All Authorised Dealers",
+    "page": 1
+   }
+  ],
+  "kind": "withdrawal",
+  "action_required": "yes",
+  "action": "Submit monthly Non-Resident Deposits (NRD-CSR) returns through the CIMS Sankalan portal using system-to-system integration, file upload, or web form on or before the 10th of each month.",
+  "action_quote": "The NRD-CSR report may be submitted on or before 10th of the month following the month to which the NRD data pertains.",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "October 01, 2026",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "not_stated",
+   "page": 1
+  },
+  "amends": "A.P. (DIR Series) Circular No. 19 dated August 07, 2013"
+ }
+}

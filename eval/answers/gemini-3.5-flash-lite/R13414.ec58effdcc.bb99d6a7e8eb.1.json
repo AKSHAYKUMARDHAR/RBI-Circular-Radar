@@ -1,0 +1,41 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13414",
+ "sha256": "bb99d6a7e8ebafb73f02618787229bb3020a971820f3746e945fadd178ac317d",
+ "pages_shown": [
+  1,
+  2,
+  3
+ ],
+ "usage": {
+  "input_tokens": 2517,
+  "output_tokens": 301
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "Reserve Bank of India (Small Finance Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Small finance banks must apply updated asset classification, additional specific provisioning, and interest income recognition rules for restructured borrower accounts.",
+  "action_quote": "A bank shall make an additional specific provision of five percent of the outstanding debt in respect of borrowers, for whom a resolution plan has been implemented",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-07-01",
+   "quote": "The above amendment shall come into force with effect from July 1, 2026.",
+   "page": 3
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Small Finance Banks – Income Recognition, Asset Classification and Provisioning) Directions"
+ }
+}

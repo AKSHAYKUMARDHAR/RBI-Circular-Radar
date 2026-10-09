@@ -1,0 +1,71 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13718",
+ "sha256": "0cf07359c2e1bd0cb9ad63e445c7024ebc28eeb5b3f3dcb1f804cb00d5bac4fb",
+ "pages_shown": [
+  1,
+  2,
+  3
+ ],
+ "usage": {
+  "input_tokens": 3250,
+  "output_tokens": 526
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "payments_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "local_area_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+    "page": 1
+   },
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "The Chairman / Managing Director / Chief Executive Officer All Banks",
+    "page": 1
+   }
+  ],
+  "kind": "withdrawal",
+  "action_required": "no",
+  "action": "No action is required as this notification merely withdraws obsolete and consolidated circulars on currency management.",
+  "action_quote": "the instructions listed in the Annex, comprising those which have been consolidated into Master Directions, as well as those which have become obsolete or redundant, stands withdrawn.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "October 01, 2026",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "not_stated",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

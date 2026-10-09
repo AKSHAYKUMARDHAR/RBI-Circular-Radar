@@ -1,0 +1,56 @@
+
+dev: 25 documents, model gemini-3.5-flash-lite, reads 2
+
+ all
+  rules     pairs  62  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  69 correct  6 wrong  0 withheld (92% / 8.0%) | kind 96%  action 80%  fail
+  model     pairs  62  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  70 correct  5 wrong  0 withheld (93% / 6.7%) | kind 88%  action 84%  fail
+  checked   pairs  62  missed  1  extra  0  recall  98.4%  precision 100.0% | dates  70 correct  1 wrong  4 withheld (93% / 1.3%) | kind 88%  action 84%  fail
+  union     pairs  62  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  71 correct  0 wrong  4 withheld (95% / 0.0%) | kind 100%  action 84%  PASS
+
+ random draw
+  rules     pairs  56  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  57 correct  6 wrong  0 withheld (90% / 9.5%) | kind 95%  action 76%  fail
+  model     pairs  56  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  58 correct  5 wrong  0 withheld (92% / 7.9%) | kind 86%  action 81%  fail
+  checked   pairs  56  missed  1  extra  0  recall  98.2%  precision 100.0% | dates  58 correct  1 wrong  4 withheld (92% / 1.6%) | kind 86%  action 81%  fail
+  union     pairs  56  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  59 correct  0 wrong  4 withheld (94% / 0.0%) | kind 100%  action 81%  PASS
+
+ supplement
+  rules     pairs   6  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  12 correct  0 wrong  0 withheld (100% / 0.0%) | kind 100%  action 100%  PASS
+  model     pairs   6  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  12 correct  0 wrong  0 withheld (100% / 0.0%) | kind 100%  action 100%  PASS
+  checked   pairs   6  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  12 correct  0 wrong  0 withheld (100% / 0.0%) | kind 100%  action 100%  PASS
+  union     pairs   6  missed  0  extra  0  recall 100.0%  precision 100.0% | dates  12 correct  0 wrong  0 withheld (100% / 0.0%) | kind 100%  action 100%  PASS
+
+ rules: problems
+  R13400: missed [] extra [] dates {'comply_by': (['2027-03-31', '2030-03-31'], ['2027-06-30', '2030-03-31'])}
+  R13431: missed [] extra [] action yes/no dates ok
+  R13464: missed [] extra [] dates {'effective_date': ('not_stated', '2026-06-05')}
+  R13469: missed [] extra [] action yes/no dates {'effective_date': ('not_stated', '2026-06-08')}
+  R13476: missed [] extra [] action yes/no dates ok
+  R13579: missed [] extra [] dates {'effective_date': ('not_stated', '2026-10-01'), 'comply_by': (['2026-09-30', '2027-09-30'], ['2027-09-30'])}
+  R13691: missed [] extra [] action yes/no dates ok
+  R13717: missed [] extra [] kind None/amendment action None/no dates {'effective_date': ('not_stated', '2026-10-01')}
+
+ model: problems
+  R13400: missed [] extra [] dates {'comply_by': (['2030-03-31'], ['2027-06-30', '2030-03-31'])}
+  R13469: missed [] extra [] kind new_direction/rates_operational action yes/no dates {'comply_by': (['2027-01-15'], [])}
+  R13476: missed [] extra [] dates {'effective_date': ('2026-06-09', 'not_stated')}
+  R13516: missed [] extra [] action no/yes dates ok
+  R13691: missed [] extra [] action yes/no dates ok
+  R13717: missed [] extra [] action yes/no dates ok
+  R13718: missed [] extra [] dates {'effective_date': ('2026-10-01', 'not_stated')}
+  R13725: missed [] extra [] kind withdrawal/rates_operational dates {'effective_date': ('2026-10-01', 'not_stated')}
+  R13728: missed [] extra [] kind amendment/rates_operational dates ok
+
+ checked: problems
+  R13400: missed [] extra [] dates {'comply_by': (['2030-03-31'], ['2027-06-30', '2030-03-31'])}
+  R13464: missed ['other'] extra [] dates ok
+  R13469: missed [] extra [] kind new_direction/rates_operational action yes/no dates ok
+  R13476: missed [] extra [] dates {'effective_date': ('withheld', 'not_stated')}
+  R13516: missed [] extra [] action no/yes dates ok
+  R13579: missed [] extra [] dates {'comply_by': ([], ['2027-09-30'])}
+  R13691: missed [] extra [] action yes/no dates ok
+  R13717: missed [] extra [] action yes/no dates ok
+  R13718: missed [] extra [] dates {'effective_date': ('withheld', 'not_stated')}
+  R13725: missed [] extra [] kind withdrawal/rates_operational dates {'effective_date': ('withheld', 'not_stated')}
+  R13728: missed [] extra [] kind amendment/rates_operational dates ok
+
+ tokens: {'input_tokens': 177310, 'output_tokens': 19639}   209s

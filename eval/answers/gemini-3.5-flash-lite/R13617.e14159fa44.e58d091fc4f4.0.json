@@ -1,0 +1,43 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "e14159fa44",
+ "doc": "R13617",
+ "sha256": "e58d091fc4f45e607539b33768d1baee8455531e5b0e3b847bfab32623100a19",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  14
+ ],
+ "usage": {
+  "input_tokens": 2913,
+  "output_tokens": 277
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "These Directions shall be applicable to Urban Co-operative Banks (hereinafter collectively referred to as ‘UCBs’ and individually as a ‘UCB’).",
+    "page": 3
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Urban Co-operative Banks must implement the concurrent audit system and ensure their Board reviews its effectiveness annually.",
+  "action_quote": "The Board shall, once in a year, review the effectiveness of the Concurrent Audit system and take necessary measures to correct the lacunae in the system.",
+  "action_page": 4,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into effect immediately upon issuance.",
+   "page": 3
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

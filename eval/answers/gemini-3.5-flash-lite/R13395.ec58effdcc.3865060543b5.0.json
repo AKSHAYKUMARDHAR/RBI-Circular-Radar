@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13395",
+ "sha256": "3865060543b523572606bc0b7bbe50c731a2941c126743f520fc49a48bdb1ecf",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1941,
+  "output_tokens": 296
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Reserve Bank of India (Commercial Banks – Credit Facilities) Second Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Ensure compliance with the modified asset classification, provisioning, and risk-weight requirements for credit facilities referencing the 2026 directions.",
+  "action_quote": "The Amendment Directions shall modify the Directions as below: (1) The paragraph 25(1) of the Directions shall be modified as below:",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2027-04-01",
+   "quote": "The above amendments shall come into force from April 01, 2027.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Credit Facilities) Directions, 2025"
+ }
+}

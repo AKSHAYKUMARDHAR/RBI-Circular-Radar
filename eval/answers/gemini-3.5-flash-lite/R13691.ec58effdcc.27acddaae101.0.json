@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13691",
+ "sha256": "27acddaae101f45d33a73fc171481767c97a88f483feab1d0106b48baa1a5dd1",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1799,
+  "output_tokens": 291
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "urban_coop_banks",
+    "quote": "Reserve Bank of India ( Urban Co-operative Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "Nothing required as these directions merely permit urban co-operative banks to acquire membership and equity shares in IDPIC.",
+  "action_quote": "These Amendment Directions shall come into effect from the date of issue.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-09-02",
+   "quote": "These Amendment Directions shall come into effect from the date of issue.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Urban Co-operative Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025"
+ }
+}

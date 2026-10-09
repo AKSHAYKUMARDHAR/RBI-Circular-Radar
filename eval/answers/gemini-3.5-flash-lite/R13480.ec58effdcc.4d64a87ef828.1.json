@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13480",
+ "sha256": "4d64a87ef8287e59c7a0c63cbae159c4c57799f188bee0384488ad0097a6f40b",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1711,
+  "output_tokens": 337
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Reserve Bank of India (Commercial Banks - Prudential Norms on Capital Adequacy) Eighth Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Commercial banks must apply the specified risk weights of 100, 125, or 150 percent to exposures and lending to Real Estate Investment Trusts.",
+  "action_quote": "Exposures to Real Estate Investment Trusts (REITs) shall be treated as Commercial Real Estate (CRE) exposures and shall attract a risk weight of 100 per cent.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "These Directions shall come into force from October 1, 2026, or an earlier date if the directions contained in the Reserve Bank of India",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025"
+ }
+}

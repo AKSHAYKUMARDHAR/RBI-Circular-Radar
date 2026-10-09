@@ -1,0 +1,52 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "e14159fa44",
+ "doc": "R13624",
+ "sha256": "7b625c051b442e58800e2f1eac452f8a0e79d0b03b1af2358233980cb6e19e03",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  9,
+  10,
+  11,
+  13,
+  15,
+  16,
+  18,
+  19,
+  21
+ ],
+ "usage": {
+  "input_tokens": 6678,
+  "output_tokens": 267
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "payments_banks",
+    "quote": "3. These Directions shall be applicable to Payments Banks (hereinafter collectively referred to as 'banks' and individually as 'bank').",
+    "page": 2
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Payments banks must implement comprehensive digital payment security controls, board-approved policies, robust authentication, fraud risk management, and customer awareness measures.",
+  "action_quote": "The bank shall formulate a policy for digital payment products and services with the approval of its Board.",
+  "action_page": 6,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "2. These Directions shall come into effect immediately upon issuance.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

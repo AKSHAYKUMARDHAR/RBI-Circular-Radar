@@ -1,0 +1,54 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "e14159fa44",
+ "doc": "R13469",
+ "sha256": "efe6c280c4d185815bd059804cf6518809f996d0dba490c3be4dbc9f978cd7bb",
+ "pages_shown": [
+  1,
+  2,
+  3
+ ],
+ "usage": {
+  "input_tokens": 2333,
+  "output_tokens": 448
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "All Authorised Dealer Category-I Banks",
+    "page": 1
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Authorised Dealer Category-I banks can facilitate and avail of the US Dollar-Rupee Forex Swap Facility for eligible external commercial borrowings and overseas foreign currency borrowings by submitting requests and required declarations.",
+  "action_quote": "Eligible banks can approach the Financial Markets Operations Department by e- mail with their request for US Doll ar Swap Facility",
+  "action_page": 3,
+  "effective_date": {
+   "date": "2026-06-08",
+   "quote": "The Swap Facility comes into effect from the date of this circular",
+   "page": 2
+  },
+  "comply_by": [
+   {
+    "date": "2026-12-31",
+    "quote": "eligible ECB drawdowns made and OFCB flows received up to December 31, 2026.",
+    "page": 2,
+    "what": "Complete eligible ECB drawdowns and receive OFCB flows eligible for the swap facility."
+   },
+   {
+    "date": "2027-01-15",
+    "quote": "will remain open up to January 15, 2027 for eligible ECB drawdowns made and OFCB flows received up to December 31, 2026.",
+    "page": 2,
+    "what": "Last date up to which the Swap Facility remains open for utilization."
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

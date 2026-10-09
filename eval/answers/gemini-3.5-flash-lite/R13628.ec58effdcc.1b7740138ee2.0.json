@@ -1,0 +1,46 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13628",
+ "sha256": "1b7740138ee2d61cac946e33d31255b4e922c75c25b8d7a2012000deb6353fbe",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  6,
+  20,
+  22,
+  25,
+  28
+ ],
+ "usage": {
+  "input_tokens": 4459,
+  "output_tokens": 257
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "These Directions shall be applicable to Small Finance Banks",
+    "page": 3
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Small Finance Banks must review loan disbursal and interest charging practices, implement corrective system changes, and establish internal vigilance mechanisms.",
+  "action_quote": "The bank, in the interest of fairness and transparency, shall review its practices regarding mode of disbursal of loans, application of interest and other charges",
+  "action_page": 6,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into effect immediately upon issuance.",
+   "page": 3
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 0
+  },
+  "amends": "none"
+ }
+}
