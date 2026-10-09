@@ -2,6 +2,63 @@
   "note": "Answer key written by hand from the RBI PDFs on 9 October 2026, under data/LABEL_GUIDE.md, before any extraction prompt existed. Held-out labels are never edited after a run.",
   "documents": [
     {
+      "id": "R13374",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payment_operators",
+            "payment_aggregators",
+            "ppi_issuers"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "shall be applicable to all Payment System Providers and Payment System Participants in respect of processing of recurring transactions"
+            }
+          ],
+          "note": "the general class of payment system providers (rule 8); card-issuing banks take part but no bank type is named"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "hereby consolidates all circulars pertaining to e-mandates and issues the Directions hereinafter specified"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-04-21",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Directions shall be effective immediately"
+            }
+          ],
+          "note": "issued April 21, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none",
+          "note": "repeals eight e-mandate circulars from 2019-2024"
+        }
+      }
+    },
+    {
       "id": "R13395",
       "labels": {
         "applies_to": {
@@ -498,6 +555,74 @@
       }
     },
     {
+      "id": "R13526",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payment_operators"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The Trade Receivables Discounting System Platform Operators and Participants"
+            },
+            {
+              "page": 3,
+              "quote": "Entities authorised by the Reserve Bank of India to operate TReDS platform"
+            }
+          ],
+          "note": "one named system (rule 8); financiers get permissions only and no bank or NBFC type is named"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "a comprehensive review of the existing instructions has now been undertaken and accordingly, it has been decided to issue a Master Direction"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "Existing entities authorised to operate TReDS platform shall ensure that net-worth criterion is met latest by March 31, 2028"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-06-23",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "Trade Receivables Discounting System) Directions, 2026 and shall be effective immediately"
+            }
+          ],
+          "note": "issued June 23, 2026"
+        },
+        "comply_by": {
+          "value": [
+            "2028-03-31"
+          ],
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "shall ensure that net-worth criterion is met latest by March 31, 2028"
+            }
+          ],
+          "note": "the annual net-worth certificate by September 30 is recurring, not a date"
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none",
+          "note": "repeals the TReDS guidelines of 2014 (updated 2018) and the 2023 circular"
+        }
+      }
+    },
+    {
       "id": "R13579",
       "labels": {
         "applies_to": {
@@ -667,6 +792,59 @@
       }
     },
     {
+      "id": "R13624",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payments_banks"
+          ],
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be applicable to Payments Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be called the Reserve Bank of India ( Payments Banks – Digital Payment Security Controls) Supervisory Directions, 2026"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 6,
+              "quote": "The bank shall formulate a policy for digital payment products and services with the approval of its Board"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
       "id": "R13628",
       "labels": {
         "applies_to": {
@@ -703,6 +881,59 @@
           "evidence": [
             {
               "page": 3,
+              "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13633",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "small_finance_banks"
+          ],
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be applicable to Small Finance Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be called the Reserve Bank of India ( Small Finance Banks – Digital Payment Security Controls) Directions, 2026"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 6,
+              "quote": "The bank shall formulate a policy for digital payment products and services with the approval of its Board"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 2,
               "quote": "These Directions shall come into effect immediately upon issuance"
             }
           ],

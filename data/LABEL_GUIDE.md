@@ -82,7 +82,13 @@ fintech meets, and a catch-all.
      the label note says so.
    - A recurring deadline ("by the 10th of the following month") is not a date: `comply_by` stays
      empty and the note records it.
-8. **Undecidable is skipped.** If the document can't settle a field (it points to an annexe that isn't
+8. **Payment-system wording.** Payment aggregators, PPI issuers and other payment system operators
+   are all authorised under the Payment and Settlement Systems Act, so a document addressed to the
+   general class ("Payment System Providers", "an entity authorised to operate a payment system under
+   the PSS Act") is labelled with all three: `payment_operators`, `payment_aggregators`, `ppi_issuers`.
+   A document about one named system ("TReDS Platform Operators") gets only that system's type.
+   "Participants" adds no bank or NBFC type unless the text names it.
+9. **Undecidable is skipped.** If the document can't settle a field (it points to an annexe that isn't
    in the PDF, for example), the field is `skip`, with the reason, and left out of scoring.
 
 ## Sampling
@@ -91,6 +97,15 @@ The population is every notification on RBI's site from 1 April to 7 October 202
 13360 to 13735). Each is tagged with a kind from its title alone, and a seeded random draw, stratified
 by kind, picks the evaluation set, then splits it into development and held-out halves. The seed, the
 population list and the draw are committed before any document is labelled.
+
+**Payments supplement.** The random draw picked no notification on payment systems, so no payment
+aggregator or PPI issuer appeared in either answer key, though those are licences the product is pitched
+at. Before any prompt existed, every other notification that regulates payments was added as its own
+stratum by a rule applied to the population list: issued by the Department of Payment and Settlement
+Systems, or titled "digital payment", "payment system" or "non-bank entities". That added 10
+notifications (4 development, 6 held-out, split with their own seed). They are flagged `supplement` in
+`documents.json` and results are reported for them separately, since they weren't drawn at random.
+Rule 8 was written at the same time, before these were labelled.
 
 ## Changes after a run
 

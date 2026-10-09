@@ -33,10 +33,12 @@ def save(manifest: dict) -> None:
 def from_sample() -> None:
     sample = json.loads((ROOT / "data" / "sample.json").read_text(encoding="utf-8"))
     docs = [{"id": f"R{d['id']}", "split": d["split"], "tag": d["tag"], "title": d["title"], "rbi_no": d["rbi_no"],
-             "date": d["date"], "url": d["url"], "pdf_url": d["pdf"]} for d in sample["documents"]]
+             "date": d["date"], "url": d["url"], "pdf_url": d["pdf"], **({"supplement": True} if d.get("supplement") else {})}
+            for d in sample["documents"]]
     save({"note": "RBI notifications from 1 April to 7 October 2026, drawn from the full population by "
                   "scripts/draw_sample.py (seed in data/sample.json) and frozen before any prompt or label existed. "
-                  "dev = used to build the reader; holdout = labelled before any prompt and run once for the release gate.",
+                  "dev = used to build the reader; holdout = labelled before any prompt and run once for the release gate. "
+                  "supplement = the payments stratum added by rule, not at random (see scripts/draw_sample.py).",
           "documents": docs})
     print(f"{len(docs)} documents written to {MANIFEST}")
 

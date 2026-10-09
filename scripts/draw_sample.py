@@ -6,6 +6,12 @@ Reads data/population.jsonl (every notification from 1 April to 7 October 2026, 
 tags each with a coarse kind from its title alone (for stratifying, not for scoring), and draws a
 seeded random sample stratified by that tag: at least FLOOR per tag, the rest in proportion. Each tag's
 draw is then split into development and held-out documents. Writes data/sample.json.
+
+The random draw picked no notification on payment systems, which are what the fintech licences the
+product is pitched at (payment aggregators, PPI issuers, payment system operators) live under. So every
+other notification that regulates payments is added as a separate "payments" stratum, chosen by a rule
+from the population list alone (is_payments, below) and split with its own seed. It isn't random, so
+results are reported for the random draw and the supplement separately.
 """
 import collections
 import json
@@ -15,6 +21,13 @@ import random
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SEED = 20261009          # the day the population was frozen
 TOTAL, FLOOR, DEV_SHARE = 50, 4, 0.4
+SUPPLEMENT_SEED = SEED + 1
+
+
+def is_payments(rec: dict) -> bool:
+    """Issued by the Department of Payment and Settlement Systems, or titled about payments regulation."""
+    t = (rec.get("title") or "").lower()
+    return "dpss" in (rec.get("head") or "").lower() or any(w in t for w in ("digital payment", "payment system", "non-bank entit"))
 
 
 def title_tag(rec: dict) -> str:
@@ -61,14 +74,26 @@ def main() -> int:
         for i, r in enumerate(draw):
             picked.append({"id": r["id"], "tag": t, "split": "dev" if i < n_dev else "holdout", "title": r["title"],
                            "rbi_no": r.get("rbi_no"), "date": r.get("date"), "url": r["url"], "pdf": r["pdf"]})
+    drawn = {r["id"] for r in picked}
+    extra = sorted((r for r in usable if r["id"] not in drawn and is_payments(r)), key=lambda r: r["id"])
+    random.Random(SUPPLEMENT_SEED).shuffle(extra)
+    n_dev = round(len(extra) * DEV_SHARE)
+    for i, r in enumerate(extra):
+        picked.append({"id": r["id"], "tag": "payments", "split": "dev" if i < n_dev else "holdout", "title": r["title"],
+                       "rbi_no": r.get("rbi_no"), "date": r.get("date"), "url": r["url"], "pdf": r["pdf"],
+                       "supplement": True})
     picked.sort(key=lambda r: (r["split"], r["id"]))
-    out = {"seed": SEED, "population": len(pop), "usable": len(usable),
-           "per_tag": {t: {"population": len(by_tag[t]), "drawn": quota[t]} for t in tags}, "documents": picked}
+    out = {"seed": SEED, "supplement_seed": SUPPLEMENT_SEED, "population": len(pop), "usable": len(usable),
+           "per_tag": {t: {"population": len(by_tag[t]), "drawn": quota[t]} for t in tags},
+           "supplement": {"rule": "not drawn, and issued by DPSS or titled 'digital payment', 'payment system' or 'non-bank entit(y|ies)'",
+                          "added": len(extra)},
+           "documents": picked}
     with open(ROOT / "data" / "sample.json", "w", encoding="utf-8", newline="\n") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
         f.write("\n")
     for t in tags:
         print(f"  {t:18} population {len(by_tag[t]):4}  drawn {quota[t]:3}")
+    print(f"  {'payments (rule)':18} added {len(extra):3}: {', '.join(str(r['id']) for r in sorted(extra, key=lambda r: r['id']))}")
     print(f"{len(picked)} drawn from {len(usable)} usable of {len(pop)}: "
           f"{sum(r['split'] == 'dev' for r in picked)} dev, {sum(r['split'] == 'holdout' for r in picked)} held out")
     return 0

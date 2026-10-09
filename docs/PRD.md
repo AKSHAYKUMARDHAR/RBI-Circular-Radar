@@ -162,11 +162,13 @@ North star: **applicable notifications missed: 0.**
 
 ## Evaluation plan
 
-**Documents, frozen before any prompt.** About 50 real RBI notifications from April to October 2026,
-chosen to cover every kind: entity-wise amendment directions, NBFC and payment-system items, foreign
-exchange circulars to authorised dealers, rate and operational notices, drafts for comments and
-withdrawals. Each is pinned by URL and SHA-256. A seeded random draw, stratified by kind, splits them
-into about 20 for development and 30 held out.
+**Documents, frozen before any prompt.** 60 real RBI notifications from April to October 2026. 50
+come from a seeded random draw, stratified by kind, from all 376 notifications issued in that period:
+entity-wise amendment directions, new directions, foreign exchange circulars to authorised dealers,
+rate and operational notices and withdrawals. That draw picked no payment-system notification, so 10
+more were added by a written rule (every other notification from RBI's payments department, or titled
+"digital payment", "payment system" or "non-bank entities"), reported separately because they weren't
+drawn at random. Each is pinned by URL and SHA-256: 25 for development, 35 held out.
 
 **Answer keys, written by hand before any prompt exists**, under a label guide written first: for
 each notification, the set of entity types it applies to (17 types: RBI's 11 types of regulated
@@ -185,7 +187,7 @@ checked against the PDF by a script ([data/LABEL_GUIDE.md](../data/LABEL_GUIDE.m
 **Release gate** (held-out set, run once): 0 applicable pairs missed, precision ≥ 85%, wrong dates
 ≤ 2%, correct dates ≥ 85%, every shown claim quoted and verified.
 
-**Free-tier plan.** Notifications are short (1–10 pages), so the dev runs compare gemini-3.5-flash-lite
+**Free-tier plan.** Most notifications are short (median 2 pages; the longest is 83), so the dev runs compare gemini-3.5-flash-lite
 (500 free requests a day) with gemini-3.5-flash (20 a day). The cheaper model ships if it passes the
 dev bar; one read per document is tested against two. Earlier projects showed the lite models failing
 on long policy wordings; this checks whether that holds on short, structured documents.

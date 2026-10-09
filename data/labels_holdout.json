@@ -64,6 +64,59 @@
       }
     },
     {
+      "id": "R13367",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Chief Executive Officer All Scheduled Commercial Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Guidelines to facilitate faster cross-border inward payments"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Banks shall inform their customer of the receipt of cross -border inward transactions immediately on receipt of inward message"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-10-09",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "The directions at para 3 above shall be effective six months from the date of this circular"
+            }
+          ],
+          "note": "computed: six months from April 09, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
       "id": "R13396",
       "labels": {
         "applies_to": {
@@ -329,6 +382,66 @@
       }
     },
     {
+      "id": "R13449",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "authorised_dealers",
+            "other"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "To All Authorised Dealers"
+            },
+            {
+              "page": 4,
+              "quote": "The third party shall have a comprehensive Privacy Policy compliant with applicable laws"
+            }
+          ],
+          "note": "other = the non-bank third-party remittance platforms the ADs tie up with"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Authorised Dealers are advised to comply with instructions furnished in Annex while facilitating cross -border outward remittance"
+            }
+          ],
+          "note": "a new operating framework replacing case-by-case RBI approval"
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "The AD shall have a formal grievance redressal framework in compliance with RBI guidelines"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-05-13",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "stands deleted with immediate effect"
+            }
+          ],
+          "note": "issued May 13, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Master Direction - Miscellaneous (No. 19/2015-16), paragraph 10 deleted"
+        }
+      }
+    },
+    {
       "id": "R13465",
       "labels": {
         "applies_to": {
@@ -427,6 +540,63 @@
         },
         "amends": {
           "value": "A.P. (DIR Series) Circular No. 24 dated March 27, 2026 (NOP-INR)"
+        }
+      }
+    },
+    {
+      "id": "R13502",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payment_operators",
+            "payment_aggregators",
+            "ppi_issuers"
+          ],
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "An entity authorised to operate a payment system under the PSS Act"
+            }
+          ],
+          "note": "every entity authorised under the PSS Act (rule 8)"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be called the Master Directions on Authorisation to operate a Payment System"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "An entity seeking authorisation to operate a payment system shall submit an application in the prescribed form through RBI"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-06-15",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These directions shall come into effect on the day they are placed on the website of the Reserve Bank"
+            }
+          ],
+          "note": "placed on the website with the notification, June 15, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none",
+          "note": "repeals six authorisation circulars and guidelines"
         }
       }
     },
@@ -657,6 +827,60 @@
       }
     },
     {
+      "id": "R13591",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "nbfcs"
+          ],
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be applicable to Credit-Card issuing Non-Banking Financial Companies"
+            }
+          ],
+          "note": "credit-card issuing NBFCs only"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be called the Reserve Bank of India (Non-Banking Financial Companies – Digital Payment Security Controls) Directions, 2026"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 6,
+              "quote": "The NBFC shall formulate a policy for digital payment products and services with the approval of its Board"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
       "id": "R13592",
       "labels": {
         "applies_to": {
@@ -748,6 +972,59 @@
             {
               "page": 3,
               "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13615",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "urban_coop_banks"
+          ],
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be applicable to Urban Co- operative Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be called the Reserve Bank of India (Urban Co-operative Banks – Digital Payment Security Controls) Directions, 2026"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 6,
+              "quote": "The UCB shall formulate a policy for digital payment products and services with the approval of its Board"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall come into force with effect immediately upon issuance"
             }
           ],
           "note": "issued July 31, 2026"
@@ -959,6 +1236,60 @@
           "evidence": [
             {
               "page": 3,
+              "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13642",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks"
+          ],
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be applicable to Commercial Banks"
+            }
+          ],
+          "note": "excludes small finance, payments and local area banks by definition"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Directions shall be called the Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 6,
+              "quote": "The bank shall formulate a policy for digital payment products and services with the approval of"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 2,
               "quote": "These Directions shall come into effect immediately upon issuance"
             }
           ],

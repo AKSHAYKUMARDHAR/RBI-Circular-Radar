@@ -1,6 +1,19 @@
 {
-  "note": "RBI notifications from 1 April to 7 October 2026, drawn from the full population by scripts/draw_sample.py (seed in data/sample.json) and frozen before any prompt or label existed. dev = used to build the reader; holdout = labelled before any prompt and run once for the release gate. RBI's draft notifications are published in a separate section, so none fall in this population.",
+  "note": "RBI notifications from 1 April to 7 October 2026, drawn from the full population by scripts/draw_sample.py (seed in data/sample.json) and frozen before any prompt or label existed. dev = used to build the reader; holdout = labelled before any prompt and run once for the release gate. supplement = the payments stratum added by rule, not at random (see scripts/draw_sample.py).",
   "documents": [
+    {
+      "id": "R13374",
+      "split": "dev",
+      "tag": "payments",
+      "title": "Digital Payments – E-mandate Framework, 2026",
+      "rbi_no": "RBI/DPSS/2026-27/396",
+      "date": "April 21, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13374&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/396MDD002E435ECA145509929FC3ACBCFD0E9.PDF",
+      "supplement": true,
+      "sha256": "1b8c8e39a4498d83025a7d0183d4cc5e045ce237d0745b8978e677646bcfdf9c",
+      "pages": 4
+    },
     {
       "id": "R13395",
       "split": "dev",
@@ -110,6 +123,19 @@
       "pages": 2
     },
     {
+      "id": "R13526",
+      "split": "dev",
+      "tag": "payments",
+      "title": "Reserve Bank of India (Trade Receivables Discounting System) Directions, 2026",
+      "rbi_no": "RBI/DPSS/2026-27/406",
+      "date": "June 23, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13526&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/406MD184DBA53FAE148368AD6D3ACF0DB824E.PDF",
+      "supplement": true,
+      "sha256": "d2237b2eefcf65c703013448111a13ca165d83984ec0467c00b3e206efc5fc8c",
+      "pages": 10
+    },
+    {
       "id": "R13579",
       "split": "dev",
       "tag": "amendment",
@@ -146,6 +172,19 @@
       "pages": 15
     },
     {
+      "id": "R13624",
+      "split": "dev",
+      "tag": "payments",
+      "title": "Reserve Bank of India (Payments Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+      "rbi_no": "RBI/DoS/2026-27/429",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13624&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/429MD335484C7D27C4AC58720D636CA735A25.PDF",
+      "supplement": true,
+      "sha256": "7b625c051b442e58800e2f1eac452f8a0e79d0b03b1af2358233980cb6e19e03",
+      "pages": 32
+    },
+    {
       "id": "R13628",
       "split": "dev",
       "tag": "new_direction",
@@ -156,6 +195,19 @@
       "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/425MD0436481B095C48CD89101DA2ACCD152E.PDF",
       "sha256": "1b7740138ee2d61cac946e33d31255b4e922c75c25b8d7a2012000deb6353fbe",
       "pages": 29
+    },
+    {
+      "id": "R13633",
+      "split": "dev",
+      "tag": "payments",
+      "title": "Reserve Bank of India (Small Finance Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+      "rbi_no": "RBI/DoS/2026-27/420",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13633&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/420MD29384D707EBB4C938067734D3B24D278.PDF",
+      "supplement": true,
+      "sha256": "835f11474bd329216c0b4e968fc4b467d0f3199443fcc1a245f102716576479a",
+      "pages": 32
     },
     {
       "id": "R13635",
@@ -257,13 +309,26 @@
       "id": "R13361",
       "split": "holdout",
       "tag": "rates_operational",
-      "title": "Master Direction on Counterfeit Notes – Detection, Reporting and Monitoring ( Updated as on September 01, 2026 )",
+      "title": "Master Direction on Counterfeit Notes – Detection, Reporting and Monitoring (<span style=\"color: red\">Updated as on September 01, 2026</span>)",
       "rbi_no": "RBI/DCM/2026-27/394",
       "date": "April 01, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13361&Mode=0",
       "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/MD39472AB49ECE87F40868FBB8F0714E1627F.PDF",
       "sha256": "ddf5c24a5ba21e5b303d1362eeff2bb26b9492ecfae60fc6785f372c388670e2",
       "pages": 28
+    },
+    {
+      "id": "R13367",
+      "split": "holdout",
+      "tag": "payments",
+      "title": "Guidelines to facilitate faster cross-border inward payments",
+      "rbi_no": "RBI/2026-27/08",
+      "date": "April 09, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13367&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT083C6ADC9FA8C24AB29757536C709EA939.PDF",
+      "supplement": true,
+      "sha256": "21360a70575f9db0b02a7fe38ed786f29463adbd27794ae71e426a2a2e5e925b",
+      "pages": 2
     },
     {
       "id": "R13396",
@@ -326,6 +391,19 @@
       "pages": 1
     },
     {
+      "id": "R13449",
+      "split": "holdout",
+      "tag": "payments",
+      "title": "Operating framework for facilitating Outward Remittance services by non-bank entities through Authorized Dealer (Category I) banks in India",
+      "rbi_no": "RBI/2026-27/82",
+      "date": "May 13, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13449&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT827AB89DD94BE240BEBD1BB246B09D332C.PDF",
+      "supplement": true,
+      "sha256": "476ab0e6954b22d199e3a2a4289174bab0cfd6d0998f1ccaf7f61e4882026d2d",
+      "pages": 5
+    },
+    {
       "id": "R13465",
       "split": "holdout",
       "tag": "fx",
@@ -348,6 +426,19 @@
       "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT101006035F74F4F498BB485CB28A998F8ED.PDF",
       "sha256": "cd7c7abaa5652b0b28740772e0f07043c26a0333970fd881b29fea3727629932",
       "pages": 1
+    },
+    {
+      "id": "R13502",
+      "split": "holdout",
+      "tag": "payments",
+      "title": "Master Directions on Authorisation to operate a Payment System",
+      "rbi_no": "RBI/DPSS/2026-27/401",
+      "date": "June 15, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13502&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/401MDDAB7489361B4431DB9A075997E990529.PDF",
+      "supplement": true,
+      "sha256": "1b109c7a6271da3e64c52a70969dad072648e1e017e9023c687c5331449d8965",
+      "pages": 12
     },
     {
       "id": "R13515",
@@ -398,6 +489,19 @@
       "pages": 2
     },
     {
+      "id": "R13591",
+      "split": "holdout",
+      "tag": "payments",
+      "title": "Reserve Bank of India (Non-Banking Financial Companies – Digital Payment Security Controls) Directions, 2026",
+      "rbi_no": "RBI/DoS/2026-27/462",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13591&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/462MD7323FF342D124FAF9BC3B3F7E4F837A5.PDF",
+      "supplement": true,
+      "sha256": "d198ab377880f7bc2569a1fc894a1a7636f672522b6d8bbd6a6431c9c92af9de",
+      "pages": 30
+    },
+    {
       "id": "R13592",
       "split": "holdout",
       "tag": "new_direction",
@@ -420,6 +524,19 @@
       "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/460MD930686EC27D04B4AA9DF4A3481CDD465.PDF",
       "sha256": "0086830dfc9691eddc13275339b9e8803c2609aff3220ae5d86817e31c74225e",
       "pages": 15
+    },
+    {
+      "id": "R13615",
+      "split": "holdout",
+      "tag": "payments",
+      "title": "Reserve Bank of India (Urban Co-operative Banks – Digital Payment Security Controls) Directions, 2026",
+      "rbi_no": "RBI/DoS/2026-27/438",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13615&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/438MDD999C3E155F8479AA7075B10FAF82870.PDF",
+      "supplement": true,
+      "sha256": "427728c0b1b18e164b6b8d679d791f2b8e16964bf57e230e019a5ac174800566",
+      "pages": 31
     },
     {
       "id": "R13619",
@@ -468,6 +585,19 @@
       "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/426MDAC33102EE3FA40DA842AAF54921D76DD.PDF",
       "sha256": "a5f1044f333999066f03ff71806a7446b31f68750b1faf58c946d9463545b3d5",
       "pages": 22
+    },
+    {
+      "id": "R13642",
+      "split": "holdout",
+      "tag": "payments",
+      "title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+      "rbi_no": "RBI/DoS/2026-27/411",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13642&Mode=0",
+      "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+      "supplement": true,
+      "sha256": "84872c7f4693777cc82ed2f232b8be2e586545c1ecc44b9cbfe59ee2a0923e36",
+      "pages": 32
     },
     {
       "id": "R13647",

@@ -1,5 +1,6 @@
 {
   "seed": 20261009,
+  "supplement_seed": 20261010,
   "population": 376,
   "usable": 376,
   "per_tag": {
@@ -28,7 +29,22 @@
       "drawn": 4
     }
   },
+  "supplement": {
+    "rule": "not drawn, and issued by DPSS or titled 'digital payment', 'payment system' or 'non-bank entit(y|ies)'",
+    "added": 10
+  },
   "documents": [
+    {
+      "id": 13374,
+      "tag": "payments",
+      "split": "dev",
+      "title": "Digital Payments – E-mandate Framework, 2026",
+      "rbi_no": "RBI/DPSS/2026-27/396",
+      "date": "April 21, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13374&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/396MDD002E435ECA145509929FC3ACBCFD0E9.PDF",
+      "supplement": true
+    },
     {
       "id": 13395,
       "tag": "amendment",
@@ -120,6 +136,17 @@
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT145B918F6E4BE9B4CFF8167E7856E023E47.PDF"
     },
     {
+      "id": 13526,
+      "tag": "payments",
+      "split": "dev",
+      "title": "Reserve Bank of India (Trade Receivables Discounting System) Directions, 2026",
+      "rbi_no": "RBI/DPSS/2026-27/406",
+      "date": "June 23, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13526&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/406MD184DBA53FAE148368AD6D3ACF0DB824E.PDF",
+      "supplement": true
+    },
+    {
       "id": 13579,
       "tag": "amendment",
       "split": "dev",
@@ -150,6 +177,17 @@
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/436MD1749C7AECBD84DA589A814082520A61A.PDF"
     },
     {
+      "id": 13624,
+      "tag": "payments",
+      "split": "dev",
+      "title": "Reserve Bank of India (Payments Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+      "rbi_no": "RBI/DoS/2026-27/429",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13624&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/429MD335484C7D27C4AC58720D636CA735A25.PDF",
+      "supplement": true
+    },
+    {
       "id": 13628,
       "tag": "new_direction",
       "split": "dev",
@@ -158,6 +196,17 @@
       "date": null,
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13628&Mode=0",
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/425MD0436481B095C48CD89101DA2ACCD152E.PDF"
+    },
+    {
+      "id": 13633,
+      "tag": "payments",
+      "split": "dev",
+      "title": "Reserve Bank of India (Small Finance Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+      "rbi_no": "RBI/DoS/2026-27/420",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13633&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/420MD29384D707EBB4C938067734D3B24D278.PDF",
+      "supplement": true
     },
     {
       "id": 13635,
@@ -250,6 +299,17 @@
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/MD39472AB49ECE87F40868FBB8F0714E1627F.PDF"
     },
     {
+      "id": 13367,
+      "tag": "payments",
+      "split": "holdout",
+      "title": "Guidelines to facilitate faster cross-border inward payments",
+      "rbi_no": "RBI/2026-27/08",
+      "date": "April 09, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13367&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT083C6ADC9FA8C24AB29757536C709EA939.PDF",
+      "supplement": true
+    },
+    {
       "id": 13396,
       "tag": "withdrawal",
       "split": "holdout",
@@ -300,6 +360,17 @@
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT740065426D194A4603B4FED6A214ED91FC.PDF"
     },
     {
+      "id": 13449,
+      "tag": "payments",
+      "split": "holdout",
+      "title": "Operating framework for facilitating Outward Remittance services by non-bank entities through Authorized Dealer (Category I) banks in India",
+      "rbi_no": "RBI/2026-27/82",
+      "date": "May 13, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13449&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT827AB89DD94BE240BEBD1BB246B09D332C.PDF",
+      "supplement": true
+    },
+    {
       "id": 13465,
       "tag": "fx",
       "split": "holdout",
@@ -318,6 +389,17 @@
       "date": "June 8, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13470&Mode=0",
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT101006035F74F4F498BB485CB28A998F8ED.PDF"
+    },
+    {
+      "id": 13502,
+      "tag": "payments",
+      "split": "holdout",
+      "title": "Master Directions on Authorisation to operate a Payment System",
+      "rbi_no": "RBI/DPSS/2026-27/401",
+      "date": "June 15, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13502&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/401MDDAB7489361B4431DB9A075997E990529.PDF",
+      "supplement": true
     },
     {
       "id": 13515,
@@ -360,6 +442,17 @@
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT1971DF66377C8CD4547B9B1A1DF6C209B58.PDF"
     },
     {
+      "id": 13591,
+      "tag": "payments",
+      "split": "holdout",
+      "title": "Reserve Bank of India (Non-Banking Financial Companies – Digital Payment Security Controls) Directions, 2026",
+      "rbi_no": "RBI/DoS/2026-27/462",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13591&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/462MD7323FF342D124FAF9BC3B3F7E4F837A5.PDF",
+      "supplement": true
+    },
+    {
       "id": 13592,
       "tag": "new_direction",
       "split": "holdout",
@@ -378,6 +471,17 @@
       "date": "July 31, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13593&Mode=0",
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/460MD930686EC27D04B4AA9DF4A3481CDD465.PDF"
+    },
+    {
+      "id": 13615,
+      "tag": "payments",
+      "split": "holdout",
+      "title": "Reserve Bank of India (Urban Co-operative Banks – Digital Payment Security Controls) Directions, 2026",
+      "rbi_no": "RBI/DoS/2026-27/438",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13615&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/438MDD999C3E155F8479AA7075B10FAF82870.PDF",
+      "supplement": true
     },
     {
       "id": 13619,
@@ -418,6 +522,17 @@
       "date": "July 31, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13627&Mode=0",
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/426MDAC33102EE3FA40DA842AAF54921D76DD.PDF"
+    },
+    {
+      "id": 13642,
+      "tag": "payments",
+      "split": "holdout",
+      "title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+      "rbi_no": "RBI/DoS/2026-27/411",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13642&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+      "supplement": true
     },
     {
       "id": 13647,
