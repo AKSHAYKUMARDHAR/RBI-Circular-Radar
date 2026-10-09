@@ -20,7 +20,9 @@ ADDRESSEE_END = re.compile(r"Madam|Dear Sir|Dear Madam|\bSir\s*[,/]", re.I)
 AP_DIR = re.compile(r"A\.\s?P\.\s?\(DIR Series\)\s*Circular\s*No\.?\s*\d+", re.I)
 COMMENCE = [re.compile(r"(?:shall|will)\s+come\s+into\s+(?:force|effect)[^.;]{0,160}", re.I),
             re.compile(r"(?:shall|will)\s+be\s+effective[^.;]{0,140}", re.I),
-            re.compile(r"\b(?:effective|in force)\s+(?:immediately|from)[^.;]{0,100}", re.I),
+            # "effective from" only in a sentence about this document, not background ("a scheme effective from 2013")
+            re.compile(r"\b(?:These|This|The above|The said)\s+[^.;]{0,80}?\b(?:effective|in force)\s+(?:immediately|from)"
+                       r"[^.;]{0,100}", re.I),
             re.compile(r"[^.;]{0,120}with immediate effect", re.I)]
 COMMENTS = re.compile(r"comments?\b[^.]{0,220}?(?:by|on or before|latest by|not later than|till|until|before)\s+(?:the\s+)?"
                       + DATE_RE.pattern, re.I)

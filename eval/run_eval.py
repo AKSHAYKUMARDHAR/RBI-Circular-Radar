@@ -107,6 +107,8 @@ def main(argv=None) -> int:
     ap.add_argument("--no-model", action="store_true")
     ap.add_argument("--only", default="")
     ap.add_argument("--show", action="store_true", help="print every document's differences")
+    ap.add_argument("--replay", default="", metavar="PROMPT_VERSION",
+                    help="re-score the cached answers of that prompt version; never calls the model")
     args = ap.parse_args(argv)
     sys.stdout.reconfigure(encoding="utf-8")
     from dotenv import load_dotenv
@@ -121,7 +123,8 @@ def main(argv=None) -> int:
     reader = None
     if not args.no_model:
         from radar.llm import GeminiReader, LLMError, QuotaExhausted
-        reader = GeminiReader(model=args.model, cache_dir=ROOT / "eval" / "answers")
+        reader = GeminiReader(model=args.model, cache_dir=ROOT / "eval" / "answers",
+                              prompt_version=args.replay or None, offline=bool(args.replay))
     versions = checks.VERSIONS if reader else ("rules",)
     rows = {v: [] for v in versions}
     usage = collections.Counter()
@@ -196,7 +199,8 @@ def main(argv=None) -> int:
                           f"{'' if r['action_ok'] else ' action ' + str(r['action']) + '/' + lab['action_required']['value']}"
                           f" dates {wrong if wrong else 'ok'}")
     print(f"\n tokens: {dict(usage)}   {time.time() - t0:.0f}s")
-    out = ROOT / "eval" / "results" / f"{args.split}_{model_name}_r{args.reads if reader else 0}.json"
+    tag = f"_replay-{args.replay}" if args.replay else ""
+    out = ROOT / "eval" / "results" / f"{args.split}_{model_name}_r{args.reads if reader else 0}{tag}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({"split": args.split, "model": model_name, "reads": args.reads, "unread": unread,
                                "stopped": stopped, "summary": summary, "rows": rows}, ensure_ascii=False, indent=1) + "\n",

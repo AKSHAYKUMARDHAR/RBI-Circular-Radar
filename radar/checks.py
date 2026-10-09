@@ -9,8 +9,11 @@ Versions, all built from the same model answer so each layer's value is measured
 - rules:   the rules alone
 - model:   the model's answer as given
 - checked: the model's answer with the checks
-- union:   rules + checked model (what ships): entity types from either; dates where they agree, or from
-           whichever one is verified, withheld where they disagree
+- union:   rules + checked model (the release-run configuration): entity types from either; dates where they
+           agree, or from whichever one is verified, withheld where they disagree
+- shipped: the union, plus any entity type the model names that the check can't confirm, shown as
+           "may apply: check" instead of dropped. Added after both release runs failed on correct model answers
+           the check had thrown away (eval/RUNS.md); its scores on those sets are post hoc.
 """
 import datetime as dt
 import re
@@ -19,7 +22,7 @@ from . import entities
 from .text import IMMEDIATE, dates_in, find_quote, relative_date
 
 ISO = re.compile(r"^20\d\d-\d\d-\d\d$")
-VERSIONS = ("rules", "model", "checked", "union")
+VERSIONS = ("rules", "model", "checked", "union", "shipped")
 
 
 def _iso(v) -> str | None:
@@ -159,6 +162,12 @@ def card(version: str, rules: dict, model: dict | None) -> dict:
             by_type[a["type"]]["source"] = "both"
         else:
             by_type[a["type"]] = a
+    if version == "shipped":   # recall first: an unconfirmed entity type is downgraded, never deleted
+        for a in model["applies_to"]:
+            if a["type"] not in by_type:
+                by_type[a["type"]] = dict(a, source="model", status="check",
+                                          note="the model says this applies, but its quote doesn't name this type; "
+                                               "read the notice to confirm")
     rule_eff = rules["effective_date"] if rules["effective_date"]["value"] != "not_stated" else None
     rule_com = rules["comments_by"] if rules["comments_by"]["value"] != "none" else None
     # Deadlines: the model's checked ones are shown; one the rules found that the model didn't is "check".

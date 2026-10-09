@@ -133,3 +133,22 @@ Across both held-out sets (55 notifications, 110 applicable pairs) the union mis
 The lesson for a recall-first product: a check may *downgrade* a claim, but it shouldn't *delete* an entity type.
 An entity type the model names with a quote that is on the page, but whose words the check doesn't recognise,
 should be shown as "may apply: check", not dropped. Missing a rule costs more than reading one extra notice.
+
+## What ships, and its post-hoc scores
+
+The shipped version ("shipped" in `radar/checks.py`) is the union plus that lesson: an entity type the model names
+but the check can't confirm is shown as **"may apply: check"** instead of being dropped. The rules also stop taking
+"effective from" dates from background sentences (R13716). Both changes were made **after** reading the release
+runs' errors, so the scores below are post hoc: what the shipped merge would have shown on the very same cached
+model answers (`--replay`), not a release pass. A clean claim needs notifications neither version has seen; the
+live digest is that test from here on.
+
+| Set | Missed pairs | Extra pairs | Precision | Dates correct / wrong / withheld |
+| --- | --- | --- | --- | --- |
+| Development (25) | 0 | 1 | 98.4% | 71 / 0 / 4 |
+| Held-out 1 (35) | 1 | 3 | 95.1% | 99 / 0 / 6 |
+| Held-out 2 (20) | 0 | 0 | 100% | 51 / 0 / 9 |
+
+Logs: [dev](results/dev_posthoc_shipped.log), [held-out 1](results/holdout_posthoc_shipped.log),
+[held-out 2](results/holdout2_posthoc_shipped.log). The one remaining miss is R13449's third-party platforms,
+named only in an annex. The official results are the two failed release runs above.

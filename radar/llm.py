@@ -46,23 +46,30 @@ def select_pages(pages: list[str], max_pages: int = MAX_PAGES) -> list[int]:
 
 
 class GeminiReader:
-    def __init__(self, model: str | None = None, cache_dir: str | os.PathLike | None = None):
-        from google import genai
-
+    def __init__(self, model: str | None = None, cache_dir: str | os.PathLike | None = None,
+                 prompt_version: str | None = None, offline: bool = False):
+        """offline=True replays cached answers (of prompt_version, default the current prompt) and never calls the API."""
         self.model = model or os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
-        self.client = genai.Client(api_key=os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY"))
         self.cache_dir = pathlib.Path(cache_dir) if cache_dir else None
+        self.prompt_version = prompt_version or prompts.VERSION
+        self.offline = offline
+        self.client = None
+        if not offline:
+            from google import genai
+            self.client = genai.Client(api_key=os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY"))
         self._next_at = 0.0
 
     def _cache_path(self, doc_id: str, sha: str, attempt: int) -> pathlib.Path | None:
         if not self.cache_dir:
             return None
-        return self.cache_dir / self.model / f"{doc_id}.{prompts.VERSION}.{sha[:12]}.{attempt}.json"
+        return self.cache_dir / self.model / f"{doc_id}.{self.prompt_version}.{sha[:12]}.{attempt}.json"
 
     def read(self, doc_id: str, sha: str, title: str, issued: str | None, pages: list[str], attempt: int = 0) -> dict:
         path = self._cache_path(doc_id, sha, attempt)
         if path and path.exists():
             return json.loads(path.read_text(encoding="utf-8"))
+        if self.offline or self.prompt_version != prompts.VERSION:
+            raise LLMError(f"no cached answer for {doc_id} (prompt {self.prompt_version})")
         keep = select_pages(pages)
         answer, usage = self._call(prompts.user_message(title, issued, pages, keep))
         out = {"model": self.model, "prompt_version": prompts.VERSION, "doc": doc_id, "sha256": sha,

@@ -128,3 +128,21 @@ def test_release_run_1_fixes():
     assert entities.named_in("registered under the National Housing Bank Act, 1987") == set()
     assert rules.kind('Master Direction on Counterfeit Notes – Detection, Reporting and Monitoring '
                       '(<span style="color: red">Updated</span>)') == "new_direction"
+
+
+def test_shipped_downgrades_unconfirmed_entity_types_instead_of_dropping_them():
+    pages = ["RBI/2026-27/09 X April 10, 2026 The Chairman / Managing Director Lead Banks Concerned Madam/ Dear Sir, "
+             "Assignment of Lead Bank Responsibility for the new districts."]
+    m = checks.from_model(_answer(applies_to=[{"entity_type": "commercial_banks", "page": 1,
+                                               "quote": "The Chairman / Managing Director Lead Banks Concerned"}]),
+                          pages, D(2026, 4, 10))
+    rr = rules.read(pages, "Assignment of Lead Bank Responsibility", D(2026, 4, 10))
+    assert checks.prediction(checks.card("union", rr, m))["applies_to"] == set()
+    c = checks.card("shipped", rr, m)
+    assert [(a["type"], a["status"]) for a in c["applies_to"]] == [("commercial_banks", "check")]
+
+
+def test_rules_ignore_background_effective_from_dates():
+    pages = ["RBI/2026-27/272 X October 01, 2026 All Scheduled Commercial Banks Madam/ Dear Sir, Master Circular. "
+             "The scheme was launched by the Ministry, effective from April 1, 2013."]
+    assert rules.read(pages, "Master Circular - Credit facilities", D(2026, 10, 1))["effective_date"]["value"] == "not_stated"
