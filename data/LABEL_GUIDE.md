@@ -66,7 +66,10 @@ fintech meets, and a catch-all.
    under UAPA and consolidations of earlier instructions.
 6. **Action required = yes** when the notification creates or changes something a named entity must
    do, stop doing, report, disclose, or a limit it must meet. Rate changes that change what an entity
-   pays or charges are `yes`. Drafts, pure information and "as-is" consolidations are `no`.
+   pays or charges are `yes`. Drafts, pure information, permissions ("may") and exemptions are `no`.
+   A Master Direction that consolidates instructions still states obligations and is `yes`; a notice
+   that only announces a consolidation, or lists withdrawn circulars, is `no`. A repeal that replaces
+   rules with new ones from a date is `yes`.
 7. **Dates.**
    - `effective_date`: when the instructions come into force. "With immediate effect" or "come into
      force on the date of issue" is the notification's date. If no date is given, `not_stated`.

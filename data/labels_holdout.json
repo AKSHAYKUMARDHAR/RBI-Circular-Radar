@@ -1,0 +1,1582 @@
+{
+  "note": "Answer key written by hand from the RBI PDFs on 9 October 2026, under data/LABEL_GUIDE.md, before any extraction prompt existed. Held-out labels are never edited after a run.",
+  "documents": [
+    {
+      "id": "R13361",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks",
+            "small_finance_banks",
+            "payments_banks",
+            "regional_rural_banks",
+            "local_area_banks",
+            "urban_coop_banks",
+            "rural_coop_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Chief Executive Officer All Banks Madam / Dear Sir"
+            }
+          ],
+          "note": "'All Banks' = the seven bank types (rule 2)"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Master Direction on Counterfeit Notes"
+            }
+          ],
+          "note": "a Master Direction consolidating the instructions"
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "Banknotes tendered over the counter shall be examined for authenticity through machines"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-04-01",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "stand withdrawn from the date of issuance of this Master Direction"
+            }
+          ],
+          "note": "in force from its issue, April 01, 2026, when the earlier instructions are withdrawn"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none",
+          "note": "replaces the earlier master circulars and directions on the subject"
+        }
+      }
+    },
+    {
+      "id": "R13396",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "hereby repeals Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025"
+            }
+          ]
+        },
+        "kind": {
+          "value": "withdrawal",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "hereby repeals Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The Directions shall be replaced with Reserve Bank of India (Commercial Banks -Asset Classification, Provisioning and Income Recognition) Directions, 2026"
+            }
+          ],
+          "note": "the governing rules change on April 1, 2027"
+        },
+        "effective_date": {
+          "value": "2027-04-01",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "issued on November 28, 2025, with effect from April 01, 2027"
+            }
+          ]
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025 (repealed)"
+        }
+      }
+    },
+    {
+      "id": "R13403",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "urban_coop_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Urban Co-operative Banks – Concentration Risk Management) – Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The Amendment Directions modifies the Directions as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "The aggregate unsecured loans and advances granted by a UCB shall not exceed 20 per cent of its total loans and advances"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-10-01",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "The above amendments shall come into force from October 1, 2026"
+            }
+          ],
+          "note": "or earlier if a UCB adopts them in entirety"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Urban Co-operative Banks – Concentration Risk Management) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13427",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "(Relief Measures by Banks in Areas affected by Natural Calamities) Directions 2018 – SCBs Repeal Directions, 2026"
+            }
+          ],
+          "note": "SCBs; the replacing directions are for commercial banks"
+        },
+        "kind": {
+          "value": "withdrawal",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "hereby repeals Master Direction – Reserve Bank of India (Relief Measures by Banks in Areas affected by Natural Calamities) Directions 2018 – SCBs"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The Directions shall be replaced with the following Directions issued on April 29, 2026, with effect from July 01, 2026"
+            }
+          ],
+          "note": "the governing rules change on July 1, 2026"
+        },
+        "effective_date": {
+          "value": "2026-07-01",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The Directions shall be replaced with the following Directions issued on April 29, 2026, with effect from July 01, 2026"
+            }
+          ]
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Master Direction – Reserve Bank of India (Relief Measures by Banks in Areas affected by Natural Calamities) Directions 2018 – SCBs (repealed)"
+        }
+      }
+    },
+    {
+      "id": "R13429",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "rural_coop_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Rural Cooperative Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions modify the Directions as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "A bank shall make an additional specific provision of five percent of the outstanding debt"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-01",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "The above amendment shall come into force with effect from July 1, 2026"
+            }
+          ]
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Rural Cooperative Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13440",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "aifis"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions modify the Directions as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "no",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "An AIFI at its discretion, may provide relief measures"
+            }
+          ],
+          "note": "a permission"
+        },
+        "effective_date": {
+          "value": "2026-07-01",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The above amendment shall come into force with effect from July 1, 2026"
+            }
+          ]
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13465",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "authorised_dealers"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "All Category - I Authorised Dealer Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "rates_operational",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "the above-mentioned statement shall be submitted on the Centralized Information Management System (CIMS) portal"
+            }
+          ],
+          "note": "a reporting procedure"
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "all AD Category – I banks shall upload the above- mentioned statement on CIMS portal"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-06-30",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "It has now been decided that with effect from June 30, 2026, the above-mentioned statement shall be submitted on the Centralized Information Management System (CIMS) portal"
+            }
+          ]
+        },
+        "comply_by": {
+          "value": [],
+          "note": "monthly reporting, a recurring deadline"
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "A.P. (DIR Series) Circulars No. 69 and No. 67 of 2016 (reporting channel); Master Direction on Reporting under FEMA to be updated"
+        }
+      }
+    },
+    {
+      "id": "R13470",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "authorised_dealers"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "To, All Authorised Dealer Category-I Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "AD Cat-I banks may exclude the swap positions arising out of FCNR (B) deposits, External Commercial Borrowings and Overseas Foreign Currency Borrowings"
+            }
+          ],
+          "note": "changes how the NOP-INR limit is computed"
+        },
+        "action_required": {
+          "value": "no",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "AD Cat-I banks may exclude the swap positions arising out of FCNR (B) deposits"
+            }
+          ],
+          "note": "a permission"
+        },
+        "effective_date": {
+          "value": "not_stated"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "A.P. (DIR Series) Circular No. 24 dated March 27, 2026 (NOP-INR)"
+        }
+      }
+    },
+    {
+      "id": "R13515",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "authorised_dealers"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "To All Authorised Dealer Category-I Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "rates_operational",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "All AD Category-I banks are advised to submit daily data on FCNR (B) deposits"
+            }
+          ],
+          "note": "a reporting procedure"
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "All AD Category-I banks are advised to submit daily data on FCNR (B) deposits"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "not_stated"
+        },
+        "comply_by": {
+          "value": [
+            "2026-06-22"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "shall be submitted along with the first reporting due on June 22, 2026"
+            }
+          ],
+          "note": "a one-off backlog deadline; daily reporting recurs"
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13542",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "nbfcs"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Non- Banking Financial Companies – Financial Statements: Presentation and Disclosures) Second Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Amendment Directions modify the Directions as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "no",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "these provisions shall not be applicable to NBFC-UL which are fully owned and controlled by Government"
+            }
+          ],
+          "note": "an exemption; nothing to do"
+        },
+        "effective_date": {
+          "value": "2026-06-24",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Amendment Directions shall come into force with effect from date of issuance"
+            }
+          ],
+          "note": "date of issue: June 24, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Non-Banking Financial Companies – Financial Statements: Presentation and Disclosures) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13564",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks",
+            "small_finance_banks",
+            "payments_banks",
+            "urban_coop_banks",
+            "rural_coop_banks",
+            "regional_rural_banks",
+            "local_area_banks",
+            "nbfcs",
+            "arcs",
+            "aifis"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions"
+            }
+          ]
+        },
+        "kind": {
+          "value": "other",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "following individuals have been declared as “Terrorist” and have been listed in the Fourth Schedule of UAPA"
+            }
+          ],
+          "note": "a sanctions-list update"
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "Regulated Entities (REs) are advised to take note of the aforementioned Gazette notifications issued by MHA for necessary compliance"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "not_stated"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13575",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "nbfcs"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Non-Banking Financial Companies Income Recognition, Asset Classification and Provisioning) Third Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions modify the Directions as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "it shall be reversed through Profit and Loss account, latest by September 30, 2027"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-10-01",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "The above amendment would come into force with effect from October 01, 2026"
+            }
+          ]
+        },
+        "comply_by": {
+          "value": [
+            "2027-09-30"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "it shall be reversed through Profit and Loss account, latest by September 30, 2027"
+            }
+          ]
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Non-Banking Financial Companies – Income Recognition, Asset Classification and Provisioning) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13592",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "nbfcs"
+          ],
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "The provisions contained in these Directions shall be applicable to all Non- Banking Financial Companies"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 Table of Contents"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 15,
+              "quote": "The NBFC shall put in place IT organisational structure commensurate with the size, scale, and nature of business activities carried out"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "These Directions shall come into force with immediate effect"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13593",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "nbfcs"
+          ],
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "These Directions shall be applicable to Non -Banking Financial Companies"
+            }
+          ],
+          "note": "middle and upper layer NBFCs"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Non-Banking Financial Companies - Compliance Function) Directions, 2026 Table of Contents"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 5,
+              "quote": "The Board / Audit Committee of Board (ACB) shall ensure that an appropriate Compliance policy is put in place and implemented"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13619",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payments_banks"
+          ],
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "These Directions shall be applicable to Payments Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Payments Banks – Miscellaneous) Supervisory Directions, 2026 (Updated as on October 01, 2026) Table of Contents"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 6,
+              "quote": "of the bank shall review, on a periodic basis, the achievement of nomination coverage"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13623",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payments_banks"
+          ],
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "These Directions shall be applicable to Payments Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Payments Banks – Fraud Risk Management) Directions, 2026 Table of Contents"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 8,
+              "quote": "The Senior Management of the PB shall also place a periodic review of incidents of fraud before Board / Audit Committee of Board (ACB)"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13625",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payments_banks"
+          ],
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "These Directions shall be applicable to Payments Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026) Table of Contents"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 10,
+              "quote": "The Audit Committee of the Board (ACB) shall be responsible for exercising oversight of IS Audit of the bank"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "These Directions shall come into force with immediate effect"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13627",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payments_banks"
+          ],
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "These Directions shall be applicable to Payments Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Payments Banks - Compliance Function) Directions, 2026 Table of Contents"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 5,
+              "quote": "The Board shall ensure that the bank has an appropriate Compliance Policy in place and shall oversee its effective implementation"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-07-31",
+          "evidence": [
+            {
+              "page": 3,
+              "quote": "These Directions shall come into effect immediately upon issuance"
+            }
+          ],
+          "note": "issued July 31, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13647",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Commercial Banks – Asset Liability Management) Second Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The Amendment Directions modify the Directions as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "For LCR disclosure template and related instructions, a bank shall refer to relevant instructions"
+            }
+          ],
+          "note": "disclosure templates move to other directions"
+        },
+        "effective_date": {
+          "value": "2027-04-01",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "The above amendments shall come into force from April 1, 2027"
+            }
+          ]
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Commercial Banks – Asset Liability Management) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13679",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "nbfcs"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Non-Banking Financial Companies – Concentration Risk Management) Fourth Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall modify the Directions as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The large exposure limits applicable to NBFC-IFC shall also be applicable to IDF-NBFC"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-08-25",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall come into force with immediate effect"
+            }
+          ],
+          "note": "immediate: August 25, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Non-Banking Financial Companies – Concentration Risk Management) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13688",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "regional_rural_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Third Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall modify the Directions, as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "it has been decided to amend the date ‘September 30, 2026’ to the date ‘August 31, 2026’ for the aforementioned temporary relaxation"
+            }
+          ],
+          "note": "the relaxation on deposit rates ends a month earlier"
+        },
+        "effective_date": {
+          "value": "2026-08-25",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall come into force with immediate effect"
+            }
+          ],
+          "note": "immediate: August 25, 2026"
+        },
+        "comply_by": {
+          "value": [],
+          "note": "August 31, 2026 ends a relaxation; it is not a date by which something must be done"
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13701",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "local_area_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "These Amendment Directions shall modify the Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025 as under"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "no",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "the bank may alternatively obtain the original certified copy"
+            }
+          ],
+          "note": "extends an optional facility to FPIs"
+        },
+        "effective_date": {
+          "value": "2026-09-18",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Directions shall come into force with immediate effect"
+            }
+          ],
+          "note": "immediate: September 18, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13707",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Third Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "are amended as provided below"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "The valuation shall be done at the NAV as disclosed by the InvIT"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-09-22",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall come into effect from the date of issue"
+            }
+          ],
+          "note": "date of issue: September 22, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Commercial Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13710",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "payments_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "are amended as provided below"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 2,
+              "quote": "The valuation shall be done at the NAV as disclosed by the InvIT"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-09-22",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall come into effect from the date of issue"
+            }
+          ],
+          "note": "date of issue: September 22, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025"
+        }
+      }
+    },
+    {
+      "id": "R13712",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "authorised_dealers"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "All Category – I Authorised Dealer Banks"
+            }
+          ]
+        },
+        "kind": {
+          "value": "other",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "for making available to the latter, Government of India supported Line of Credit (LoC)"
+            }
+          ],
+          "note": "information about an Exim Bank line of credit"
+        },
+        "action_required": {
+          "value": "no",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "AD Category – I banks may bring the contents of this circular to the notice of their exporter constituents"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-08-27",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "The Agreement under the LoC is effective from August 27, 2026"
+            }
+          ],
+          "note": "the line of credit's effective date"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13723",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks",
+            "small_finance_banks",
+            "payments_banks",
+            "regional_rural_banks",
+            "local_area_banks",
+            "urban_coop_banks",
+            "rural_coop_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Chief Executive Officer All Banks Madam / Dear Sir"
+            }
+          ],
+          "note": "'All Banks' = the seven bank types (rule 2)"
+        },
+        "kind": {
+          "value": "new_direction",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Master Direction on Note Sorting Machines"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "the machines shall sort all the phased-out notes as unfit, irrespective of their physical condition"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-10-02",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "stand withdrawn from the date of issuance of this Master Direction"
+            }
+          ],
+          "note": "in force from its issue, October 02, 2026"
+        },
+        "comply_by": {
+          "value": [
+            "2027-06-30"
+          ],
+          "evidence": [
+            {
+              "page": 8,
+              "quote": "shall be phased out on or before June 30, 2027"
+            }
+          ]
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13727",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "other"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "All Liquidity Adjustment Facility (LAF) participants"
+            }
+          ]
+        },
+        "kind": {
+          "value": "rates_operational",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "to increase the policy repo rate under the Liquidity Adjustment Facility (LAF) by 25 basis points from 5.25 per cent to 5.50 per cent with immediate effect"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "the standing deposit facility (SDF) rate and marginal standing facility (MSF) rate stand adjusted to 5.25 per cent and 5.75 per cent respectively, with immediate effect"
+            }
+          ],
+          "note": "rates participants pay and earn change"
+        },
+        "effective_date": {
+          "value": "2026-10-07",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "by 25 basis points from 5.25 per cent to 5.50 per cent with immediate effect"
+            }
+          ],
+          "note": "immediate: October 07, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "none"
+        }
+      }
+    },
+    {
+      "id": "R13730",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "commercial_banks"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall be applicable to commercial banks with an international presence or with book value of derivative outstanding"
+            }
+          ],
+          "note": "larger commercial banks; others may choose to adopt"
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Amendment Directions, 2026"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 4,
+              "quote": "in case a CCP uses initial margin to mutualise losses among the clearing members, it shall be treated as a default fund exposure"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2027-04-01",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall come into effect from April 1, 2027"
+            }
+          ]
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions"
+        }
+      }
+    },
+    {
+      "id": "R13735",
+      "labels": {
+        "applies_to": {
+          "value": [
+            "aifis"
+          ],
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026"
+            }
+          ]
+        },
+        "kind": {
+          "value": "amendment",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "are amended as provided below"
+            }
+          ]
+        },
+        "action_required": {
+          "value": "yes",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "a risk weight of 2 per cent shall be applied to the AIFI’s trade exposure to the QCCP"
+            }
+          ]
+        },
+        "effective_date": {
+          "value": "2026-10-07",
+          "evidence": [
+            {
+              "page": 1,
+              "quote": "These Amendment Directions shall come into effect from the date of issue"
+            }
+          ],
+          "note": "date of issue: October 07, 2026"
+        },
+        "comply_by": {
+          "value": []
+        },
+        "comments_by": {
+          "value": "none"
+        },
+        "amends": {
+          "value": "Reserve Bank of India (All India Financial Institutions (AIFIs) - Prudential Norms on Capital Adequacy) Directions, 2025"
+        }
+      }
+    }
+  ]
+}
