@@ -1,0 +1,47 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13515",
+ "sha256": "42c77268e4560744f5e8015f74aff5fd77c74496aa54c894b86c3ee51de1a924",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1786,
+  "output_tokens": 405
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "To All Authorised Dealer Category-I Banks",
+    "page": 1
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Submit daily data on FCNR (B) deposits, ECBs, and OFCBs mobilized under the swap facility by 6 p.m. every day in the specified formats.",
+  "action_quote": "All AD Category-I banks are advised to submit daily data on FCNR (B) deposits, External Commercial Borrowings ( ECBs) and Overseas Foreign Currency Borrowings (OFCBs)",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-06-19",
+   "quote": "June 19, 2026",
+   "page": 1
+  },
+  "comply_by": [
+   {
+    "date": "2026-06-22",
+    "quote": "The data on FCNR (B) deposits , ECBs and OFCBs from June 08, 2026 till issuance of these directions, shall be submitted along with the first reporting due on June 22, 2026.",
+    "page": 1,
+    "what": "Submit data from June 08, 2026 till issuance of these directions along with the first reporting."
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

@@ -51,6 +51,37 @@ documents, and the PRD's rule was that the cheaper model ships if it passes the 
 **Frozen for the release run:** rules + gemini-3.5-flash-lite union, one read, prompt version `ec58effdcc`,
 up to 18 pages per notification, temperature 0.
 
-## Held-out (35 notifications: 29 random draw + 6 payments supplement)
+## Held-out (35 notifications: 29 random draw + 6 payments supplement, 59 applicable pairs, 105 date facts)
 
-Not yet run.
+**Release run 1** — frozen configuration from commit 9d453a9, run once ([log](results/holdout_run1.log)).
+**Failed the gate: 2 applicable pairs missed (gate: 0).** Every other gate line passed.
+
+| Version | Missed pairs | Precision | Dates correct / wrong / withheld | Kind | Action |
+| --- | --- | --- | --- | --- | --- |
+| Rules only | 6 | 98.1% | 95 / 10 / 0 | 89% | 77% |
+| Model only | 1 | 96.7% | 102 / 3 / 0 | 91% | 91% |
+| Model + checks | 2 | 96.6% | 99 / 0 / 6 | 91% | 91% |
+| **Rules + model (union)** | **2** | **95.0%** | **99 / 0 / 6** | **97%** | **91%** |
+
+Gate: missed 2 (needed 0) ✗, precision 95.0% (≥ 85%) ✓, wrong dates 0.0% (≤ 2%) ✓, correct dates 94% (≥ 85%) ✓.
+Random draw: 1 missed, 94.2% precision. Payments supplement: 1 missed, 100% precision.
+
+Both misses are the catch-all type "other", not a regulated entity type:
+- **R13727** (to "All Liquidity Adjustment Facility (LAF) participants"): the model answered correctly, with the
+  right quote. **The entity check threw it away**: its word list had "LAF participants", and the "(LAF)" in
+  between broke the match. The rules missed the same line for the same reason. A bug in my code, not the model.
+- **R13449** (outward remittances through non-bank platforms): the label counts the third-party platforms as
+  "other", because the annex places obligations on them ("The third party shall have a comprehensive Privacy
+  Policy"). Neither the rules nor the model flagged them; the model listed only the authorised dealers.
+
+On the 16 named entity types (57 pairs), the model and the model + checks missed 0 and added 0; the union
+missed 0 and added 1. The rules, which scored 100% on development, missed 4 named pairs here (they were written
+after reading the development documents), so on unseen notifications the model carried recall, not the rules.
+
+The 3 extra pairs: two "other" (R13701 names NRIs and FPIs in a KYC proviso; R13712 tells banks to inform their
+"exporter constituents"), both let through by the "other" words I added after development run 1; and one
+`aifis` from the rules (R13592's applicability sentence mentions the National Housing Bank *Act*).
+Dates: none wrong; 6 withheld as "check the document", 3 of them where the notification states no date.
+
+The held-out labels are unchanged. Fixes below are tested on development only, and a release claim needs a
+fresh held-out set.

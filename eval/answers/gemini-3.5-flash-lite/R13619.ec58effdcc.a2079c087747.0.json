@@ -1,0 +1,45 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13619",
+ "sha256": "a2079c08774701b4ddf24eb30f5f4ba9c2890e481f89ecf5e268e4a9f1828f9b",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  14,
+  16,
+  19,
+  22
+ ],
+ "usage": {
+  "input_tokens": 4005,
+  "output_tokens": 264
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "payments_banks",
+    "quote": "These Directions shall be applicable to Payments Banks (hereinafter collectively referred to as 'banks' and individually as 'bank').",
+    "page": 3
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Payments banks must comply with supervisory directions on IT access, unclaimed deposits, fraud prevention, vigilance, and staff rotation.",
+  "action_quote": "The bank shall put in place a system of internal vigilance machinery as per the guidelines furnished below with the approval of the Board",
+  "action_page": 16,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into effect immediately upon issuance.",
+   "page": 3
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 0
+  },
+  "amends": "none"
+ }
+}

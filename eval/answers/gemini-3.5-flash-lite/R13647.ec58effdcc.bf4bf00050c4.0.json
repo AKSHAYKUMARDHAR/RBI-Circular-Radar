@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13647",
+ "sha256": "bf4bf00050c4ce17124a3d453cbeafc8abc100066edf3b278d950260e6d1600d",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1760,
+  "output_tokens": 286
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Reserve Bank of India (Commercial Banks – Asset Liability Management) Second Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Commercial banks must update their references for LCR and NSFR disclosure templates to the specified capital adequacy and financial statements directions.",
+  "action_quote": "For LCR disclosure template and related instructions, a bank shall refer to relevant instructions in Reserve Bank of India",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2027-04-01",
+   "quote": "The above amendments shall come into force from April 1, 2027.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Asset Liability Management) Directions, 2025"
+ }
+}

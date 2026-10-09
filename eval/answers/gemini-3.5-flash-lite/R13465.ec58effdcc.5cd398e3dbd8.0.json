@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13465",
+ "sha256": "5cd398e3dbd8b33072c38c7a16e051d05f4979266ddf173e941825aa83dfebfe",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1881,
+  "output_tokens": 288
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "All Category - I Authorised Dealer Banks",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Authorised Dealer Category-I banks must submit specified monthly foreign exchange returns on the CIMS portal starting from June 2026 data.",
+  "action_quote": "all AD Category – I banks shall upload the above- mentioned statement on CIMS portal",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-06-30",
+   "quote": "with effect from June 30, 2026, the above-mentioned statement shall be submitted on the Centralized Information Management System (CIMS) portal",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "Master Direction on ‘Reporting under Foreign Exchange Management Act, 1999’"
+ }
+}

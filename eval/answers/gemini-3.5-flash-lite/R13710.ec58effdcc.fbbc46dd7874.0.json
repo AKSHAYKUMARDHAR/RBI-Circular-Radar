@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13710",
+ "sha256": "fbbc46dd7874b3eaa2e0768b64ea4b101b8ffdcb3529356ca34c4a1ea192a4a8",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2048,
+  "output_tokens": 299
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "payments_banks",
+    "quote": "Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Ensure that quoted and unquoted units and instruments of InvITs and REITs are valued in accordance with the newly inserted valuation instructions.",
+  "action_quote": "Paragraph 83A shall be inserted as under: - “83A. Units of Infrastructure Investment Trusts (InvITs)",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-09-22",
+   "quote": "These Amendment Directions shall come into effect from the date of issue.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Directions, 2025"
+ }
+}

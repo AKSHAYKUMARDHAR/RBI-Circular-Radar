@@ -1,0 +1,60 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13502",
+ "sha256": "1b109c7a6271da3e64c52a70969dad072648e1e017e9023c687c5331449d8965",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "usage": {
+  "input_tokens": 5907,
+  "output_tokens": 462
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "payment_operators",
+    "quote": "These Directions apply to: (i) An entity applying for authorisation to operate a payment system under the PSS Act. (ii) An entity authorised to operate a payment system under the PSS Act.",
+    "page": 4
+   },
+   {
+    "entity_type": "payment_aggregators",
+    "quote": "These Directions apply to: (i) An entity applying for authorisation to operate a payment system under the PSS Act. (ii) An entity authorised to operate a payment system under the PSS Act.",
+    "page": 4
+   },
+   {
+    "entity_type": "ppi_issuers",
+    "quote": "These Directions apply to: (i) An entity applying for authorisation to operate a payment system under the PSS Act. (ii) An entity authorised to operate a payment system under the PSS Act.",
+    "page": 4
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Ensure compliance with the new master directions covering authorisation, net-worth requirements, FATF investment restrictions, perpetual validity, and voluntary surrender procedures for payment systems.",
+  "action_quote": "These Directions apply to: (i) An entity applying for authorisation to operate a payment system under the PSS Act. (ii) An entity authorised to operate a payment system under the PSS Act.",
+  "action_page": 4,
+  "effective_date": {
+   "date": "2026-06-15",
+   "quote": "These directions shall come into effect on the day they are placed on the website of the Reserve Bank.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

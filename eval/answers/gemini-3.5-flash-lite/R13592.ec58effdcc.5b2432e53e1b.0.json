@@ -1,0 +1,56 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13592",
+ "sha256": "5b2432e53e1b1d1b500fb21ebe6176d28bcf3386543097b6c53aeb43ad860073",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  7,
+  12,
+  13,
+  14,
+  18,
+  20,
+  21,
+  23,
+  24,
+  25,
+  35,
+  36,
+  40,
+  42,
+  46
+ ],
+ "usage": {
+  "input_tokens": 8103,
+  "output_tokens": 255
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "nbfcs",
+    "quote": "The provisions contained in these Directions shall be applicable to all Non-Banking Financial Companies",
+    "page": 3
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "NBFCs must comply with the cybersecurity, IT governance, risk, resilience, and assurance framework requirements set out across the chapters.",
+  "action_quote": "The NBFC shall establish a robust IT Governance framework that is integrated with its overall corporate governance structure.",
+  "action_page": 12,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 3
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

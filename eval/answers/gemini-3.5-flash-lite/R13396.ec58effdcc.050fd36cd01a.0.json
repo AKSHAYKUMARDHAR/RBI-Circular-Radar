@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13396",
+ "sha256": "050fd36cd01aac8b5bb6c1f33135d088115059e3367bf9fef7f9aff20d188c94",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1738,
+  "output_tokens": 302
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Repeal Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "withdrawal",
+  "action_required": "no",
+  "action": "No action required as the notification merely repeals previous directions and replaces them with new ones effective April 1, 2027.",
+  "action_quote": "hereby repeals Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2027-04-01",
+   "quote": "with effect from April 01, 2027.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Income Recognition, Asset Classification and Provisioning) Directions, 2025"
+ }
+}

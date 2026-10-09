@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13427",
+ "sha256": "218271f89fc54f4760c1ab61918913a21c069a479ffb64c63fe55da810856550",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1984,
+  "output_tokens": 381
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Master Direction – Reserve Bank of India (Relief Measures by Banks in Areas affected by Natural Calamities) Directions 2018 – SCBs",
+    "page": 1
+   }
+  ],
+  "kind": "withdrawal",
+  "action_required": "no",
+  "action": "No action is required as this notification repeals the existing relief measure directions for scheduled commercial banks and replaces them with alternative directions.",
+  "action_quote": "hereby repeals Master Direction – Reserve Bank of India (Relief Measures by Banks in Areas affected by Natural Calamities) Directions 2018 – SCBs dated October 17, 2018",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-07-01",
+   "quote": "The Directions shall be replaced with the following Directions issued on April 29, 2026, with effect from July 01, 2026.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Master Direction – Reserve Bank of India (Relief Measures by Banks in Areas affected by Natural Calamities) Directions 2018 – SCBs"
+ }
+}

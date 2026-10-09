@@ -1,0 +1,3224 @@
+{
+ "split": "holdout",
+ "model": "gemini-3.5-flash-lite",
+ "reads": 1,
+ "unread": [],
+ "stopped": null,
+ "summary": {
+  "all": {
+   "rules": {
+    "documents": 35,
+    "pairs": 59,
+    "missed": 6,
+    "extra": 1,
+    "recall": 0.8983050847457628,
+    "precision": 0.9814814814814815,
+    "dates": {
+     "wrong": 10,
+     "correct": 95
+    },
+    "correct_dates": 0.9047619047619048,
+    "wrong_dates": 0.09523809523809523,
+    "kind_accuracy": 0.8857142857142857,
+    "action_accuracy": 0.7714285714285715,
+    "gate": false
+   },
+   "model": {
+    "documents": 35,
+    "pairs": 59,
+    "missed": 1,
+    "extra": 2,
+    "recall": 0.9830508474576272,
+    "precision": 0.9666666666666667,
+    "dates": {
+     "correct": 102,
+     "wrong": 3
+    },
+    "correct_dates": 0.9714285714285714,
+    "wrong_dates": 0.02857142857142857,
+    "kind_accuracy": 0.9142857142857143,
+    "action_accuracy": 0.9142857142857143,
+    "gate": false
+   },
+   "checked": {
+    "documents": 35,
+    "pairs": 59,
+    "missed": 2,
+    "extra": 2,
+    "recall": 0.9661016949152542,
+    "precision": 0.9661016949152542,
+    "dates": {
+     "withheld": 6,
+     "correct": 99
+    },
+    "correct_dates": 0.9428571428571428,
+    "wrong_dates": 0.0,
+    "kind_accuracy": 0.9142857142857143,
+    "action_accuracy": 0.9142857142857143,
+    "gate": false
+   },
+   "union": {
+    "documents": 35,
+    "pairs": 59,
+    "missed": 2,
+    "extra": 3,
+    "recall": 0.9661016949152542,
+    "precision": 0.95,
+    "dates": {
+     "withheld": 6,
+     "correct": 99
+    },
+    "correct_dates": 0.9428571428571428,
+    "wrong_dates": 0.0,
+    "kind_accuracy": 0.9714285714285714,
+    "action_accuracy": 0.9142857142857143,
+    "gate": false
+   }
+  },
+  "random draw": {
+   "rules": {
+    "documents": 29,
+    "pairs": 50,
+    "missed": 2,
+    "extra": 1,
+    "recall": 0.96,
+    "precision": 0.9795918367346939,
+    "dates": {
+     "wrong": 9,
+     "correct": 78
+    },
+    "correct_dates": 0.896551724137931,
+    "wrong_dates": 0.10344827586206896,
+    "kind_accuracy": 0.8620689655172413,
+    "action_accuracy": 0.7241379310344828,
+    "gate": false
+   },
+   "model": {
+    "documents": 29,
+    "pairs": 50,
+    "missed": 0,
+    "extra": 2,
+    "recall": 1.0,
+    "precision": 0.9615384615384616,
+    "dates": {
+     "correct": 84,
+     "wrong": 3
+    },
+    "correct_dates": 0.9655172413793104,
+    "wrong_dates": 0.034482758620689655,
+    "kind_accuracy": 0.9310344827586207,
+    "action_accuracy": 0.896551724137931,
+    "gate": false
+   },
+   "checked": {
+    "documents": 29,
+    "pairs": 50,
+    "missed": 1,
+    "extra": 2,
+    "recall": 0.98,
+    "precision": 0.9607843137254902,
+    "dates": {
+     "withheld": 6,
+     "correct": 81
+    },
+    "correct_dates": 0.9310344827586207,
+    "wrong_dates": 0.0,
+    "kind_accuracy": 0.9310344827586207,
+    "action_accuracy": 0.896551724137931,
+    "gate": false
+   },
+   "union": {
+    "documents": 29,
+    "pairs": 50,
+    "missed": 1,
+    "extra": 3,
+    "recall": 0.98,
+    "precision": 0.9423076923076923,
+    "dates": {
+     "withheld": 5,
+     "correct": 82
+    },
+    "correct_dates": 0.9425287356321839,
+    "wrong_dates": 0.0,
+    "kind_accuracy": 0.9655172413793104,
+    "action_accuracy": 0.896551724137931,
+    "gate": false
+   }
+  },
+  "supplement": {
+   "rules": {
+    "documents": 6,
+    "pairs": 9,
+    "missed": 4,
+    "extra": 0,
+    "recall": 0.5555555555555556,
+    "precision": 1.0,
+    "dates": {
+     "correct": 17,
+     "wrong": 1
+    },
+    "correct_dates": 0.9444444444444444,
+    "wrong_dates": 0.05555555555555555,
+    "kind_accuracy": 1.0,
+    "action_accuracy": 1.0,
+    "gate": false
+   },
+   "model": {
+    "documents": 6,
+    "pairs": 9,
+    "missed": 1,
+    "extra": 0,
+    "recall": 0.8888888888888888,
+    "precision": 1.0,
+    "dates": {
+     "correct": 18
+    },
+    "correct_dates": 1.0,
+    "wrong_dates": 0.0,
+    "kind_accuracy": 0.8333333333333334,
+    "action_accuracy": 1.0,
+    "gate": false
+   },
+   "checked": {
+    "documents": 6,
+    "pairs": 9,
+    "missed": 1,
+    "extra": 0,
+    "recall": 0.8888888888888888,
+    "precision": 1.0,
+    "dates": {
+     "correct": 18
+    },
+    "correct_dates": 1.0,
+    "wrong_dates": 0.0,
+    "kind_accuracy": 0.8333333333333334,
+    "action_accuracy": 1.0,
+    "gate": false
+   },
+   "union": {
+    "documents": 6,
+    "pairs": 9,
+    "missed": 1,
+    "extra": 0,
+    "recall": 0.8888888888888888,
+    "precision": 1.0,
+    "dates": {
+     "correct": 17,
+     "withheld": 1
+    },
+    "correct_dates": 0.9444444444444444,
+    "wrong_dates": 0.0,
+    "kind_accuracy": 1.0,
+    "action_accuracy": 1.0,
+    "gate": false
+   }
+  }
+ },
+ "rows": {
+  "rules": [
+   {
+    "id": "R13361",
+    "supplement": false,
+    "tp": 7,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13367",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-09",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13396",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "withdrawal",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13403",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13427",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "withdrawal",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13429",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13440",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13449",
+    "supplement": true,
+    "tp": 1,
+    "missed": [
+     "other"
+    ],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2016-01-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13465",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13470",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": false,
+    "kind": null,
+    "action": null,
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13502",
+    "supplement": true,
+    "tp": 0,
+    "missed": [
+     "payment_aggregators",
+     "payment_operators",
+     "ppi_issuers"
+    ],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-06-15",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13515",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "wrong",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13542",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13564",
+    "supplement": false,
+    "tp": 10,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": false,
+    "kind": null,
+    "action": null,
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13575",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [
+      "2026-09-30",
+      "2027-09-30"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "wrong",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13591",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13592",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [
+     "aifis"
+    ],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13593",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13615",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13619",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13623",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13625",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13627",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13642",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13647",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13679",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-25",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13688",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-25",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13701",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-18",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13707",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-22",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13710",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-22",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13712",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": false,
+    "kind": null,
+    "action": null,
+    "pred_dates": {
+     "effective_date": "2026-08-27",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13723",
+    "supplement": false,
+    "tp": 7,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "not_stated",
+     "comply_by": [
+      "2027-06-30"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13727",
+    "supplement": false,
+    "tp": 0,
+    "missed": [
+     "other"
+    ],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-07",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13730",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13735",
+    "supplement": false,
+    "tp": 0,
+    "missed": [
+     "aifis"
+    ],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-07",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   }
+  ],
+  "model": [
+   {
+    "id": "R13361",
+    "supplement": false,
+    "tp": 7,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13367",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-09",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13396",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "withdrawal",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13403",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13427",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "withdrawal",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13429",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13440",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13449",
+    "supplement": true,
+    "tp": 1,
+    "missed": [
+     "other"
+    ],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-05-13",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13465",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-06-30",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13470",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-06-08",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13502",
+    "supplement": true,
+    "tp": 3,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-06-15",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13515",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-06-19",
+     "comply_by": [
+      "2026-06-22"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13542",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-06-24",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13564",
+    "supplement": false,
+    "tp": 10,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "other",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-15",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "wrong",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13575",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-01",
+     "comply_by": [
+      "2027-09-30"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13591",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13592",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13593",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13615",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13619",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13623",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13625",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13627",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13642",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13647",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13679",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-25",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13688",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-25",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13701",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [
+     "other"
+    ],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-09-18",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13707",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-22",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13710",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-22",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13712",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [
+     "other"
+    ],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "other",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-27",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13723",
+    "supplement": false,
+    "tp": 7,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-02",
+     "comply_by": [
+      "2027-06-30"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13727",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-07",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13730",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13735",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-07",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   }
+  ],
+  "checked": [
+   {
+    "id": "R13361",
+    "supplement": false,
+    "tp": 7,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13367",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-09",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13396",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "withdrawal",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13403",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13427",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "withdrawal",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13429",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13440",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13449",
+    "supplement": true,
+    "tp": 1,
+    "missed": [
+     "other"
+    ],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-05-13",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13465",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-06-30",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13470",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13502",
+    "supplement": true,
+    "tp": 3,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-06-15",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13515",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [
+      "2026-06-22"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13542",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13564",
+    "supplement": false,
+    "tp": 10,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "other",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13575",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "withheld",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13591",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13592",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13593",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13615",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13619",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13623",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13625",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13627",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13642",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13647",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13679",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-25",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13688",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-25",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13701",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [
+     "other"
+    ],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-09-18",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13707",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-22",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13710",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-22",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13712",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [
+     "other"
+    ],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "other",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-27",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13723",
+    "supplement": false,
+    "tp": 7,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-02",
+     "comply_by": [
+      "2027-06-30"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13727",
+    "supplement": false,
+    "tp": 0,
+    "missed": [
+     "other"
+    ],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-07",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13730",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13735",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-07",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   }
+  ],
+  "union": [
+   {
+    "id": "R13361",
+    "supplement": false,
+    "tp": 7,
+    "missed": [],
+    "extra": [],
+    "kind_ok": false,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13367",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-09",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13396",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "withdrawal",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13403",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13427",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "withdrawal",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13429",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13440",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-07-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13449",
+    "supplement": true,
+    "tp": 1,
+    "missed": [
+     "other"
+    ],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13465",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-06-30",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13470",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13502",
+    "supplement": true,
+    "tp": 3,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-06-15",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13515",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [
+      "2026-06-22"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13542",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13564",
+    "supplement": false,
+    "tp": 10,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "other",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "withheld",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "withheld",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13575",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-01",
+     "comply_by": [
+      "2027-09-30"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13591",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13592",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [
+     "aifis"
+    ],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13593",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13615",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13619",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13623",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13625",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13627",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13642",
+    "supplement": true,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-07-31",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13647",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13679",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-25",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13688",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-25",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13701",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [
+     "other"
+    ],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "no",
+    "pred_dates": {
+     "effective_date": "2026-09-18",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13707",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-22",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13710",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-09-22",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13712",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [
+     "other"
+    ],
+    "kind_ok": true,
+    "action_ok": false,
+    "kind": "other",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-08-27",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13723",
+    "supplement": false,
+    "tp": 7,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "new_direction",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-02",
+     "comply_by": [
+      "2027-06-30"
+     ],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13727",
+    "supplement": false,
+    "tp": 0,
+    "missed": [
+     "other"
+    ],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "rates_operational",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-07",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13730",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2027-04-01",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   },
+   {
+    "id": "R13735",
+    "supplement": false,
+    "tp": 1,
+    "missed": [],
+    "extra": [],
+    "kind_ok": true,
+    "action_ok": true,
+    "kind": "amendment",
+    "action": "yes",
+    "pred_dates": {
+     "effective_date": "2026-10-07",
+     "comply_by": [],
+     "comments_by": "none"
+    },
+    "dates": {
+     "effective_date": "correct",
+     "comply_by": "correct",
+     "comments_by": "correct"
+    }
+   }
+  ]
+ }
+}

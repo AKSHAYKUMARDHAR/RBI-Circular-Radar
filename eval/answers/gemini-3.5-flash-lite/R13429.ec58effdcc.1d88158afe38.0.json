@@ -1,0 +1,41 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13429",
+ "sha256": "1d88158afe383fe0c508405f1d4ec6c00cdea9fb107641580dc9f0d2e90d10be",
+ "pages_shown": [
+  1,
+  2,
+  3
+ ],
+ "usage": {
+  "input_tokens": 2499,
+  "output_tokens": 299
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "rural_coop_banks",
+    "quote": "Reserve Bank of India (Rural Cooperative Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Maintain additional specific provisions of five percent for restructured borrower accounts and recognize interest income on accrual or cash basis as specified.",
+  "action_quote": "A bank shall make an additional specific provision of five percent of the outstanding debt in respect of borrowers, for whom a resolution plan has been implemented",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-07-01",
+   "quote": "The above amendment shall come into force with effect from July 1, 2026.",
+   "page": 3
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Master Directions on Income Recognition, Asset Classification and Provisioning for Rural Cooperative Banks"
+ }
+}

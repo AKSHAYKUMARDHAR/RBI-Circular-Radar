@@ -1,0 +1,55 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13591",
+ "sha256": "d198ab377880f7bc2569a1fc894a1a7636f672522b6d8bbd6a6431c9c92af9de",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  9,
+  10,
+  11,
+  13,
+  15,
+  16,
+  18,
+  19,
+  20,
+  21,
+  25,
+  29
+ ],
+ "usage": {
+  "input_tokens": 7927,
+  "output_tokens": 276
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "nbfcs",
+    "quote": "These Directions shall be applicable to Credit-Card issuing Non-Banking Financial Companies (hereinafter collectively referred to as ‘NBFCs’ and individually as ‘NBFC’).",
+    "page": 2
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Credit-card issuing NBFCs must implement comprehensive digital payment security controls covering governance, risk management, application security, authentication, and card security.",
+  "action_quote": "The NBFC shall formulate a policy for digital payment products and services with the approval of its Board.",
+  "action_page": 6,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into effect immediately upon issuance.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

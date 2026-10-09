@@ -1,0 +1,45 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13701",
+ "sha256": "2a9eec634abee839b5b8c8a7c8902ec1adc0e0e4bb8e451e804ab327113cc977",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2021,
+  "output_tokens": 364
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "local_area_banks",
+    "quote": "Reserve Bank of India (Local Area Banks – Know Your Customer) Amendment Directions, 2026",
+    "page": 1
+   },
+   {
+    "entity_type": "other",
+    "quote": "Provided that in case of Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs), as defined in Foreign Exchange Management (Deposit) Regulations, 2016 {FEMA 5(R)}, and Foreign Portfolio Investors (FPIs), the bank may alternatively obtain the original certified copy",
+    "page": 2
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "Local Area Banks may optionally accept alternative certified KYC documents for Foreign Portfolio Investors as permitted.",
+  "action_quote": "the bank may alternatively obtain the original certified copy, certified by any one of the following",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-09-18",
+   "quote": "These Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Local Area Banks – Know Your Customer) Directions, 2025"
+ }
+}

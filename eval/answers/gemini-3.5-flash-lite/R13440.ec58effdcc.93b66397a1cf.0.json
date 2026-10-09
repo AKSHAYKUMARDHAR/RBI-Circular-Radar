@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13440",
+ "sha256": "93b66397a1cf4d84e2d86a3b4cd7e456a47441aba38d2365c916878e680a872d",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1760,
+  "output_tokens": 277
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "aifis",
+    "quote": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "No action required as the provisions are purely discretionary for All-India Financial Institutions.",
+  "action_quote": "An AIFI at its discretion, may provide relief measures such as waiver / reduction of various fees and charges",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-07-01",
+   "quote": "The above amendment shall come into force with effect from July 1, 2026.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (All India Financial Institutions – Responsible Business Conduct) Directions"
+ }
+}

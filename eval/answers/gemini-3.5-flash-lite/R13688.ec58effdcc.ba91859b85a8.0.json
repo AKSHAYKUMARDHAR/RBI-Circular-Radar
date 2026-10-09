@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13688",
+ "sha256": "ba91859b85a8d96bdc7204fbd94dde0bf9ff7efc41ca1db95251085b209bfb40",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1831,
+  "output_tokens": 322
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "regional_rural_banks",
+    "quote": "Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Third Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Update deposit interest rate ceilings and relaxations for FCNR(B) and NRE deposits to end on August 31, 2026 instead of September 30, 2026.",
+  "action_quote": "it has been decided to amend the date ‘September 30, 2026’ to the date ‘August 31, 2026’ for the aforementioned temporary relaxation.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-08-25",
+   "quote": "These Amendment Directions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Directions, 2025"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13623",
+ "sha256": "45d4a633145603418bf972681d43dac75cb6a64ad2e94ab57285cdec81d4abcd",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  7,
+  9,
+  10,
+  11,
+  13,
+  14,
+  15,
+  16,
+  20
+ ],
+ "usage": {
+  "input_tokens": 5882,
+  "output_tokens": 280
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "payments_banks",
+    "quote": "These Directions shall be applicable to Payments Banks (hereinafter collectively referred to as 'PBs' and individually as 'PB').",
+    "page": 4
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Payments banks must implement the fraud risk management directions, including governance structures, early warning systems, fraud monitoring, and reporting procedures.",
+  "action_quote": "The PB shall have a well laid out system for issuance of SCN and examination of the responses / submissions made by the Persons / Entities prior to declaring such Persons / Entities as fraudulent.",
+  "action_page": 7,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into effect immediately upon issuance.",
+   "page": 4
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

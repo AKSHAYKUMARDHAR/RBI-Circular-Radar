@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13542",
+ "sha256": "beabc312c2acbdca1bd46842437b5799d1ec0f324366152bf3ccf433fc4e9636",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1972,
+  "output_tokens": 298
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "nbfcs",
+    "quote": "Reserve Bank of India (Non- Banking Financial Companies – Financial Statements: Presentation and Disclosures) Second Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "No action is required by NBFCs as these directions introduce an exemption for government-owned and controlled Upper Layer NBFCs.",
+  "action_quote": "Provided that these provisions shall not be applicable to NBFC-UL which are fully owned and controlled by Government.",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-06-24",
+   "quote": "These Amendment Directions shall come into force with effect from date of issuance.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Non- Banking Financial Companies – Financial Statements: Presentation and Disclosures) Directions, 2025"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13575",
+ "sha256": "d91e134402e4ff5227050b34dacf4728e182e94d64e11546ce572830bd1e0e59",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1995,
+  "output_tokens": 471
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "nbfcs",
+    "quote": "Reserve Bank of India (Non-Banking Financial Companies Income Recognition, Asset Classification and Provisioning) Third Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "NBFCs must not recognize unrealized interest as income upon acquiring specified non-financial assets, reverse any such prior income by September 30, 2027, and properly account for SNFA income and expenses.",
+  "action_quote": "Where such income has been recognised in respect of any SNFA outstanding in the books of a NBFC as on September 30, 2026, it shall be reversed through Profit and Loss account, latest by September 30, 2027",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-01",
+   "quote": "The above amendment would come into force with effect from October 01, 2026.",
+   "page": 2
+  },
+  "comply_by": [
+   {
+    "date": "2027-09-30",
+    "quote": "reversed through Profit and Loss account, latest by September 30, 2027, to the extent remaining unrealised as on that date.",
+    "page": 1,
+    "what": "Reverse previously recognized unrealized interest income from acquired specified non-financial assets through the Profit and Loss account to the extent remaining unrealized."
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "not_stated",
+   "page": 1
+  },
+  "amends": "Master Directions - Non-Banking Financial Company - Systemically Important Non-Deposit taking Company and Deposit taking Company (Reserve Bank) Directions, 2016"
+ }
+}

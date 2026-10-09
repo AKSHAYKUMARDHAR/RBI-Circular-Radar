@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13727",
+ "sha256": "cb72f81e540aa73e770c0dcc26b78a53081591bcf61793258fec0e3e41873953",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1666,
+  "output_tokens": 272
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "other",
+    "quote": "All Liquidity Adjustment Facility (LAF) participants",
+    "page": 1
+   }
+  ],
+  "kind": "rates_operational",
+  "action_required": "yes",
+  "action": "Note the change in the repo, SDF, and MSF rates under the LAF scheme with immediate effect.",
+  "action_quote": "it has been decided by the Monetary Policy Committee (MPC) to increase the policy repo rate under the Liquidity Adjustment Facility (LAF) by 25 basis points from 5.25 per cent to 5.50 per cent with immediate effect.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-07",
+   "quote": "with immediate effect",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

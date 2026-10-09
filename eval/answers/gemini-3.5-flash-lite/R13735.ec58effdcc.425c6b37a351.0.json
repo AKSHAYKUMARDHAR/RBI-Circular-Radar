@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13735",
+ "sha256": "425c6b37a3513445d10ef928ee6cd4a372d73a3397016ec8ae6c89b0fd6b5904",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 1817,
+  "output_tokens": 332
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "aifis",
+    "quote": "Reserve Bank of India (All India Financial Institutions (AIFIs) – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Apply a 2 per cent risk weight to trade exposures to QCCPs for OTC derivatives, exchange-traded derivatives, and SFTs as specified.",
+  "action_quote": "Where an AIFI acts as a clearing member of a QCCP for its own purposes, a risk weight of 2 per cent shall be applied to the AIFI’s trade exposure to the QCCP",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-07",
+   "quote": "These Amendment Directions shall come into effect from the date of issue.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India ( All India Financial Institutions (AIFIs) - Prudential Norms on Capital Adequacy) Directions, 2025"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "ec58effdcc",
+ "doc": "R13470",
+ "sha256": "cd7c7abaa5652b0b28740772e0f07043c26a0333970fd881b29fea3727629932",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1783,
+  "output_tokens": 264
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "To, All Authorised Dealer Category-I Banks",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "no",
+  "action": "No action is required as the circular merely permits banks to exclude specific swap positions.",
+  "action_quote": "AD Cat-I banks may exclude the swap positions arising out of FCNR (B) deposits",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-06-08",
+   "quote": "June 8, 2026",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "A.P. (DIR Series) Circular No. 24 dated March 27, 2026"
+ }
+}
