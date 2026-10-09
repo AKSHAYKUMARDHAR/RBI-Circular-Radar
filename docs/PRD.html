@@ -1,0 +1,369 @@
+<title>RBI Circular Radar PRD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Public+Sans:wght@400;600;700&display=swap">
+<style>
+/* Layout: one reading column, styled like the insurer's own summary sheet: a schedule header, ruled tables, clause-style labels. */
+:root {
+  --paper: #f5f7f6; --sheet: #ffffff; --ink: #14212b; --muted: #56646e; --rule: #d6dde0;
+  --accent: #0d6b66; --accent-soft: #e3efed; --warn: #9a520c; --warn-soft: #f8ecdf;
+  --display: "Newsreader", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0e1417; --sheet: #131b1f; --ink: #e4eaed; --muted: #9babb4; --rule: #27343b;
+  --accent: #5cbcb3; --accent-soft: #15292a; --warn: #e0a05e; --warn-soft: #2a2016; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #0e1417; --sheet: #131b1f; --ink: #e4eaed; --muted: #9babb4; --rule: #27343b;
+  --accent: #5cbcb3; --accent-soft: #15292a; --warn: #e0a05e; --warn-soft: #2a2016; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 16px/1.65 var(--body); padding-inline: 16px; padding-block: 28px 64px; }
+.sheet { max-width: 860px; margin: 0 auto; background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding-inline: clamp(18px, 5vw, 56px); padding-block: 36px 48px; }
+.schedule { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0; border: 1px solid var(--rule); border-radius: 4px; margin-bottom: 28px; font: 12px/1.4 var(--mono); }
+.schedule div { padding: 8px 12px; border-right: 1px solid var(--rule); min-width: 0; }
+.schedule div:last-child { border-right: 0; }
+.schedule span { display: block; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; font-size: 10.5px; }
+h1 { font: 600 clamp(30px, 5.2vw, 44px)/1.12 var(--display); letter-spacing: -.01em; margin: 0 0 6px; text-wrap: balance; }
+.sub { font: 400 clamp(17px, 2.4vw, 20px)/1.4 var(--display); color: var(--muted); margin: 0 0 4px; }
+h2 { font: 600 26px/1.25 var(--display); margin: 44px 0 12px; padding-top: 18px; border-top: 1px solid var(--rule); text-wrap: balance; }
+h3 { font: 600 17px/1.35 var(--body); margin: 26px 0 8px; }
+p, li { max-width: 68ch; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+strong { font-weight: 650; }
+ul, ol { padding-left: 1.3em; }
+li { margin: 4px 0; }
+.table-wrap { overflow-x: auto; margin: 14px 0 18px; border: 1px solid var(--rule); border-radius: 4px; }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; line-height: 1.45; }
+th { text-align: left; font: 600 12px/1.3 var(--body); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); background: var(--accent-soft); padding: 10px 12px; border-bottom: 1px solid var(--rule); }
+td { padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td { font-variant-numeric: tabular-nums; }
+table.bill td:nth-child(n+2), table.bill th:nth-child(n+2) { text-align: right; white-space: nowrap; }
+table.bill td:nth-child(3) { color: var(--accent); }
+table.bill td:nth-child(4) { color: var(--warn); }
+table.bill tr:last-child td { background: var(--warn-soft); }
+ul.gate { list-style: none; padding-left: 0; }
+ul.gate li { padding-left: 30px; position: relative; }
+ul.gate li::before { content: ""; position: absolute; left: 0; top: .32em; width: 16px; height: 16px; border: 1.5px solid var(--muted); border-radius: 3px; }
+.foot { margin-top: 40px; font-size: 13px; color: var(--muted); }
+@media (max-width: 520px) { body { font-size: 15.5px; } .schedule div { border-right: 0; border-bottom: 1px solid var(--rule); } .schedule div:last-child { border-bottom: 0; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+<main class="sheet">
+  <div class="schedule" aria-label="Document details">
+    <div><span>Document</span>Product requirements</div>
+    <div><span>Author</span>Author: Akshay Dhar</div>
+    <div><span>Date</span>Status: draft v1</div>
+    <div><span>Status</span>9 October 2026</div>
+  </div>
+  <h1>RBI Circular Radar</h1>
+  <p class="sub">which new RBI rules apply to you, what to do, and by when</p>
+  <h2>TL;DR</h2>
+<p>The Reserve Bank of India publishes a new notification almost every working day, often several. On
+7 October 2026 alone it issued ten, and its numbering for the year had reached RBI/2026-27/289. A
+fintech's compliance team (a payment aggregator, a wallet issuer, a digital lender) has to read every
+one, decide whether it applies to their licences, and pull out what must change and by when. Most of
+it doesn't apply. The few that do carry penalties when missed.</p>
+<p>RBI Circular Radar reads each new notification, says which types of regulated entity it applies to,
+whether it requires action, and the dates that matter (in force from, comply by, comments due by),
+each with the exact words and page from RBI's own document. A team picks its licences once and gets
+a daily digest of only what applies to it, with a mark-as-reviewed step that leaves an audit trail.</p>
+<p><strong>The error that matters most here is a miss.</strong> A notification that applies to you, filed as
+irrelevant, is how penalties happen. So the release gate is recall-first: no applicable notification
+missed on a held-out set of real RBI notifications, frozen and labelled before any prompt is written.</p>
+<h2>Problem and evidence</h2>
+<p><strong>The volume is high and growing.</strong> RBI's notifications feed showed ten items on 7 October 2026
+alone, numbered up to RBI/2026-27/289 six months into the financial year, roughly 580 a year at that
+pace (<a href="https://www.rbi.org.in/notifications_rss.xml" target="_blank" rel="noopener">RBI notifications RSS</a>). An academic study puts
+the yearly flow of circulars above 200 across KYC/AML, digital lending, cybersecurity and risk, and
+calls manual interpretation "a significant bottleneck"
+(<a href="https://www.ijraset.com/research-paper/an-integrated-nlp-pipeline-for-automated-regulatory-impact" target="_blank" rel="noopener">IJRASET</a>).</p>
+<p><strong>The rulebook was just rebuilt, so the work changed shape.</strong> In November 2025 RBI withdrew about
+9,000 circulars and consolidated them into 244 Master Directions, issued separately for each type of
+regulated entity (<a href="https://www.businesstoday.in/amp/latest/economy/story/rbi-consolidates-9000-circulars-into-244-master-directions-for-enhanced-ease-of-doing-business-details-here-504215-2025-11-28" target="_blank" rel="noopener">Business Today</a>).
+New rules now arrive as "Amendment Directions" to those, often the same change issued several times,
+once per entity type: on 7 October 2026 one capital-adequacy change came as four documents, for
+commercial banks, small finance banks, payments banks and all-India financial institutions. Working
+out "does this one apply to us" is now a filtering problem across many near-identical documents.</p>
+<p><strong>Missing one costs money and trust.</strong> RBI fined Cashfree Payments, a payment aggregator, ₹3.10 lakh
+in March 2026 for non-compliance with its payment aggregator directions
+(<a href="https://www.moneylife.in/article/rbi-slaps-310-lakh-penalty-on-cashfree-payments-india/79960.html" target="_blank" rel="noopener">Moneylife</a>),
+three NBFCs ₹12 lakh in August 2026 for KYC and fair-practice lapses
+(<a href="https://www.moneylife.in/article/rbi-slaps-12-lakh-penalty-on-3-nbfcs-for-compliance-lapses/81300.html" target="_blank" rel="noopener">Moneylife</a>),
+and Hero FinCorp, Ola Financial Services and KLM Axiva ₹15.80 lakh in September 2026
+(<a href="https://www.moneylife.in/article/hero-fincorp-ola-financial-services-and-klm-axiva-fined-1580-lakh-by-rbi/81761.html" target="_blank" rel="noopener">Moneylife</a>).
+The fines are small; the supervisory findings, show-cause notices and repeat inspections behind them
+are not.</p>
+<p><strong>RBI itself asks for tooling.</strong> Its January 2024 circular (RBI/2023-24/117) told banks and
+middle- and upper-layer NBFCs to move compliance monitoring onto technology, with escalation, an
+audit trail and a dashboard for senior management
+(<a href="https://cleartax.in/s/internal-compliance-monitoring-rbi-circular-117" target="_blank" rel="noopener">ClearTax</a>); the deadline was
+later extended to 30 April 2025
+(<a href="https://complinity.com/blog/compliance/rbi-extends-deadline-to-implement-workflow-based-solution/" target="_blank" rel="noopener">Complinity</a>).
+Yet vendors report that many entities still get regulatory updates "pushed via excels"
+(<a href="https://www.lawrbit.com/article/rbi-regulated-entities-banks-nbfcs-hfcs-cics-implement-futuristic-scalable-compliance-management-solution/" target="_blank" rel="noopener">Lawrbit</a>).</p>
+<p><strong>Fintech rules are moving fast right now.</strong> Consolidated directions for payment aggregators came in
+September 2025, with authorisation deadlines that ran to December 2025
+(<a href="https://www.azbpartners.com/bank/rbi-issues-consolidated-reserve-bank-of-india-regulation-of-payment-aggregators-directions-2025/" target="_blank" rel="noopener">AZB &amp; Partners</a>);
+a draft master direction on prepaid payment instruments followed in April 2026
+(<a href="https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4987" target="_blank" rel="noopener">RBI</a>); a vendor reports recovery rules
+for lending apps taking effect on 1 January 2027
+(<a href="https://ecorpit.com/ecorpit-rbi-device-locking-recovery-compliance-engineering-service-india-2026/" target="_blank" rel="noopener">eCorpIT</a>,
+to be checked against the RBI text).</p>
+<h2>Users and jobs to be done</h2>
+<ul>
+<li><strong>Compliance manager at a fintech</strong> (payment aggregator, PPI issuer, NBFC digital lender). A
+  BharatPe job posting describes the work: monitor circulars from RBI, NPCI and others, run impact
+  assessments, coordinate with product, legal and tech
+  (<a href="https://nodeflair.com/jobs/bharatpe-senior-manager-compliance-testing-539452" target="_blank" rel="noopener">NodeFlair</a>).
+  <em>"Tell me every morning which new RBI items apply to our licences, what we must do, and by when,
+  so I can assign them before anyone asks."</em></li>
+<li><strong>Head of compliance / principal officer.</strong> <em>"Show me that nothing applicable was missed, and who
+  reviewed what."</em> Needs the audit trail RBI's 2024 circular expects.</li>
+<li><strong>Product or engineering lead at a fintech.</strong> <em>"When a rule changes something we built, tell me
+  the clause and the date, not a summary."</em></li>
+</ul>
+<p>Out of scope for v1: banks' large compliance departments (they buy TeamLease-class suites), legal
+interpretation, and non-RBI regulators (NPCI, SEBI, IRDAI).</p>
+<h2>Competitive landscape and positioning</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Option</th>
+<th>What it does</th>
+<th>Gap the Radar fills</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reading rbi.org.in or the RSS feed</td>
+<td>Complete and free</td>
+<td>Every item, every entity type; no filtering, no dates pulled out</td>
+</tr>
+<tr>
+<td>Law-firm and consultant newsletters</td>
+<td>Expert commentary</td>
+<td>Weekly or monthly, after the fact; not tied to your licences</td>
+</tr>
+<tr>
+<td>Compliance suites (TeamLease RegTrack, Fintellix C-Trac, Complinity)</td>
+<td>Obligation registers, maker-checker workflows, reminders (<a href="https://teamleaseregtech.com/product-services/statutory-regulatory-compliance-management-software/" target="_blank" rel="noopener">TeamLease</a>, <a href="https://fintellix.com/rbis-compliance-mandate-is-live-compliance-tracker-c-trac-has-you-covered/" target="_blank" rel="noopener">Fintellix</a>)</td>
+<td>Priced and built for enterprises; their AI claims aren't independently evaluated</td>
+</tr>
+<tr>
+<td>Research prototypes (autoReg)</td>
+<td>Summaries and change detection on 75 circulars, F1 0.78 (<a href="https://www.ijraset.com/research-paper/an-integrated-nlp-pipeline-for-automated-regulatory-impact" target="_blank" rel="noopener">IJRASET</a>)</td>
+<td>Not a product; no applicability or deadline focus</td>
+</tr>
+</tbody>
+</table></div>
+<p>Positioning: <strong>free, fintech-first, and measured.</strong> Every claim is quoted from RBI's PDF, and the
+accuracy is published from a held-out test on real notifications, misses first.</p>
+<h2>Goals and non-goals</h2>
+<p>Goals
+1. Tell a fintech team, for each new RBI notification, whether it applies to their entity types, with
+   the words that say so.
+2. Pull out the dates that matter (in force from, comply by, comments due by), each quoted.
+3. Classify what the notification is (new direction, amendment, withdrawal, draft for comments,
+   rate or operational change) and whether it requires action.
+4. Make review traceable: reviewed, not applicable (with a reason), or assigned, with an exportable log.</p>
+<p>Non-goals
+- Legal advice or interpretation of what a rule means for a specific business.
+- Summarising whole Master Directions; v1 reads new notifications.
+- Other regulators, and authenticated sources (RBI's DAKSH portal, bank-specific letters).</p>
+<h2>MVP scope</h2>
+<ol>
+<li><strong>Feed watcher.</strong> Reads RBI's notifications RSS daily (a scheduled job), downloads each new
+   notification's official PDF and keeps its hash.</li>
+<li><strong>Reader.</strong> For each notification: entity types it applies to, kind, action required or not,
+   key dates, and the Master Direction it amends, each with quote and page.</li>
+<li><strong>Profile.</strong> The team ticks its entity types once (for example "NBFC" and "Payment aggregator").</li>
+<li><strong>Digest.</strong> A page of new notifications, those that apply first, sorted by the nearest date, each
+   with its quotes and a link to the RBI PDF; everything else one click away, never hidden.</li>
+<li><strong>Review.</strong> Mark reviewed, not applicable (reason required) or assigned to a name; export the log
+   as CSV. Stored in the browser for the demo.</li>
+</ol>
+<p>Delivery: a static site rebuilt daily by GitHub Actions, so there is no server to keep awake, and the
+notifications the Radar has read are public data.</p>
+<h2>How answers stay trustworthy</h2>
+<p><strong>The rules read what is structured; the model reads the rest; code checks both.</strong></p>
+<ol>
+<li><strong>Rules first.</strong> Since the 2025 consolidation, most directions name their entity type in the
+   title ("Reserve Bank of India (Payments Banks – Prudential Norms on Capital Adequacy) Third
+   Amendment Directions, 2026"), and circulars open with an addressee line ("All banks", "All
+   Primary Dealers"). Code maps these to entity types with a fixed dictionary.</li>
+<li><strong>The model reads the PDF</strong> and returns the same fields with an exact quote and page for each.</li>
+<li><strong>Code checks every claim.</strong> A quote must be found on its page; a date must appear in its quote;
+   an entity type must be named in its quote.</li>
+<li><strong>When the rules and the model disagree on who a notification applies to, the Radar shows both
+   (the union).</strong> A false alert costs a reader one minute; a missed one can cost a penalty.</li>
+<li><strong>Nothing is hidden.</strong> Notifications judged not applicable stay listed below the applicable ones,
+   with the reason, so a person can overrule the Radar.</li>
+</ol>
+<h2>Safety, privacy and compliance</h2>
+<ul>
+<li>Public documents only; no customer, employee or transaction data is processed.</li>
+<li>Every card says it is not legal advice and links the RBI original, which prevails.</li>
+<li>The review log stays in the user's browser in v1.</li>
+<li>The model never sees anything but RBI's own text; a prompt-injection check runs on every document
+  anyway, as in the earlier projects.</li>
+</ul>
+<h2>Success metrics</h2>
+<p>North star: <strong>applicable notifications missed: 0.</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Target</th>
+<th>How measured</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Applicable (notification, entity type) pairs missed</td>
+<td>0 on the held-out set</td>
+<td>Eval against hand labels</td>
+</tr>
+<tr>
+<td>Applicability precision</td>
+<td>≥ 85%</td>
+<td>Eval; alert fatigue is the cost</td>
+</tr>
+<tr>
+<td>Wrong dates shown</td>
+<td>≤ 2% of labelled dates</td>
+<td>Eval</td>
+</tr>
+<tr>
+<td>Correct dates shown</td>
+<td>≥ 85% of labelled dates</td>
+<td>Eval</td>
+</tr>
+<tr>
+<td>Kind and "action required" correct</td>
+<td>≥ 90%</td>
+<td>Eval</td>
+</tr>
+<tr>
+<td>Time from RBI publication to digest</td>
+<td>&lt; 24 hours</td>
+<td>Feed timestamps vs build log</td>
+</tr>
+<tr>
+<td>Triage time per notification</td>
+<td>from ~10 minutes to ~1</td>
+<td>Timed on 10 notifications, by me, before and after</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Evaluation plan</h2>
+<p><strong>Documents, frozen before any prompt.</strong> About 50 real RBI notifications from April to October 2026,
+chosen to cover every kind: entity-wise amendment directions, NBFC and payment-system items, foreign
+exchange circulars to authorised dealers, rate and operational notices, drafts for comments and
+withdrawals. Each is pinned by URL and SHA-256. A seeded random draw, stratified by kind, splits them
+into about 20 for development and 30 held out.</p>
+<p><strong>Answer keys, written by hand before any prompt exists</strong>, under a label guide written first: for
+each notification, the set of entity types it applies to (14 types: RBI's 11 regulated-entity types
+plus payment aggregators, PPI issuers and other payment system operators, with authorised dealers and
+primary dealers), its kind, whether action is required, and its dates, each with quote and page,
+checked against the PDF by a script.</p>
+<p><strong>Scoring.</strong>
+- Applicability, per (notification, entity type) pair: recall and precision. A miss is the costly error.
+- Dates: correct, wrong (a date shown that the document doesn't support, or the wrong one), or
+  withheld.
+- Kind and action required: accuracy.
+- Every version is scored from the same model answers: rules only, model only, model + checks, and
+  rules + model (union), so the value of each layer is measured, not assumed.</p>
+<p><strong>Release gate</strong> (held-out set, run once): 0 applicable pairs missed, precision ≥ 85%, wrong dates
+≤ 2%, correct dates ≥ 85%, every shown claim quoted and verified.</p>
+<p><strong>Free-tier plan.</strong> Notifications are short (1–10 pages), so the dev runs compare gemini-3.5-flash-lite
+(500 free requests a day) with gemini-3.5-flash (20 a day). The cheaper model ships if it passes the
+dev bar; one read per document is tested against two. Earlier projects showed the lite models failing
+on long policy wordings; this checks whether that holds on short, structured documents.</p>
+<h2>Launch and distribution plan</h2>
+<ul>
+<li>Live demo: a public digest page, rebuilt daily, with a profile picker.</li>
+<li>Share in fintech compliance communities and with two or three practitioners for a 15-minute test,
+  timing their triage with and without the Radar.</li>
+<li>Case study and PRD on the portfolio, with the held-out results, pass or fail.</li>
+</ul>
+<h2>Timeline and risks</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Days</th>
+<th>Work</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Research, PRD, repo</td>
+</tr>
+<tr>
+<td>2–3</td>
+<td>Label guide, freeze ~50 notifications, write answer keys</td>
+</tr>
+<tr>
+<td>3–5</td>
+<td>Feed watcher, rules, reader, checks, digest page</td>
+</tr>
+<tr>
+<td>5–6</td>
+<td>Dev runs (lite vs flash, one read vs two), fixes on dev only</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Held-out release run, once</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Deploy, write-up, portfolio</td>
+</tr>
+</tbody>
+</table></div>
+<p>Risks
+- <strong>RBI changes its site or feed.</strong> The fetcher pins URLs and hashes; the scheduled job fails loudly.
+- <strong>"Applies to" is ambiguous</strong> ("All banks" vs specific bank types). The label guide fixes the
+  mapping before labelling; the union rule biases toward recall.
+- <strong>Free-tier limits and outages.</strong> Retries count against the daily quota, as the last project found;
+  retries are capped and a document the provider never served is left out of the scores, not counted.
+- <strong>Labelling errors.</strong> One labeller (me). Held-out keys never change after a run; mistakes found
+  later are logged, not fixed.</p>
+<h2>Open questions</h2>
+<ul>
+<li>Should the digest also go out by email or Slack (needs a mail service) or stay a page?</li>
+<li>Should v2 read the Master Directions themselves, to answer "what does the current rule say"?</li>
+<li>Which fintech profiles matter most to test with users: PA, PPI or NBFC digital lending?</li>
+</ul>
+<h2>Sources</h2>
+<ul>
+<li>RBI notifications RSS feed, read 9 October 2026: https://www.rbi.org.in/notifications_rss.xml</li>
+<li>Business Today on the consolidation into 244 Master Directions (November 2025):
+  https://www.businesstoday.in/amp/latest/economy/story/rbi-consolidates-9000-circulars-into-244-master-directions-for-enhanced-ease-of-doing-business-details-here-504215-2025-11-28</li>
+<li>Moneylife on RBI penalties (Cashfree, March 2026; NBFCs, August and September 2026):
+  https://www.moneylife.in/article/rbi-slaps-310-lakh-penalty-on-cashfree-payments-india/79960.html,
+  https://www.moneylife.in/article/rbi-slaps-12-lakh-penalty-on-3-nbfcs-for-compliance-lapses/81300.html,
+  https://www.moneylife.in/article/hero-fincorp-ola-financial-services-and-klm-axiva-fined-1580-lakh-by-rbi/81761.html</li>
+<li>ClearTax on RBI/2023-24/117 (technology for compliance monitoring):
+  https://cleartax.in/s/internal-compliance-monitoring-rbi-circular-117</li>
+<li>Complinity on the deadline extension:
+  https://complinity.com/blog/compliance/rbi-extends-deadline-to-implement-workflow-based-solution/</li>
+<li>Lawrbit on updates still pushed via spreadsheets:
+  https://www.lawrbit.com/article/rbi-regulated-entities-banks-nbfcs-hfcs-cics-implement-futuristic-scalable-compliance-management-solution/</li>
+<li>IJRASET, autoReg (NLP pipeline for RBI circulars):
+  https://www.ijraset.com/research-paper/an-integrated-nlp-pipeline-for-automated-regulatory-impact</li>
+<li>AZB &amp; Partners on the 2025 payment aggregator directions:
+  https://www.azbpartners.com/bank/rbi-issues-consolidated-reserve-bank-of-india-regulation-of-payment-aggregators-directions-2025/</li>
+<li>RBI draft Master Direction on PPIs, 2026: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4987</li>
+<li>eCorpIT on recovery rules for lending apps (vendor source):
+  https://ecorpit.com/ecorpit-rbi-device-locking-recovery-compliance-engineering-service-india-2026/</li>
+<li>NodeFlair, BharatPe compliance job posting:
+  https://nodeflair.com/jobs/bharatpe-senior-manager-compliance-testing-539452</li>
+<li>TeamLease RegTech and Fintellix product pages:
+  https://teamleaseregtech.com/product-services/statutory-regulatory-compliance-management-software/,
+  https://fintellix.com/rbis-compliance-mandate-is-live-compliance-tracker-c-trac-has-you-covered/</li>
+</ul>
+  <p class="foot">Copy in the repository: docs/PRD.md. Figures are from the sources listed above, as of October 2026.</p>
+</main>
