@@ -1,0 +1,7 @@
+# Python 3.12
+google-genai>=2.26      # Gemini reads the notification PDFs (free tier)
+pypdf                   # page text for quote checks
+httpx                   # fetching RBI's feed and PDFs
+python-dotenv
+pytest
+markdown                # renders docs/PRD.md to docs/PRD.html

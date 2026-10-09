@@ -169,10 +169,10 @@ withdrawals. Each is pinned by URL and SHA-256. A seeded random draw, stratified
 into about 20 for development and 30 held out.
 
 **Answer keys, written by hand before any prompt exists**, under a label guide written first: for
-each notification, the set of entity types it applies to (14 types: RBI's 11 regulated-entity types
-plus payment aggregators, PPI issuers and other payment system operators, with authorised dealers and
-primary dealers), its kind, whether action is required, and its dates, each with quote and page,
-checked against the PDF by a script.
+each notification, the set of entity types it applies to (17 types: RBI's 11 types of regulated
+entity, payment aggregators, PPI issuers, other payment system operators, authorised dealers, primary
+dealers and "other"), its kind, whether action is required, and its dates, each with quote and page,
+checked against the PDF by a script ([data/LABEL_GUIDE.md](../data/LABEL_GUIDE.md)).
 
 **Scoring.**
 - Applicability, per (notification, entity type) pair: recall and precision. A miss is the costly error.
