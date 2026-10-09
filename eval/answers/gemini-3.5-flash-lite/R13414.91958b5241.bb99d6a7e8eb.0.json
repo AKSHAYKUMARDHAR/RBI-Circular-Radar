@@ -1,0 +1,41 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13414",
+ "sha256": "bb99d6a7e8ebafb73f02618787229bb3020a971820f3746e945fadd178ac317d",
+ "pages_shown": [
+  1,
+  2,
+  3
+ ],
+ "usage": {
+  "input_tokens": 2566,
+  "output_tokens": 306
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "Reserve Bank of India (Small Finance Banks – Income Recognition, Asset Classification and Provisioning) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Implement updated asset classification, provisioning norms, and interest income recognition rules for restructured accounts.",
+  "action_quote": "These Amendment Directions modify the Directions as under: i. Paragraph 53(4) shall be deleted. ii. Paragraph 58A and 58B shall be inserted as under:",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-07-01",
+   "quote": "The above amendment shall come into force with effect from July 1, 2026.",
+   "page": 3
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Small Finance Banks – Income Recognition, Asset Classification and Provisioning) Directions"
+ }
+}

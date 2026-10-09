@@ -1,0 +1,47 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13516",
+ "sha256": "3db378c9e536f0de40e8364ba37a7938522619d0b2390e3086c3f42e0147d49b",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2190,
+  "output_tokens": 438
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Third Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Exempt fresh NRE term deposits of three years or more mobilized by September 30, 2026, from CRR and SLR maintenance and report them correctly.",
+  "action_quote": "fresh Non-Resident (External) Rupee (NRE) t erm deposits of tenor of three years or more mobilized (including deposits that are renewed upon maturity) by the banks from the date of this Amendment Directions till September 30, 2026 will be exempted from maintenance of CRR and SLR.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-06-19",
+   "quote": "The provisions shall come into force with immediate effect.",
+   "page": 1
+  },
+  "comply_by": [
+   {
+    "date": "2026-09-30",
+    "quote": "mobilized (including deposits that are renewed upon maturity) by the banks from the date of this Amendment Directions till September 30, 2026",
+    "page": 1,
+    "what": "Final date for mobilizing qualifying NRE term deposits for CRR and SLR exemption"
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025"
+ }
+}

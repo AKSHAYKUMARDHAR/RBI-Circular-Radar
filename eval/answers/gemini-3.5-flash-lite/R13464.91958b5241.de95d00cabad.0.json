@@ -1,0 +1,43 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13464",
+ "sha256": "de95d00cabadb0a35171da7f7c9a9a593408d5909f4a65e7acf7a2c0a3a4f573",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "usage": {
+  "input_tokens": 3351,
+  "output_tokens": 285
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "authorised_dealers",
+    "quote": "Attention of Authorised Dealer Category -I (AD Category -I) banks is invited to the Foreign Exchange Management (Debt Instruments) Regulations, 2019",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "AD Category-I banks must bring the contents of these directions to the notice of their constituents.",
+  "action_quote": "AD Category-I banks may bring the contents of these directions to the notice of their constituents.",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2026-06-05",
+   "quote": "The directions in this circular come into effect immediately.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 0
+  },
+  "amends": "Master Direction - Reserve Bank of India (Non-resident Investment in Debt Instruments) Directions, 2025"
+ }
+}

@@ -41,8 +41,9 @@ ALIASES = {
     "urban_coop_banks": [rf"\burban co{_H}operative banks?\b", r"\bUCBs?\b", rf"\bprimary \(?urban\)? co{_H}operative banks?\b"],
     "rural_coop_banks": [rf"\brural co{_H}operative banks?\b", rf"\bstate co{_H}operative banks?\b",
                          rf"\bcentral co{_H}operative banks?\b", r"\bStCBs?\b", r"\bDCCBs?\b"],
-    "aifis": [r"\ball[\s\-]+india financial institutions?\b", r"\bAIFIs?\b", r"\bEXIM Bank\b", r"\bNABARD\b",
-              r"\bSIDBI\b", r"\bNaBFID\b", r"\bNational Housing Bank\b"],
+    # An institution's name followed by "Act" is a statute ("registered under the National Housing Bank Act"), not an addressee.
+    "aifis": [r"\ball[\s\-]+india financial institutions?\b", r"\bAIFIs?\b", r"\bEXIM Bank\b(?!,?\s+Act)", r"\bNABARD\b(?!,?\s+Act)",
+              r"\bSIDBI\b(?!,?\s+Act)", r"\bNaBFID\b(?!,?\s+Act)", r"\bNational Housing Bank\b(?!,?\s+Act)"],
     "nbfcs": [rf"\bnon{_H}banking financial compan(?:y|ies)\b", r"\bNBFCs?\b", r"\bhousing finance compan(?:y|ies)\b", r"\bHFCs?\b"],
     "arcs": [r"\basset reconstruction compan(?:y|ies)\b", r"\bARCs?\b"],
     "cics": [r"\bcredit information compan(?:y|ies)\b", r"\bCICs?\b"],
@@ -54,7 +55,7 @@ ALIASES = {
     "authorised_dealers": [r"\bauthori[sz]ed dealers?\b", r"\bauthori[sz]ed persons?\b", r"\bAD Category\b", r"\bAD banks?\b",
                            r"\bADs\b", r"\bmoney changers?\b", r"\bA\.\s?P\.\s?\(DIR Series\)"],
     "primary_dealers": [r"\bprimary dealers?\b", r"\bPDs\b"],
-    "other": [r"\bLAF participants?\b", r"\bmarket participants?\b", r"\bmembers of the public\b", r"\bauditors?\b",
+    "other": [r"\bLAF participants?\b", r"\bliquidity adjustment facility participants?\b", r"\bmarket participants?\b", r"\bmembers of the public\b", r"\bauditors?\b",
               r"\bthird[\s\-]+part(?:y|ies)\b", r"\bnon[\s\-]+bank entit(?:y|ies)\b", r"\bgovernment agencies\b",
               r"\bforeign portfolio investors?\b", r"\bFPIs?\b", r"\bnon[\s\-]+residents?\b", r"\bNRIs?\b",
               r"\bexporters?\b", r"\bimporters?\b", r"\bpersons? resident\b"],
@@ -69,10 +70,12 @@ _COMPILED = {t: [re.compile(p, 0 if re.search(r"\\b[A-Z]{2,}", p) else re.I) for
 
 
 EXCLUSION = re.compile(r"\b(?:excluding|other than|except(?: for)?)\b[^.;)]*\)?", re.I)
+ACRONYM = re.compile(r"\s*\(\s*[A-Z][A-Za-z\-]{1,10}\s*\)")   # "Facility (LAF) participants" -> "Facility participants"
 
 
 def _named(text: str) -> set[str]:
-    found = {t for t, ps in _COMPILED.items() if any(p.search(text) for p in ps)}
+    bare = ACRONYM.sub("", text)
+    found = {t for t, ps in _COMPILED.items() if any(p.search(text) or p.search(bare) for p in ps)}
     if ALL_BANKS.search(text):
         found |= set(BANKS)
     if PAYMENT_CLASS.search(text):

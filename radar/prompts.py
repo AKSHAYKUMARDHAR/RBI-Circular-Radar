@@ -30,7 +30,9 @@ Rules:
    "Participants" adds no bank or NBFC type unless the text names it.
 5. Use "other" for anyone else the document addresses, places obligations on or whose limits it changes:
    auditors, market participants, third-party platforms, foreign portfolio investors, exporters and importers,
-   non-residents, government agencies, the public.
+   non-residents, government agencies, the public. Check annexes too: an annex that says what a third party
+   "shall" do places an obligation on it. Someone merely mentioned (a customer category in a proviso, people a
+   bank may inform) is not "other".
 6. kind: amendment (changes an existing direction or circular), new_direction (a new set of directions,
    framework or guidelines, including a Master Direction that consolidates instructions), withdrawal
    (withdraws or repeals instructions), draft (issued for comments), rates_operational (policy-rate changes,

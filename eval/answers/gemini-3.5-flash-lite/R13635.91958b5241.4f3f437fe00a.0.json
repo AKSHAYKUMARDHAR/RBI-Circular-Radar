@@ -1,0 +1,48 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13635",
+ "sha256": "4f3f437fe00a049546403c54e618636ee2ff46aa4641b704876aa2857490b8fe",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "usage": {
+  "input_tokens": 4185,
+  "output_tokens": 267
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "These Directions shall be applicable to Small Finance Banks (hereinafter collectively referred to as ‘banks’ and individually as a ‘bank’).",
+    "page": 2
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Small finance banks must implement the concurrent audit framework, covering designated risk areas, auditor appointments, tenure limits, remuneration, and structured reporting systems.",
+  "action_quote": "The bank shall ensure that the concurrent audit, at minimum, covers the following areas, as applicable",
+  "action_page": 5,
+  "effective_date": {
+   "date": "2026-07-31",
+   "quote": "These Directions shall come into effect immediately upon issuance.",
+   "page": 2
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}

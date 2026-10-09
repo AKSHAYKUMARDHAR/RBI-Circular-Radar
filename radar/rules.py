@@ -12,7 +12,7 @@ from .text import DATE_RE, IMMEDIATE, dates_in, find_quote, relative_date
 
 TITLE = re.compile(r"Reserve Bank of India\s*[\(\[]\s*([^)\]]{3,200}?)\s*[\)\]]\s*(?:\(?[A-Za-z]+\)?\s+){0,3}?"
                    r"(?:Amendment\s+)?(?:Supervisory\s+)?Directions?(?:,\s*20\d\d)?", re.I)
-APPLIES = re.compile(r"(?:These|The provisions (?:contained )?(?:in|of) these|The provisions of this)\s+(?:Amendment\s+)?"
+APPLIES = re.compile(r"(?:T\s?hese|The provisions (?:contained )?(?:in|of) t\s?hese|The provisions of this)\s+(?:Amendment\s+)?"
                      r"(?:Master\s+)?(?:Supervisory\s+)?(?:Directions?|circular|framework|guidelines)\s+"
                      r"(?:shall|will|are|is)?\s*(?:be\s+)?(?:applicable|apply)\s+to\b[^.;]{0,300}", re.I)
 SENTENCE_END = re.compile(r"\(hereinafter|\.\s+(?=[A-Z0-9(])|;|\s\d{1,2}\.\s")
@@ -74,9 +74,11 @@ def applies_to(pages: list[str], issued=None) -> list[dict]:
 
 
 def kind(title: str) -> str | None:
-    t = (title or "").lower()
+    t = re.sub(r"<[^>]+>", " ", title or "").lower()   # listing titles can carry HTML ("Updated as on" in red)
     if re.search(r"\bdraft\b", t):
         return "draft"
+    if re.search(r"\bmaster directions?\b", t) and "amendment" not in t:
+        return "new_direction"
     if re.search(r"withdrawal of (?:circulars|instructions|guidelines)|\brepeal", t):
         return "withdrawal"
     if re.search(r"consolidat", t) and "direction" not in t:

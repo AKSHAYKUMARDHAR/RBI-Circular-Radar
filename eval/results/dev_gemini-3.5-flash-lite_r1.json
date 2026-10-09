@@ -26,17 +26,17 @@
    "model": {
     "documents": 25,
     "pairs": 62,
-    "missed": 1,
-    "extra": 0,
-    "recall": 0.9838709677419355,
-    "precision": 1.0,
+    "missed": 2,
+    "extra": 1,
+    "recall": 0.967741935483871,
+    "precision": 0.9836065573770492,
     "dates": {
-     "correct": 70,
-     "wrong": 5
+     "correct": 69,
+     "wrong": 6
     },
-    "correct_dates": 0.9333333333333333,
-    "wrong_dates": 0.06666666666666667,
-    "kind_accuracy": 0.88,
+    "correct_dates": 0.92,
+    "wrong_dates": 0.08,
+    "kind_accuracy": 0.92,
     "action_accuracy": 0.88,
     "gate": false
    },
@@ -54,7 +54,7 @@
     },
     "correct_dates": 0.9333333333333333,
     "wrong_dates": 0.013333333333333334,
-    "kind_accuracy": 0.88,
+    "kind_accuracy": 0.92,
     "action_accuracy": 0.88,
     "gate": false
    },
@@ -97,17 +97,17 @@
    "model": {
     "documents": 21,
     "pairs": 56,
-    "missed": 1,
-    "extra": 0,
-    "recall": 0.9821428571428571,
-    "precision": 1.0,
+    "missed": 2,
+    "extra": 1,
+    "recall": 0.9642857142857143,
+    "precision": 0.9818181818181818,
     "dates": {
-     "correct": 58,
-     "wrong": 5
+     "correct": 57,
+     "wrong": 6
     },
-    "correct_dates": 0.9206349206349206,
-    "wrong_dates": 0.07936507936507936,
-    "kind_accuracy": 0.8571428571428571,
+    "correct_dates": 0.9047619047619048,
+    "wrong_dates": 0.09523809523809523,
+    "kind_accuracy": 0.9047619047619048,
     "action_accuracy": 0.8571428571428571,
     "gate": false
    },
@@ -125,7 +125,7 @@
     },
     "correct_dates": 0.9206349206349206,
     "wrong_dates": 0.015873015873015872,
-    "kind_accuracy": 0.8571428571428571,
+    "kind_accuracy": 0.9047619047619048,
     "action_accuracy": 0.8571428571428571,
     "gate": false
    },
@@ -861,8 +861,10 @@
    {
     "id": "R13464",
     "supplement": false,
-    "tp": 2,
-    "missed": [],
+    "tp": 1,
+    "missed": [
+     "other"
+    ],
     "extra": [],
     "kind_ok": true,
     "action_ok": true,
@@ -884,7 +886,9 @@
     "supplement": false,
     "tp": 1,
     "missed": [],
-    "extra": [],
+    "extra": [
+     "other"
+    ],
     "kind_ok": false,
     "action_ok": false,
     "kind": "new_direction",
@@ -951,17 +955,19 @@
     "missed": [],
     "extra": [],
     "kind_ok": true,
-    "action_ok": false,
+    "action_ok": true,
     "kind": "amendment",
-    "action": "no",
+    "action": "yes",
     "pred_dates": {
      "effective_date": "2026-06-19",
-     "comply_by": [],
+     "comply_by": [
+      "2026-09-30"
+     ],
      "comments_by": "none"
     },
     "dates": {
      "effective_date": "correct",
-     "comply_by": "correct",
+     "comply_by": "wrong",
      "comments_by": "correct"
     }
    },
@@ -1167,9 +1173,9 @@
     "missed": [],
     "extra": [],
     "kind_ok": true,
-    "action_ok": true,
+    "action_ok": false,
     "kind": "amendment",
-    "action": "no",
+    "action": "yes",
     "pred_dates": {
      "effective_date": "2026-09-02",
      "comply_by": [],
@@ -1231,7 +1237,7 @@
     "extra": [],
     "kind_ok": false,
     "action_ok": true,
-    "kind": "withdrawal",
+    "kind": "amendment",
     "action": "yes",
     "pred_dates": {
      "effective_date": "2026-10-01",
@@ -1250,9 +1256,9 @@
     "tp": 7,
     "missed": [],
     "extra": [],
-    "kind_ok": false,
+    "kind_ok": true,
     "action_ok": true,
-    "kind": "amendment",
+    "kind": "rates_operational",
     "action": "yes",
     "pred_dates": {
      "effective_date": "2026-10-07",
@@ -1488,9 +1494,9 @@
     "missed": [],
     "extra": [],
     "kind_ok": true,
-    "action_ok": false,
+    "action_ok": true,
     "kind": "amendment",
-    "action": "no",
+    "action": "yes",
     "pred_dates": {
      "effective_date": "2026-06-19",
      "comply_by": [],
@@ -1702,9 +1708,9 @@
     "missed": [],
     "extra": [],
     "kind_ok": true,
-    "action_ok": true,
+    "action_ok": false,
     "kind": "amendment",
-    "action": "no",
+    "action": "yes",
     "pred_dates": {
      "effective_date": "2026-09-02",
      "comply_by": [],
@@ -1766,7 +1772,7 @@
     "extra": [],
     "kind_ok": false,
     "action_ok": true,
-    "kind": "withdrawal",
+    "kind": "amendment",
     "action": "yes",
     "pred_dates": {
      "effective_date": "withheld",
@@ -1785,9 +1791,9 @@
     "tp": 7,
     "missed": [],
     "extra": [],
-    "kind_ok": false,
+    "kind_ok": true,
     "action_ok": true,
-    "kind": "amendment",
+    "kind": "rates_operational",
     "action": "yes",
     "pred_dates": {
      "effective_date": "2026-10-07",
@@ -2021,9 +2027,9 @@
     "missed": [],
     "extra": [],
     "kind_ok": true,
-    "action_ok": false,
+    "action_ok": true,
     "kind": "amendment",
-    "action": "no",
+    "action": "yes",
     "pred_dates": {
      "effective_date": "2026-06-19",
      "comply_by": [],
@@ -2235,9 +2241,9 @@
     "missed": [],
     "extra": [],
     "kind_ok": true,
-    "action_ok": true,
+    "action_ok": false,
     "kind": "amendment",
-    "action": "no",
+    "action": "yes",
     "pred_dates": {
      "effective_date": "2026-09-02",
      "comply_by": [],

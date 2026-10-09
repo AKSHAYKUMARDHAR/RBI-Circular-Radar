@@ -119,3 +119,12 @@ def test_page_selection_keeps_first_pages_and_deadlines():
     pages[10] = "These Directions shall come into force on April 1, 2027"
     keep = select_pages(pages, max_pages=6)
     assert keep[:3] == [1, 2, 3] and 11 in keep and 41 in keep
+
+
+def test_release_run_1_fixes():
+    # "(LAF)" between the words broke the match and discarded a correct answer
+    assert entities.named_in("All Liquidity Adjustment Facility (LAF) participants") == {"other"}
+    # a statute named after an institution isn't an addressee
+    assert entities.named_in("registered under the National Housing Bank Act, 1987") == set()
+    assert rules.kind('Master Direction on Counterfeit Notes – Detection, Reporting and Monitoring '
+                      '(<span style="color: red">Updated</span>)') == "new_direction"

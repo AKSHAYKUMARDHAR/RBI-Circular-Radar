@@ -85,3 +85,16 @@ Dates: none wrong; 6 withheld as "check the document", 3 of them where the notif
 
 The held-out labels are unchanged. Fixes below are tested on development only, and a release claim needs a
 fresh held-out set.
+
+### Fixes after release run 1 (tested on development only)
+
+- The entity check also matches with parenthetical acronyms removed ("Liquidity Adjustment Facility (LAF)
+  participants"), and knows "LAF participants" in full.
+- An institution's name followed by "Act" is a statute, not an addressee (the `aifis` extra).
+- The prompt: "other" only for those the text places obligations on or whose limits it changes, including in
+  annexes; someone merely mentioned is not "other".
+- Rules: a "Master Direction" title is a new direction even if it says "Reporting"; HTML is stripped from listing
+  titles; "t hese Directions" (a PDF artefact) still counts as an applicability sentence.
+
+**Development run 3**, prompt version `91958b5241` ([log](results/dev_lite_run3.log)): union unchanged at 0 missed,
+100% precision, 71 / 0 / 4 dates. Frozen for release run 2.
