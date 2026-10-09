@@ -1,6 +1,6 @@
 """Build the digest the site shows: every RBI notification read, checked and merged.
 
-    python -m radar.digest --new                 # daily: notifications after the last one in the digest
+    python -m radar.digest --new                 # every 10 minutes: notifications after the last one read
     python -m radar.digest --ids 13690-13736     # backfill a range
     python -m radar.digest --retry               # re-read notifications whose model read failed earlier
 
@@ -13,6 +13,7 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import os
 import pathlib
 import sys
 import tempfile
@@ -126,19 +127,28 @@ def main(argv=None) -> int:
                     todo.append(m)
                 time.sleep(feed.PAUSE)
     print(f"{len(todo)} notifications to read")
+    changed = 0
     for m in todo:
         try:
             rec = build_record(m, reader)
         except Exception as e:
             print(f"  {m['id']}: skipped ({type(e).__name__}: {str(e)[:120]})")
             continue
+        old = have.get(m["id"])
+        if old and rec["reader"]["rules_only"] and old["reader"]["rules_only"]:
+            print(f"  {m['id']}: model still unavailable, kept as rules only")
+            continue   # a failed retry changes nothing, so it isn't published again
         have[m["id"]] = rec
+        changed += 1
         flag = " (rules only)" if rec["reader"]["rules_only"] else ""
         print(f"  {m['id']} {rec['date']} {', '.join(a['type'] for a in rec['applies_to'])}{flag}")
         data["notifications"] = list(have.values())
         save(data)   # after each one, so a stopped run keeps what it read
-    data["notifications"] = list(have.values())
-    save(data)
+    # Runs with nothing new write nothing, so frequent checks don't commit or republish the site.
+    if changed and os.getenv("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+            f.write("changed=true\n")
+    print(f"{changed} published")
     return 0
 
 

@@ -1,7 +1,7 @@
 # RBI Circular Radar
 
-Which new Reserve Bank of India notifications apply to you, what to do, and by when. Every morning it reads
-each new RBI notification and says which of 17 entity types it applies to (banks by type, NBFCs, payment
+Which new Reserve Bank of India notifications apply to you, what to do, and by when. It checks RBI every 10
+minutes; for each new notification it says which of 17 entity types it applies to (banks by type, NBFCs, payment
 aggregators, PPI issuers, authorised dealers and more), whether it requires action, and the dates that matter.
 Every claim carries RBI's own words and the page they're on.
 
@@ -71,8 +71,8 @@ python -m radar.digest --new                           # read notifications publ
 python -m pytest -q tests
 ```
 
-The site is static (`site/`), rebuilt each morning by [a GitHub Actions workflow](.github/workflows/digest.yml)
-that reads new notifications with the `GEMINI_API_KEY` repository secret and publishes to GitHub Pages.
+The site is static (`site/`), updated by [a GitHub Actions workflow](.github/workflows/digest.yml) that checks RBI every 10 minutes,
+reads new notifications with the `GEMINI_API_KEY` repository secret and publishes to GitHub Pages.
 
 Not legal advice. The tool points you to the notification; read it before you act.
 

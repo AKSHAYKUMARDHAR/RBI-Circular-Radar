@@ -212,7 +212,7 @@ async function main() {
     all = data.notifications;
     buildProfile(data.entity_types);
     const when = data.generated_at ? new Date(data.generated_at).toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" }) : "";
-    $("#meta").textContent = `${all.length} notifications read · updated ${when} · checked daily`;
+    $("#meta").textContent = `${all.length} notifications read · last new one added ${when} · RBI checked every 10 minutes`;
     render();
   } catch (e) {
     $("#meta").textContent = "Couldn't load the digest. Try again in a minute.";
