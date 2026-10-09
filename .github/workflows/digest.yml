@@ -50,7 +50,7 @@ jobs:
           git add site/data
           if [ -d data/answers ]; then git add data/answers; fi
           if git diff --cached --quiet; then echo "no new notifications"; exit 0; fi
-          git commit -m "Digest: notifications read $(date -u +%Y-%m-%d)"
+          git commit -m "Digest: RBI checked $(date -u +%Y-%m-%d)"
           git push
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
