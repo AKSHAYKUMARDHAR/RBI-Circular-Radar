@@ -61,8 +61,9 @@ fintech meets, and a catch-all.
 5. **Kind.** `amendment`: changes an existing direction ("Amendment Directions", "amended as under").
    `new_direction`: a new set of directions or a new framework. `withdrawal`: withdraws or repeals
    instructions. `draft`: issued for comments. `rates_operational`: policy-rate changes, auction and
-   facility notices, routine operational announcements. `clarification`: FAQs, clarifications,
-   corrigenda. `other`: anything else.
+   facility notices, reporting procedures and routine operational announcements. `clarification`: FAQs,
+   clarifications, corrigenda. `other`: anything else, including updates to sanctions lists circulated
+   under UAPA and consolidations of earlier instructions.
 6. **Action required = yes** when the notification creates or changes something a named entity must
    do, stop doing, report, disclose, or a limit it must meet. Rate changes that change what an entity
    pays or charges are `yes`. Drafts, pure information and "as-is" consolidations are `no`.
@@ -73,8 +74,11 @@ fintech meets, and a catch-all.
      put a system in place, complete a review). Not the effective date unless the text sets it as
      a deadline. If none, `none`.
    - `comments_by`: the last date for comments on a draft. If none, `none`.
+   - "From the date of issue" is the notification's date, like "with immediate effect".
    - A date given only by reference ("three months from the date of this circular") is computed and
      the label note says so.
+   - A recurring deadline ("by the 10th of the following month") is not a date: `comply_by` stays
+     empty and the note records it.
 8. **Undecidable is skipped.** If the document can't settle a field (it points to an annexe that isn't
    in the PDF, for example), the field is `skip`, with the reason, and left out of scoring.
 
