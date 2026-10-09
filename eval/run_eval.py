@@ -3,7 +3,8 @@
     python -m eval.run_eval --split dev                          # rules + gemini-3.5-flash-lite, one read
     python -m eval.run_eval --split dev --model gemini-3.5-flash --reads 2
     python -m eval.run_eval --split dev --no-model               # rules only, no requests
-    python -m eval.run_eval --split holdout                      # the release run: once
+    python -m eval.run_eval --split holdout                      # release run 1: once
+    python -m eval.run_eval --split holdout2                     # release run 2, on a fresh draw: once
 
 Every version (rules, model, checked, union) is scored from the same cached model answers
 (eval/answers/), so comparing them costs nothing. Applicability is scored per (notification, entity type)
@@ -100,7 +101,7 @@ def fmt(name: str, s: dict) -> str:
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--split", choices=["dev", "holdout"], required=True)
+    ap.add_argument("--split", choices=["dev", "holdout", "holdout2"], required=True)
     ap.add_argument("--model", default=None)
     ap.add_argument("--reads", type=int, default=1, choices=[1, 2])
     ap.add_argument("--no-model", action="store_true")

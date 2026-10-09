@@ -643,6 +643,236 @@
       "date": "October 07, 2026",
       "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
       "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT289FD5C6CE733C944BCA3C1590AAE0C4B78.PDF"
+    },
+    {
+      "id": 13368,
+      "tag": "other",
+      "split": "holdout2",
+      "title": "Formation of new districts in the State of Andhra Pradesh – Assignment of Lead Bank Responsibility",
+      "rbi_no": "RBI/2026-27/09",
+      "date": "April 10, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13368&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT09C558FF07BF994E39B619A6721950C715.PDF"
+    },
+    {
+      "id": 13384,
+      "tag": "amendment",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (Commercial Banks – Treatment of Wilful Defaulters and Large Defaulters) - Amendment Directions, 2026",
+      "rbi_no": "RBI/2026-27/28",
+      "date": "April 27, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13384&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI285C4A71651B6340CB87A70707696834E8.PDF"
+    },
+    {
+      "id": 13402,
+      "tag": "fx",
+      "split": "holdout2",
+      "title": "Reporting instructions for Authorised Dealer Category-I Banks",
+      "rbi_no": "RBI/2026-27/38",
+      "date": "April 27, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13402&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT388041329D3C6749DBA18F0F6538E5DB15.PDF"
+    },
+    {
+      "id": 13432,
+      "tag": "withdrawal",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (Relief Measures by Banks in Areas affected by Natural Calamities) Directions 2018 – RRBs Repeal Directions, 2026",
+      "rbi_no": "RBI/2026-27/77",
+      "date": "April 29, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13432&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT771F1A5D7A146C4E329CF455A4E2017712.PDF"
+    },
+    {
+      "id": 13445,
+      "tag": "fx",
+      "split": "holdout2",
+      "title": "Issuance of Foreign Exchange Management (Authorised Persons) Regulations, 2026",
+      "rbi_no": "RBI/2026-27/78",
+      "date": "May 06, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13445&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT7871494C59CE3B455BBD0D18770BBB1408.PDF"
+    },
+    {
+      "id": 13451,
+      "tag": "amendment",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (Small Finance Banks - Classification, Valuation, and Operation of Investment Portfolio) Amendment Directions, 2026",
+      "rbi_no": "RBI/2026-27/84",
+      "date": "May 18, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13451&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT84C533D9C069AF4F4AB19B3D56CB48CDBC.PDF"
+    },
+    {
+      "id": 13457,
+      "tag": "amendment",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Sixth Amendment Directions, 2026",
+      "rbi_no": "RBI/2026-27/90",
+      "date": "May 18, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13457&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI90470E837E915C4182AE0C9D8C5718A66B.PDF"
+    },
+    {
+      "id": 13477,
+      "tag": "withdrawal",
+      "split": "holdout2",
+      "title": "Withdrawal of old series of banknotes issued prior to 2005: Consolidation of instructions",
+      "rbi_no": "RBI/2026-27/108",
+      "date": "June 09, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13477&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOT108C6364975A7034ECB83673C669F4DBC15.PDF"
+    },
+    {
+      "id": 13492,
+      "tag": "amendment",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (All India Financial Institutions - Responsible Business Conduct) Second Amendment Directions, 2026",
+      "rbi_no": "RBI/2026-27/122",
+      "date": "June 15, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13492&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/8NOTI122943DE9FD29194168998E83512CB1ACB6.PDF"
+    },
+    {
+      "id": 13588,
+      "tag": "new_direction",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (Non-Banking Financial Companies - Statutory Audit) Directions, 2026",
+      "rbi_no": "RBI/DoS/2026-27/465",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13588&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/465MD03A0FCE0832642DDAAE82DB2FBC920C8.PDF"
+    },
+    {
+      "id": 13595,
+      "tag": "new_direction",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (All India Financial Institutions - Supervisory Returns) Directions, 2026",
+      "rbi_no": "RBI/DoS/2026-27/458",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13595&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/458MD364EFCA1964B4A9D88DBC6F0D774C920.PDF"
+    },
+    {
+      "id": 13597,
+      "tag": "new_direction",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (All India Financial Institutions – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026",
+      "rbi_no": "RBI/DoS/2026-27/456",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13597&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/456MDC4C94C45185348009970C11F344F27C4.PDF"
+    },
+    {
+      "id": 13616,
+      "tag": "new_direction",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (Urban Co-operative Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026",
+      "rbi_no": "RBI/DoS/2026-27/437",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13616&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/437MDA9AD9C6F79B74CC8ABD98AAB32B1CD7D.PDF"
+    },
+    {
+      "id": 13655,
+      "tag": "amendment",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (Small Finance Banks – Financial Statements: Presentation and Disclosures) Fourth Amendment Directions, 2026",
+      "rbi_no": "RBI/DOR/2026-27/213",
+      "date": "July 30, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13655&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2135B94D09619AB4E57A4EC564FA03B610E.PDF"
+    },
+    {
+      "id": 13662,
+      "tag": "rates_operational",
+      "split": "holdout2",
+      "title": "Fake Indian Currency Notes (FICNs)-Detection, Reporting and Monitoring",
+      "rbi_no": "RBI/2026-27/220",
+      "date": "July 31, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13662&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT22031600C31BC5F403AA3CD3FF99E8410E4.PDF"
+    },
+    {
+      "id": 13676,
+      "tag": "amendment",
+      "split": "holdout2",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Daesh) & Al-Qaida Sanctions List: Amendment of 04 Entries",
+      "rbi_no": "RBI/2026-27/234",
+      "date": "August 18, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13676&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI234D1B504FD061F4B23AC1F5DB206BDD8DE.PDF"
+    },
+    {
+      "id": 13702,
+      "tag": "amendment",
+      "split": "holdout2",
+      "title": "Reserve Bank of India (Regional Rural Banks – Know Your Customer) Amendment Directions, 2026",
+      "rbi_no": "RBI/2026-27/260",
+      "date": "September 18, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13702&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2604569F184BDB641ED92EA1B7B04FE91A9.PDF"
+    },
+    {
+      "id": 13715,
+      "tag": "amendment",
+      "split": "holdout2",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Daesh) & Al-Qaida Sanctions List: Amendment of 1 Entry",
+      "rbi_no": "RBI/2026-27/271",
+      "date": "September 29, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13715&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI2713C3AD0FCF88D4E0682D80BD7FC932BF9.PDF"
+    },
+    {
+      "id": 13716,
+      "tag": "other",
+      "split": "holdout2",
+      "title": "Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)",
+      "rbi_no": "RBI/2026-27/272",
+      "date": "October 01, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13716&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/272MC011020266691348260DF4CF99ACE017F146409F1.PDF"
+    },
+    {
+      "id": 13726,
+      "tag": "rates_operational",
+      "split": "holdout2",
+      "title": "Standing Liquidity Facility for Primary Dealers",
+      "rbi_no": "RBI/2026-27/281",
+      "date": "October 7, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13726&Mode=0",
+      "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT28158529C66B538494B850E025B99189148.PDF"
     }
-  ]
+  ],
+  "holdout2": {
+    "seed": 20261010,
+    "drawn_from": 316,
+    "per_tag": {
+      "amendment": {
+        "left": 220,
+        "drawn": 8
+      },
+      "fx": {
+        "left": 15,
+        "drawn": 2
+      },
+      "new_direction": {
+        "left": 62,
+        "drawn": 4
+      },
+      "other": {
+        "left": 12,
+        "drawn": 2
+      },
+      "rates_operational": {
+        "left": 4,
+        "drawn": 2
+      },
+      "withdrawal": {
+        "left": 3,
+        "drawn": 2
+      }
+    }
+  }
 }

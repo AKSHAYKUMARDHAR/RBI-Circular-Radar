@@ -51,6 +51,11 @@ fintech meets, and a catch-all.
    2025 consolidation, directions name their entity type: "Reserve Bank of India (Payments Banks –
    ...) Directions"), the addressee line ("All banks", "All Primary Dealers"), and any applicability
    paragraph. Label every type the document names; nothing it doesn't.
+   Duties a direction places on a regulated entity's own service providers, agents or audit firms,
+   usually through its contracts ("The ASP shall ...", "the audit firm shall ..."), are carried by that
+   entity and don't add `other`; `other` is for parties the document itself addresses or is about (every
+   auditor of an NBFC in R13585, the non-bank remittance platforms in R13449). This records the practice
+   used in the first two answer keys (R13617, R13625); it was written down before the second held-out key.
 2. **"All banks" means all seven bank types** (commercial, small finance, payments, regional rural,
    local area, urban co-operative, rural co-operative) unless the text narrows it ("All Scheduled
    Commercial Banks (excluding Regional Rural Banks)"). Follow the narrowing exactly.
