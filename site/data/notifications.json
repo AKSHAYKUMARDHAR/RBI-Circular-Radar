@@ -1,6 +1,54 @@
 {
  "notifications": [
   {
+   "id": 13739,
+   "rbi_no": "RBI/2026-27/293",
+   "date": "2026-10-12",
+   "title": "Risk Management and Inter-Bank Dealings",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13739&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI293D62A07A6EF394B75BAB6BEBA6F159565.PDF",
+   "pages": 2,
+   "sha256": "01b1a3789a77f889f77899ec9694fc209ff70794eb7845b32a6648fe070ed723",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Authorised Dealers must restrict INR NDDC offerings to non-residents to hedging purposes and maintain a Foreign Exchange Risk Reserve.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Authorised Dealers shall offer NDDCs involving INR to a non-resident user only for the purpose of hedging."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "To, All Authorised Dealers",
+     "source": "both",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 2,
+    "quote": "These Directions shall be applicable to foreign exchange derivative contracts undertaken after the issuance of these Directions.",
+    "note": "model read 2026-10-12 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "source": "model"
+   },
+   "amends": "Master Direction - Risk Management and Inter-Bank Dealings",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-12T23:48:42Z"
+  },
+  {
    "id": 13738,
    "rbi_no": "RBI/2026-27/292",
    "date": "2026-10-10",
@@ -2371,7 +2419,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-10-09T23:29:35Z",
+ "generated_at": "2026-10-12T23:48:42Z",
  "entity_types": [
   {
    "type": "commercial_banks",
