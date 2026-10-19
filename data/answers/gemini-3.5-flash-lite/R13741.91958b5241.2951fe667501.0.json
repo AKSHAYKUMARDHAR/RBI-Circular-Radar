@@ -1,0 +1,39 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13741",
+ "sha256": "2951fe66750119362ca532261b07f448cc32b1e42daf4f5df4fcec5ca84d983f",
+ "pages_shown": [
+  1
+ ],
+ "usage": {
+  "input_tokens": 1841,
+  "output_tokens": 299
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "small_finance_banks",
+    "quote": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Small finance banks must comply with the deletion of Section C on Limits for Non-Option Derivative Contracts.",
+  "action_quote": "Section C on ‘ Limits for Non -Option Derivative Contracts ’ of Chapter IV of the Reserve Bank of India ( Small Finance Banks - Miscellaneous) Directions, 2025 (paragraph 37 of the Directions) stands deleted.",
+  "action_page": 1,
+  "effective_date": {
+   "date": "2026-10-19",
+   "quote": "The amended instructions shall come into effect immediately upon issuance.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Directions, 2025"
+ }
+}

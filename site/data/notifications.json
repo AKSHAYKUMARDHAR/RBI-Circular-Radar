@@ -1,6 +1,227 @@
 {
  "notifications": [
   {
+   "id": 13742,
+   "rbi_no": "RBI/2026-27/296",
+   "date": "2026-10-19",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Daesh) & Al-Qaida Sanctions List: Amendment of 03 Entries",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13742&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI2964177D6F8B5FA4B0A917BA90749E2394E.PDF",
+   "pages": 3,
+   "sha256": "f861a5bf373bb6ad25dfd251ceda356cc3157d2f6a82bb726ce486501dbd598a",
+   "kind": "other",
+   "action_required": "yes",
+   "action": "Update sanctions lists based on UNSC updates and ensure no accounts are held for listed entities.",
+   "action_evidence": {
+    "page": 3,
+    "quote": "regulated entities are advised to take appropriate action in terms of Chapter IX of the aforementioned Directions"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "arcs",
+     "label": "Asset reconstruction companies"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "nbfcs",
+     "label": "NBFCs (including HFCs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "aifis",
+     "label": "All-India financial institutions"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "October 19, 2026",
+    "note": "model read 2026-10-19 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-19T14:44:11Z"
+  },
+  {
+   "id": 13741,
+   "rbi_no": "RBI/2026-27/295",
+   "date": "2026-10-19",
+   "title": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13741&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT29576C2A2CDED3247308333EE2DE9383863.PDF",
+   "pages": 1,
+   "sha256": "2951fe66750119362ca532261b07f448cc32b1e42daf4f5df4fcec5ca84d983f",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Small finance banks must comply with the deletion of Section C on Limits for Non-Option Derivative Contracts.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Section C on ‘ Limits for Non -Option Derivative Contracts ’ of Chapter IV of the Reserve Bank of India ( Small Finance Banks - Miscellaneous) Directions, 2025 (paragraph 37 of the Directions) stands deleted."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-19",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect immediately upon issuance",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-19T14:44:05Z"
+  },
+  {
+   "id": 13740,
+   "rbi_no": "RBI/2026-27/294",
+   "date": "2026-10-19",
+   "title": "Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13740&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/294NT8A37BD7CAFB1463E8FCD9E5CC9F4D45B.PDF",
+   "pages": 1,
+   "sha256": "683ae77117240a72fbbddeaba1eba360cbbade6b51930d7692fa4ec0113e1753",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Commercial banks must note the deletion of Section C on 'Limits for Non-Option Derivative Contracts' in Chapter IV.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Section C on ‘Limits for Non -Option Derivative Contracts’ of Chapter IV of the Reserve Bank of India (Commercial Banks - Miscellaneous) Directions, 2025 (paragraph 37 of the Directions) stands deleted."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-19",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect immediately upon issuance",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Commercial Banks - Miscellaneous) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-19T14:43:58Z"
+  },
+  {
    "id": 13739,
    "rbi_no": "RBI/2026-27/293",
    "date": "2026-10-12",
@@ -2419,7 +2640,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-10-12T23:48:42Z",
+ "generated_at": "2026-10-19T14:44:11Z",
  "entity_types": [
   {
    "type": "commercial_banks",
