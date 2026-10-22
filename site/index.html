@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- RBI's PDF server (rbidocs.rbi.org.in) resets any request that carries a referrer from another
+     site unless the visitor already has its bot-check cookie, so links from here must not send one. -->
+<meta name="referrer" content="no-referrer">
 <title>RBI Circular Radar</title>
 <meta name="description" content="Which new RBI notifications apply to your entity type, what to do, and by when, each with RBI's own words and page.">
 <link rel="stylesheet" href="style.css">
@@ -74,7 +77,7 @@
       <span class="badge act"></span>
       <span class="badge you" hidden></span>
     </div>
-    <h3><a class="title" target="_blank" rel="noopener"></a></h3>
+    <h3><a class="title" target="_blank" rel="noopener noreferrer"></a></h3>
     <p class="rbino"></p>
     <div class="action"></div>
     <div class="applies"><span class="lbl">Applies to</span><span class="chips"></span></div>
