@@ -53,7 +53,8 @@ function evidence(rec, ev) {
   const d = el("details");
   d.append(el("summary", { text: ev.page ? `quote, p. ${ev.page}` : "quote" }));
   const q = el("span", { class: "quote" }, `“${ev.quote}” `);
-  if (ev.page) q.append(el("a", { href: `${rec.pdf}#page=${ev.page}`, target: "_blank", rel: "noopener noreferrer", text: `PDF p. ${ev.page}` }));
+  // Same tab, no target="_blank": pop-up blockers (Poper Blocker, for one) silently drop new-tab links to RBI.
+  if (ev.page) q.append(el("a", { href: `${rec.pdf}#page=${ev.page}`, rel: "noreferrer", text: `PDF p. ${ev.page}` }));
   d.append(q);
   return d;
 }
