@@ -1,6 +1,164 @@
 {
  "notifications": [
   {
+   "id": 13745,
+   "rbi_no": "RBI/FED/2026-27/298",
+   "date": "2026-10-23",
+   "title": "Delegation of Compounding of certain Contraventions under FEMA, 1999 to Regional Offices of the Reserve Bank",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT298AC9CBAC4415B41D5B6CE45FF58A5AB54.PDF",
+   "pages": 4,
+   "sha256": "b99b9e1db38d300d3fd7999bd93a59c493fe3feddc1ad20a14df2027866cbfd7",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Submit compounding applications for overseas investments, borrowing, lending, and guarantees to the designated Regional Offices of the Reserve Bank instead of the Central Office.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "the powers to compound contraventions related to Overseas Investments and Borrowing and Lending, and Guarantees transactions have also been delegated to the select Regional Offices of the Reserve Bank"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "To, All Authorised Dealer Category-I banks and other Authorised Persons",
+     "source": "both",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    },
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "To, All Authorised Dealer Category-I banks and other Authorised Persons",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "A.P. (DIR Series) Circular. No 28/2026-27 October 23, 2026",
+    "note": "model read 2026-10-23 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Master Directions on Compounding of Contraventions under FEMA, 1999",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-23T14:50:46Z"
+  },
+  {
+   "id": 13744,
+   "rbi_no": "RBI/2026-27/299",
+   "date": "2026-10-23",
+   "title": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13744&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT298343573D91EA4465B8CFF54B27EC977D5.PDF",
+   "pages": 10,
+   "sha256": "61fa6fd8673cc657d38e67b7883b1d48b53d3d803f657dcea8f799342fbaca17",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Ensure that items used for the computation of operational risk capital (ORC) comply with the updated Business Indicator constituents and calculation rules.",
+   "action_evidence": {
+    "page": 2,
+    "quote": "the banks shall ensure that items used for computation of ORC are in accordance with these Directions and consistent with the ‘description’ and ‘sub- items’ prescribed in Table VIII under Paragraph 29 of these Directions."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Second Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2027-04-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into effect from April 1, 2027",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-23T14:50:33Z"
+  },
+  {
+   "id": 13743,
+   "rbi_no": "RBI/2026-27/297",
+   "date": "2026-10-23",
+   "title": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13743&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/297NTF24A93A6BC7943F2A35FACCE28E4ABC3.PDF",
+   "pages": 37,
+   "sha256": "fd6e1537c1a425746e4499eb9999bfad625f7e48c9c38726edf1d4ea6204af14",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Commercial banks must comply with the revised Basel III leverage ratio framework, calculation rules, and quarterly reporting and disclosure requirements.",
+   "action_evidence": {
+    "page": 28,
+    "quote": "A bank shall comply with the following norms for disclosure and reporting of leverage ratio:"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "2027-04-01",
+    "status": "verified",
+    "page": 29,
+    "quote": "These Amendment Directions shall come into effect from April 1, 2027.",
+    "source": "model"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-23T14:50:09Z"
+  },
+  {
    "id": 13742,
    "rbi_no": "RBI/2026-27/296",
    "date": "2026-10-19",
@@ -2640,7 +2798,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-10-19T14:44:11Z",
+ "generated_at": "2026-10-23T14:50:46Z",
  "entity_types": [
   {
    "type": "commercial_banks",

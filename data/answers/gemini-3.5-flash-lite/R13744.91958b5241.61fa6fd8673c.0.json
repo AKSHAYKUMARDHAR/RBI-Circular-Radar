@@ -1,0 +1,48 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13744",
+ "sha256": "61fa6fd8673cc657d38e67b7883b1d48b53d3d803f657dcea8f799342fbaca17",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "usage": {
+  "input_tokens": 3908,
+  "output_tokens": 352
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Second Amendment Directions, 2026",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Ensure that items used for the computation of operational risk capital (ORC) comply with the updated Business Indicator constituents and calculation rules.",
+  "action_quote": "the banks shall ensure that items used for computation of ORC are in accordance with these Directions and consistent with the ‘description’ and ‘sub- items’ prescribed in Table VIII under Paragraph 29 of these Directions.",
+  "action_page": 2,
+  "effective_date": {
+   "date": "2027-04-01",
+   "quote": "Chapter IV of the Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025, on M inimum Capital Requirements for Operational Risk, along with amendments set out at Para 4 below, shall come into effect from April 1, 2027.",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Directions, 2025"
+ }
+}
