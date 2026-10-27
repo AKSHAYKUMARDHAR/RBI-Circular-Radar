@@ -1,0 +1,40 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13746",
+ "sha256": "6507f32084d7325769ebf9ef44a07ba20bd1240295add75c369377128d0cdc45",
+ "pages_shown": [
+  1,
+  2
+ ],
+ "usage": {
+  "input_tokens": 2558,
+  "output_tokens": 263
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "commercial_banks",
+    "quote": "The Chairman / Managing Director & Chief Executive Officer Lead Banks concerned",
+    "page": 1
+   }
+  ],
+  "kind": "amendment",
+  "action_required": "yes",
+  "action": "Lead banks concerned must take note of the assigned and modified lead bank responsibilities and district working codes for the NCT of Delhi.",
+  "action_quote": "Lead Bank responsibilities in the newly created districts have been assigned as follows:",
+  "action_page": 1,
+  "effective_date": {
+   "date": "not_stated",
+   "quote": "not_stated",
+   "page": 1
+  },
+  "comply_by": [],
+  "comments_by": {
+   "date": "none",
+   "quote": "none",
+   "page": 1
+  },
+  "amends": "RPCD.CO.LBS.BC.No.12/02.08.001/2013-14"
+ }
+}

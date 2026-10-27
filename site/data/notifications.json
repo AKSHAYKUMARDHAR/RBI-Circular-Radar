@@ -1,6 +1,57 @@
 {
  "notifications": [
   {
+   "id": 13746,
+   "rbi_no": "RBI/2026-27/300",
+   "date": "2026-10-26",
+   "title": "Re-organisation of districts in the NCT of Delhi – Assignment and Review of Lead Bank Responsibility",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13746&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOT300F305FBB8AB71472391BE6B9C2D74EB35.PDF",
+   "pages": 2,
+   "sha256": "6507f32084d7325769ebf9ef44a07ba20bd1240295add75c369377128d0cdc45",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Lead banks concerned must take note of the assigned and modified lead bank responsibilities and district working codes for the NCT of Delhi.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "Lead Bank responsibilities in the newly created districts have been assigned as follows:"
+   },
+   "applies_to": [
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "The Chairman / Managing Director & Chief Executive Officer Lead Banks concerned",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    }
+   ],
+   "effective_date": {
+    "value": "not_stated",
+    "status": "not_stated",
+    "page": 1,
+    "quote": "not_stated",
+    "source": "model"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "RPCD.CO.LBS.BC.No.12/02.08.001/2013-14",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-27T07:46:36Z"
+  },
+  {
    "id": 13745,
    "rbi_no": "RBI/FED/2026-27/298",
    "date": "2026-10-23",
@@ -2798,7 +2849,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-10-23T14:50:46Z",
+ "generated_at": "2026-10-27T07:46:36Z",
  "entity_types": [
   {
    "type": "commercial_banks",
