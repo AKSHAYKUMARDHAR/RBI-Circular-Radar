@@ -1,6 +1,127 @@
 {
  "notifications": [
   {
+   "id": 13749,
+   "rbi_no": "RBI/2026-27/303",
+   "date": "2026-10-30",
+   "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1988 (2011) Taliban Sanctions List: Amendment of 05 Entries",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13749&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT30314AC275308034E98A5E239A91CEAA5A7.PDF",
+   "pages": 4,
+   "sha256": "b5a09afad97ac669b4980368122ba7a23ffa4a5a8c508eb555ea42e7f5ee9c89",
+   "kind": "other",
+   "action_required": "yes",
+   "action": "Ensure compliance with UAPA Section 51A by checking accounts against the updated UNSC Taliban Sanctions List.",
+   "action_evidence": {
+    "page": 4,
+    "quote": "In view of the above, regulated entities are advised to take appropriate action in terms of Chapter IX of the aforementioned Directions and strictly follow the procedure as laid down in the UAPA Order dated February 02, 2021 (amended on April 22, 2024) annexed to the directions."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "arcs",
+     "label": "Asset reconstruction companies"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "small_finance_banks",
+     "label": "Small finance banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "local_area_banks",
+     "label": "Local area banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "payments_banks",
+     "label": "Payments banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "nbfcs",
+     "label": "NBFCs (including HFCs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairpersons/ CEOs of the Commercial Banks, Small Finance Banks, Payment Banks, Urban Co-operative Banks, Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, Non-Banking Financial Companies, Asset Reconstruction Companies, All India Financial Institutions",
+     "source": "both",
+     "type": "aifis",
+     "label": "All-India financial institutions"
+    }
+   ],
+   "effective_date": {
+    "status": "check",
+    "page": 1,
+    "quote": "October 30, 2026",
+    "note": "model read 2026-10-30 but its quote doesn't show it"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 0,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Reserve Bank of India - Know Your Customer, Directions, 2025",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-10-30T14:02:42Z"
+  },
+  {
    "id": 13748,
    "rbi_no": "RBI/2026-27/302",
    "date": "2026-10-27",
@@ -3090,7 +3211,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-10-27T13:39:23Z",
+ "generated_at": "2026-10-30T14:02:42Z",
  "entity_types": [
   {
    "type": "commercial_banks",
