@@ -1,6 +1,65 @@
 {
  "notifications": [
   {
+   "id": 13750,
+   "rbi_no": null,
+   "date": "2026-11-02",
+   "title": "Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA23RA03112026F5D7706996DD3493DAD9E0899C64D4793.PDF",
+   "pages": 1,
+   "sha256": "c0142ea27380475c05ffb3ad9fff10cbd383e70803f971c1e99c6188504bcefd",
+   "kind": "amendment",
+   "action_required": "yes",
+   "action": "Authorised dealers must process service export EDF submissions and update IDPMS import details for non-individuals meeting value thresholds.",
+   "action_evidence": {
+    "page": 1,
+    "quote": "shall enter details of import of service in IDPMS, as furnished by the importer who is a person other than a resident individual and where the invoice or the contract value is more than ₹10 Lakh"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "provides information required in relation to the receipt of payment for such services to the Authorised Dealer for crediting the account of the exporter.",
+     "source": "model",
+     "type": "authorised_dealers",
+     "label": "Authorised dealers and money changers"
+    },
+    {
+     "status": "check",
+     "page": 1,
+     "quote": "In exercise of the powers conferred by Section 7, Section 8, sub -section (6) of Section 10 and sub-section (2) of Section 47 of the Foreign Exchange Management Act, 1999",
+     "note": "the model says this applies, but its quote doesn't name this type; read the notice to confirm",
+     "source": "model",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-10-01",
+    "status": "verified",
+    "page": 1,
+    "quote": "shall come into force from October 01, 2026",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": "Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026",
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-11-03T15:50:12Z"
+  },
+  {
    "id": 13749,
    "rbi_no": "RBI/2026-27/303",
    "date": "2026-10-30",
@@ -3211,7 +3270,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-10-30T14:02:42Z",
+ "generated_at": "2026-11-03T15:50:12Z",
  "entity_types": [
   {
    "type": "commercial_banks",
