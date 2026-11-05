@@ -1,6 +1,88 @@
 {
  "notifications": [
   {
+   "id": 13751,
+   "rbi_no": null,
+   "date": "2026-11-05",
+   "title": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/475MDA65A2A40240B4510BB6301A33C9ECBFE.PDF",
+   "pages": 32,
+   "sha256": "f15f856a93e0d2a9f7c2d7f0b85487a0a4e8c4d49fe99fb29186ec29ff1038a2",
+   "kind": "new_direction",
+   "action_required": "yes",
+   "action": "Non-bank payment system operators must comply with consolidated master directions on cyber resilience, digital payment security controls, and system audits.",
+   "action_evidence": {
+    "page": 4,
+    "quote": "The provisions of these Directions shall apply to all authorised non-bank PSOs."
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer Authorised Non-bank Payment System Operators",
+     "source": "both",
+     "type": "payment_aggregators",
+     "label": "Payment aggregators"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer Authorised Non-bank Payment System Operators",
+     "source": "both",
+     "type": "payment_operators",
+     "label": "Other payment system operators (card networks, ATM operators, BBPOUs, TReDS)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "The Chairman / Managing Director / Chief Executive Officer Authorised Non-bank Payment System Operators",
+     "source": "both",
+     "type": "ppi_issuers",
+     "label": "PPI issuers (wallets, prepaid cards)"
+    },
+    {
+     "status": "verified",
+     "page": 22,
+     "quote": "White label ATM Operators (WLAOs) managing their ATM Switch ecosystem through shared services of third party ATM Switch Application Service Providers (ASPs)",
+     "source": "model",
+     "type": "other",
+     "label": "Others addressed (market participants, agencies, the public)"
+    }
+   ],
+   "effective_date": {
+    "value": "2028-04-01",
+    "status": "verified",
+    "page": 4,
+    "quote": "shall come into effect from April 01, 2028",
+    "source": "rules"
+   },
+   "comply_by": [
+    {
+     "value": "2028-04-01",
+     "status": "check",
+     "page": 4,
+     "quote": "For small non-bank PSOs, the directions shall come into effect from April 01, 2028.",
+     "what": "Compliance for small non-bank PSOs"
+    }
+   ],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "not_stated",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-11-05T16:45:41Z"
+  },
+  {
    "id": 13750,
    "rbi_no": null,
    "date": "2026-11-02",
@@ -3270,7 +3352,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-11-03T15:50:12Z",
+ "generated_at": "2026-11-05T16:45:41Z",
  "entity_types": [
   {
    "type": "commercial_banks",

@@ -1,0 +1,78 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "prompt_version": "91958b5241",
+ "doc": "R13751",
+ "sha256": "f15f856a93e0d2a9f7c2d7f0b85487a0a4e8c4d49fe99fb29186ec29ff1038a2",
+ "pages_shown": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  8,
+  9,
+  10,
+  14,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  28,
+  29,
+  30
+ ],
+ "usage": {
+  "input_tokens": 7874,
+  "output_tokens": 540
+ },
+ "answer": {
+  "applies_to": [
+   {
+    "entity_type": "payment_operators",
+    "quote": "The provisions of these Directions shall apply to all authorised non-bank PSOs.",
+    "page": 4
+   },
+   {
+    "entity_type": "payment_aggregators",
+    "quote": "Trade Receivables Discounting System (TReDS) Operators, Bharat Bill Payment Operating Units (BBPOUs) and Payment Aggregators (PAs) are considered as large non-bank PSOs.",
+    "page": 4
+   },
+   {
+    "entity_type": "ppi_issuers",
+    "quote": "Categorisation of authorised non-bank PPI Issuers into small, medium and large is as per the Oversight Framework",
+    "page": 4
+   },
+   {
+    "entity_type": "other",
+    "quote": "White label ATM Operators (WLAOs) managing their ATM Switch ecosystem through shared services of third party ATM Switch Application Service Providers (ASPs)",
+    "page": 22
+   }
+  ],
+  "kind": "new_direction",
+  "action_required": "yes",
+  "action": "Non-bank payment system operators must comply with consolidated master directions on cyber resilience, digital payment security controls, and system audits.",
+  "action_quote": "The provisions of these Directions shall apply to all authorised non-bank PSOs.",
+  "action_page": 4,
+  "effective_date": {
+   "date": "2026-11-05",
+   "quote": "The Directions shall come into effect on the day they are placed on the official website of the RBI for Large and Medium non-bank PSOs.",
+   "page": 4
+  },
+  "comply_by": [
+   {
+    "date": "2028-04-01",
+    "quote": "For small non-bank PSOs, the directions shall come into effect from April 01, 2028.",
+    "page": 4,
+    "what": "Compliance for small non-bank PSOs"
+   }
+  ],
+  "comments_by": {
+   "date": "none",
+   "quote": "not_stated",
+   "page": 1
+  },
+  "amends": "none"
+ }
+}
