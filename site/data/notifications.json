@@ -1,6 +1,104 @@
 {
  "notifications": [
   {
+   "id": 13752,
+   "rbi_no": "RBI/DPSS/2026-27/476",
+   "date": "2026-11-11",
+   "title": "Reserve Bank of India (Domestic Money Transfer) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13752&Mode=0",
+   "pdf": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/476MDDC5A297B05094F8096910FE97E1AD34D.PDF",
+   "pages": 5,
+   "sha256": "deab70e199919f3db6fecabbccb9bf75cdf54a46a5d93ae700648badf48bbd13",
+   "kind": "new_direction",
+   "action_required": "yes",
+   "action": "Banks and operators must comply with the consolidated Domestic Money Transfer directions, operational safeguards, transaction limits, and customer grievance redressal mechanisms.",
+   "action_evidence": {
+    "page": 3,
+    "quote": "these Directions shall be applicable to all Scheduled Commercial Banks, including Regional Rural Banks (RRBs), Urban Co -operative Banks, State Co- operative Banks, District Central Co -operative Banks, and Authorised Payment System Operators and System Participants"
+   },
+   "applies_to": [
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System Operators and Participants (Banks and Non-banks)",
+     "source": "both",
+     "type": "regional_rural_banks",
+     "label": "Regional rural banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System Operators and Participants (Banks and Non-banks)",
+     "source": "rules",
+     "type": "payment_aggregators",
+     "label": "Payment aggregators"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System Operators and Participants (Banks and Non-banks)",
+     "source": "both",
+     "type": "rural_coop_banks",
+     "label": "Rural co-operative banks (StCBs, DCCBs)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System Operators and Participants (Banks and Non-banks)",
+     "source": "rules",
+     "type": "ppi_issuers",
+     "label": "PPI issuers (wallets, prepaid cards)"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System Operators and Participants (Banks and Non-banks)",
+     "source": "both",
+     "type": "urban_coop_banks",
+     "label": "Urban co-operative banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System Operators and Participants (Banks and Non-banks)",
+     "source": "both",
+     "type": "commercial_banks",
+     "label": "Commercial banks"
+    },
+    {
+     "status": "verified",
+     "page": 1,
+     "quote": "All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System Operators and Participants (Banks and Non-banks)",
+     "source": "both",
+     "type": "payment_operators",
+     "label": "Other payment system operators (card networks, ATM operators, BBPOUs, TReDS)"
+    }
+   ],
+   "effective_date": {
+    "value": "2026-11-11",
+    "status": "verified",
+    "page": 3,
+    "quote": "shall be effective immediately",
+    "source": "both"
+   },
+   "comply_by": [],
+   "comments_by": {
+    "value": "none",
+    "status": "none",
+    "page": 1,
+    "quote": "none",
+    "source": "model"
+   },
+   "amends": null,
+   "reader": {
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "91958b5241",
+    "rules_only": false,
+    "error": null
+   },
+   "read_at": "2026-11-11T18:07:31Z"
+  },
+  {
    "id": 13751,
    "rbi_no": null,
    "date": "2026-11-05",
@@ -3352,7 +3450,7 @@
    "read_at": "2026-10-09T13:58:14Z"
   }
  ],
- "generated_at": "2026-11-05T16:45:41Z",
+ "generated_at": "2026-11-11T18:07:31Z",
  "entity_types": [
   {
    "type": "commercial_banks",
